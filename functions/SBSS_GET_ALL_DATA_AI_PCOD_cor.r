@@ -133,11 +133,15 @@ catch<-catch[order(catch$fleet,catch$year),]
   AI_BIOM$index <- 4
 
   BIOM <- rbind(AI_BIOM)
+  BIOM2 <- rbind(AI_BIOM)
  
   BIOM$CV <- sqrt(BIOM$POPVAR)/BIOM$POP
   BIOM$se_log <- sqrt(log(1.0 + (BIOM$CV^2)))
 
-  CPUE<-data.frame(year=BIOM$YEAR,seas=7,index=BIOM$index,obs=BIOM$POP/1000,se_log=BIOM$se_log)
+  BIOM2$CV <- sqrt(BIOM$BIOMVAR)/BIOM$BIOM
+  BIOM2$se_log <- sqrt(log(1.0 + (BIOM2$CV^2)))
+
+  CPUE<-data.frame(year=BIOM2$YEAR,seas=7,index=BIOM2$index,obs=BIOM2$BIOM,se_log=BIOM2$se_log)
 
   gridc<-expand.grid(year=min(CPUE$year):max(CPUE$year))
   CPUE<-merge(CPUE,gridc,by="year",all=T)
