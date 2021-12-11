@@ -189,7 +189,7 @@
 #
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
-           -10            10             0             0            0.1            6         10          0          0       1980       2021          1          0          0  #  LnQ_base_Srv(4)
+           -10            10             0             0            0.01            6         10          0          0       1980       2021          1          0          0  #  LnQ_base_Srv(4)
            -10            10             0             0            99             0         10          0          0       1990       2021          1          0          0  #  LnQ_base_LLSrv(5)
 # timevary Q parameters 
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type     PHASE  #  parm_name
