@@ -83,7 +83,7 @@ max_age <- 10
 
 ## Get all the functions for pulling GOA Pcod data
 
-setwd(paste(working_dir,"\\Functions",sep=""))
+setwd(paste(working_dir,"\\functions",sep=""))
 
 source_files=c("BIN_LEN_DATA.r", "cond_length_age_corFISH.r","conditional_Length_AGE_cor.r","FIND_AGE_LENGTH_KEY.r", "find_AL_map.r",                
      "find_ALF.r", "FISH_AGE_COMP_AI.r", "FORMAT_ACOMP.r", "FORMAT_AGE_LENGTH.r", "FORMAT_AGE_MEANS1.r",    
