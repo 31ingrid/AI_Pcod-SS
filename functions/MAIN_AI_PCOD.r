@@ -28,13 +28,13 @@ CHINA=odbcConnect("AKFIN",akfin_user,akfin_pass,believeNRows=FALSE)
 is_new_SS_DAT_file <- FALSE
 
 # this assumes that the FUNCTIONS subdirectory is in the working directory
-working_dir <- "C:/WORKING_FOLDER/2022 Stock Assessments/AI Pcod"
+working_dir <- "C:/WORKING_FOLDER/2022 Stock Assessments/AI_Pcod-SS"
 
 # previous SS DAT filename, if it exists
 old_SS_dat_filename <- "AIPcod2021Fill.dat"
 
 # current SS DAT filename
-new_SS_dat_filename <- "AIPcod2021.dat"
+new_SS_dat_filename <- "AIPcod2021_1991start.dat"
 
 # the most recent year of data to be used
 new_SS_dat_year <- 2021
@@ -53,7 +53,7 @@ fsh_sp_label <- "'PCOD'"
 fsh_sp_str <- "202"
 
 # year in which to start the fishery data
-fsh_start_yr <- 1977
+fsh_start_yr <- 1991
 fsh_age_start_yr <- 2020
 
 # fraction of the year that the fishery length- and weight-at-age calculations are done
@@ -63,10 +63,10 @@ fsh_frac <- 0.5
 srv_sp_str <- "21720"
 
 # year in which to start the bottom trawl survey data
-srv_start_yr <- 1980
+srv_start_yr <- 1991
 
 # year in which to start the LL survey data
-LLsrv_start_yr <- 1990
+LLsrv_start_yr <- 1991
 
 # fraction of the year that the survey takes place
 srv_frac <- 0.5833333333
@@ -133,7 +133,7 @@ test_file <- "ALL_STATE_LENGTHS.csv"
 
 
 ## get all data for data file
-setwd(working_dir)
+setwd(paste(working_dir,"\\functions",sep=""))
 source("SBSS_GET_ALL_DATA_AI_PCOD_cor.r")
 
 
@@ -165,7 +165,7 @@ new_data <- SBSS_GET_ALL_DATA(new_data           = new_data,
 SS_writedat_3.30(new_data,new_SS_dat_filename,overwrite=T)
 
 
-Add_climate(Old_datafile=new_SS_dat_filename, New_datafile=new_SS_dat_filename, dir1=paste0(working_dir,"/functions/ALT_DATA",dir2=working_dir)
+Add_climate(Old_datafile=new_SS_dat_filename, New_datafile=new_SS_dat_filename, dir1=paste0(working_dir,"/functions/ALT_DATA",dir2=working_dir))
 
 
 
