@@ -26,12 +26,12 @@
 6 #_Nblock_Patterns
  1 4 1 1 1 1 #_blocks_per_pattern 
 # begin and end years of blocks
- 1980 1986
- 1990 2004 2005 2006 2007 2016 2017 2021
+ 1991 1996
+ 1991 2004 2005 2006 2007 2016 2017 2021
  2017 2021
  2014 2016
- 1976 1976
- 1976 2006
+ 1991 1991
+ 1996 2006
 #
 # controls for all timevary parameters 
 1 #_time-vary parm bound check (1=warn relative to base parm bounds; 3=no bound check); Also see env (3) and dev (5) options to constrain with base bounds
@@ -47,7 +47,7 @@
 #_DevLinks:  1: P(y)*=exp(dev(y)*dev_se;  2: P(y)+=dev(y)*dev_se;  3: random walk;  4: zero-reverting random walk with rho;  5: like 4 with logit transform to stay in base min-max
 #_DevLinks(more):  21-25 keep last dev for rest of years
 #
-#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASAL's beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
+#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASALs beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
 #
 # setup for M, growth, wt-len, maturity, fecundity, (hermaphro), recr_distr, cohort_grow, (movement), (age error), (catch_mult), sex ratio 
 #_NATMORT
@@ -95,8 +95,8 @@
 #  Movement
 #  Age Error from parameters
  -10 10 3 0 0 0 -5 0 0 0 0 0 0 0 # AgeKeyParm1
- -10 10 0 0 0 0 -10 0 0 0 0 0 6 2 # AgeKeyParm2
- -10 10 0 0 0 0 -10 0 0 0 0 0 6 2 # AgeKeyParm3
+ -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 # AgeKeyParm2  #was 0 6 2
+ -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 # AgeKeyParm3  #was 0 6 2 removed to removed age bias.
  -10 10 0 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm4
  -10 10 0.57 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm5
  -10 10 1.16 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm6
@@ -132,12 +132,12 @@
 2016 # last year of main recr_devs; forecast devs start in following year
 1 #_recdev phase 
 1 # (0/1) to read 13 advanced options
- 1980 #_recdev_early_start (0=none; neg value makes relative to recdev_start)
+ 0 #_recdev_early_start (0=none; neg value makes relative to recdev_start)
  2 #_recdev_early_phase
  0 #_forecast_recruitment phase (incl. late recr) (0 value resets to maxphase+1)
  1 #_lambda for Fcast_recr_like occurring before endyr+1
- 1977.4 #_last_yr_nobias_adj_in_MPD; begin of ramp
- 1992.7 #_first_yr_fullbias_adj_in_MPD; begin of plateau
+ 1991.4 #_last_yr_nobias_adj_in_MPD; begin of ramp
+ 1991.7 #_first_yr_fullbias_adj_in_MPD; begin of plateau
  2012.9 #_last_yr_fullbias_adj_in_MPD
  2017 #_end_yr_for_ramp_in_MPD (can be in forecast to shape ramp, but SS sets bias_adj to 0.0 for fcast yrs)
  0.9089 #_max_bias_adj_in_MPD (typical ~0.8; -3 sets all years to 0.0; -2 sets all non-forecast yrs w/ estimated recdevs to 1.0; -1 sets biasadj=1.0 for all yrs w/ recdevs)

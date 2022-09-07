@@ -2,7 +2,7 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Tue Sep  6 14:53:30 2022
+Wed Sep  7 07:58:59 2022
 
 AIPcod2021.dat  datfilename
 AIPCOD21.ctl  ctlfilename
@@ -373,7 +373,7 @@ next read SPR target and Biomass target as fractions
 0.4 echoed B_target 
 next read 10 Benchmark years for:  beg-end bio; beg-end selex; beg-end relF; beg-end recr_dist; beg-end SRparm
 codes: -999 means start year; >0 is an actual year; <=0 is relative to endyr
- 1977 2019 1977 2019 1977 2020 1977 2019 1977 2019 echoed Benchmark years
+ 1991 2019 1991 2019 1991 2020 1991 2019 1991 2019 echoed Benchmark years
  1991 2019 1991 2019 1991 2020 1991 2019 1991 2019 Benchmark years as processed
 next read:  1=use range of years as read for relF; 2 = set same as forecast relF below
 1  echoed Bmark_RelF_year basis
@@ -389,7 +389,7 @@ next read forecast basis: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt); 4=Ave F (enter y
 
 # next enter Fcast_years:  beg_selex, end_selex, beg_relF, end_relF, beg_recruits, end_recruits
 # enter actual year, or values of 0 or -integer to be relative to endyr)
- 2000 2019 2016 2020 1977 2019 # echoed Fcast years as read
+ 2000 2019 2016 2020 1991 2019 # echoed Fcast years as read
  2000 2019 2016 2020 1991 2019  # After Transformation
 
 # next read flag for specifying selectivity used in forecasts; 0 is value that mimics 3.24, 1 is experimental
@@ -500,4 +500,113 @@ g  s  subseas  ALK_idx settle_time age@settle age real_age calen_age
  only 1 area, so no read of do_migration or migr_firstage 
 6 N_Block_Designs
  1 4 1 1 1 1 N_Blocks_per design
- block design #: 1  read year pairs:  1980 1986
+ block design #: 1  read year pairs:  1991 1996
+ block design #: 2  read year pairs:  1991 2004 2005 2006 2007 2016 2017 2021
+ block design #: 3  read year pairs:  2017 2021
+ block design #: 4  read year pairs:  2014 2016
+ block design #: 5  read year pairs:  1991 1991
+ block design #: 6  read year pairs:  1996 2006
+1  timevarying parameter constraint method
+ 1 1 1 1 1  timevarying parameter autogenerate (0) or read (1) for each parm type or (2) read then autogen if parm min==-12345
+0 natM_type
+1 growth model 
+ 0.5 999 -999 0 # growth specifications: AFIX1 AFIX2 LINF_decay placeholder  age-specific_K_ages
+ N_growparms  5
+g a seas subseas ALK_idx real_age calen_age lin_grow first_grow_age
+1 0 1 1 1 0 0 0 0
+1 0 1 2 2 0 0.5 0 0
+1 1 1 1 1 0.0833333 1 0.166667 0
+1 1 1 2 2 0.583333 1.5 -1 1
+1 2 1 1 1 1.08333 2 -2 1
+1 2 1 2 2 1.58333 2.5 -2 1
+1 3 1 1 1 2.08333 3 -2 1
+1 3 1 2 2 2.58333 3.5 -2 1
+0  SD_add_to_LAA
+2  CV_depvar
+1  Maturity_Option
+1  First_Mature_Age
+1  Fecundity option
+0  Hermaphro_Option: 0 means No; 1 for F to M; -1 for M to F
+1  MGparm_def
+ Biology base parameter setup 21
+1  0.1 1.5 0.32 -0.81 0.41 3 12 0 0 0 0 0 0 0 NatM_uniform_Fem_GP_1
+2  -10 50 0.0986981 -0.102 99 0 1 0 0 0 0 0 0 0 L_at_Amin_Fem_GP_1
+3  70 130 111.988 123.8 0.015 0 1 0 0 0 0 0 0 0 L_at_Amax_Fem_GP_1
+4  0 1 0.212281 0.1645 0.03 0 1 0 0 0 0 0 0 0 VonBert_K_Fem_GP_1
+5  0 10 6.36836 0 0 0 10 0 0 0 0 0 0 0 SD_young_Fem_GP_1
+6  0 20 5.62689 0 0 0 10 0 0 0 0 0 0 0 SD_old_Fem_GP_1
+7  -99 99 5.611e-06 0 0 0 -3 0 0 0 0 0 0 0 Wtlen_1_Fem_GP_1
+8  -99 99 3.1756 0 0 0 -3 0 0 0 0 0 0 0 Wtlen_2_Fem_GP_1
+9  -99 99 54.9 0 0 0 -1 0 0 0 0 0 0 0 Mat50%_Fem_GP_1
+10  -99 99 -0.1472 0 0 0 -1 0 0 0 0 0 0 0 Mat_slope_Fem_GP_1
+11  -99 99 1 0 0 0 -1 0 0 0 0 0 0 0 Eggs/kg_inter_Fem_GP_1
+12  -99 99 0 0 0 0 -1 0 0 0 0 0 0 0 Eggs/kg_slope_wt_Fem_GP_1
+13  0.1 10 1 1 1 0 -1 0 0 0 0 0 0 0 CohortGrowDev
+14  -10 10 3 0 0 0 -5 0 0 0 0 0 0 0 AgeKeyParm1
+15  -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 AgeKeyParm2
+16  -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 AgeKeyParm3
+17  -10 10 0 0 0 0 -1 0 0 0 0 0 0 0 AgeKeyParm4
+18  -10 10 0.57 0 0 0 -1 0 0 0 0 0 0 0 AgeKeyParm5
+19  -10 10 1.16 0 0 0 -1 0 0 0 0 0 0 0 AgeKeyParm6
+20  -10 10 0 0 0 0 -1 0 0 0 0 0 0 0 AgeKeyParm7
+21  1e-06 0.999999 0.5 0.5 0.5 0 -99 0 0 0 0 0 0 0 FracFemale_GP_1
+mgparm_type for each parm: 1=M; 2=growth; 3=wtlen,mat,fec,hermo; 4=recr&femfrac; 5=migr; 6=ageerror; 7=catchmult
+ 1 2 2 2 2 2 3 3 3 3 3 3 2 6 6 6 6 6 6 6 4
+Now read env, block/trend, and dev adjustments to MGparms 
+Display timevary_MG flag
+1990 timevary_MG:  0 0 0 0 0 0 0 0
+1991 timevary_MG:  0 0 0 0 0 0 0 0
+1992 timevary_MG:  0 0 0 0 0 0 0 0
+1993 timevary_MG:  0 0 0 0 0 0 0 0
+1994 timevary_MG:  0 0 0 0 0 0 0 0
+1995 timevary_MG:  0 0 0 0 0 0 0 0
+1996 timevary_MG:  0 0 0 0 0 0 0 0
+1997 timevary_MG:  0 0 0 0 0 0 0 0
+1998 timevary_MG:  0 0 0 0 0 0 0 0
+1999 timevary_MG:  0 0 0 0 0 0 0 0
+2000 timevary_MG:  0 0 0 0 0 0 0 0
+2001 timevary_MG:  0 0 0 0 0 0 0 0
+2002 timevary_MG:  0 0 0 0 0 0 0 0
+2003 timevary_MG:  0 0 0 0 0 0 0 0
+2004 timevary_MG:  0 0 0 0 0 0 0 0
+2005 timevary_MG:  0 0 0 0 0 0 0 0
+2006 timevary_MG:  0 0 0 0 0 0 0 0
+2007 timevary_MG:  0 0 0 0 0 0 0 0
+2008 timevary_MG:  0 0 0 0 0 0 0 0
+2009 timevary_MG:  0 0 0 0 0 0 0 0
+2010 timevary_MG:  0 0 0 0 0 0 0 0
+2011 timevary_MG:  0 0 0 0 0 0 0 0
+2012 timevary_MG:  0 0 0 0 0 0 0 0
+2013 timevary_MG:  0 0 0 0 0 0 0 0
+2014 timevary_MG:  0 0 0 0 0 0 0 0
+2015 timevary_MG:  0 0 0 0 0 0 0 0
+2016 timevary_MG:  0 0 0 0 0 0 0 0
+2017 timevary_MG:  0 0 0 0 0 0 0 0
+2018 timevary_MG:  0 0 0 0 0 0 0 0
+2019 timevary_MG:  0 0 0 0 0 0 0 0
+2020 timevary_MG:  0 0 0 0 0 0 0 0
+2021 timevary_MG:  0 0 0 0 0 0 0 0
+2022 timevary_MG:  0 0 0 0 0 0 0 0
+2023 timevary_MG:  0 0 0 0 0 0 0 0
+2024 timevary_MG:  0 0 0 0 0 0 0 0
+2025 timevary_MG:  0 0 0 0 0 0 0 0
+2026 timevary_MG:  0 0 0 0 0 0 0 0
+2027 timevary_MG:  0 0 0 0 0 0 0 0
+2028 timevary_MG:  0 0 0 0 0 0 0 0
+2029 timevary_MG:  0 0 0 0 0 0 0 0
+2030 timevary_MG:  0 0 0 0 0 0 0 0
+2031 timevary_MG:  0 0 0 0 0 0 0 0
+2032 timevary_MG:  0 0 0 0 0 0 0 0
+2033 timevary_MG:  0 0 0 0 0 0 0 0
+2034 timevary_MG:  0 0 0 0 0 0 0 0
+2035 timevary_MG:  0 0 0 0 0 0 0 0
+2036 timevary_MG:  0 0 0 0 0 0 0 0
+ -10 21 0 0 0 0 22 0 23 0 MGparm_seas_effects
+ MGparm_seas
+ 1 0 0 1 0 0 9
+ 0 8 3 0 0 0 1
+ 0 0 0 0 0 0 0
+MG_active  2 1 1 0 0 0 0 0
+0 #_SR_function: 1=NA; 2=Ricker(2 parms); 3=BevHolt(2); 4=SCAA(2); 5=Hockey(3); 6=B-H_flattop(2); 7=Survival(3); 8=Shepherd(3); 9=Ricker_Power(3) 
+0  # 0/1 to use steepness in initial equ recruitment calculation
+0  #  future feature:  0/1 to make realized sigmaR a function of SR curvature
