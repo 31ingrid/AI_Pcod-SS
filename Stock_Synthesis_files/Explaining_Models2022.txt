@@ -3,3 +3,5 @@ Model 1: This is the model that Steve B set up. It has 3 fisheries and it has th
 Model 2: Same as Model 1 but starts in 1991.
 
 Model 3: No longline survey (just put a -1 in the .dat file).
+
+Model 4: No longline survey and also combined all fisheries into 1. (FshComb).

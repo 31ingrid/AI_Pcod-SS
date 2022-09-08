@@ -3,8 +3,8 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 AIPcod2021.dat #_DataFile 
 AIPCOD21.ctl #_Control 
-Run_Date: Tue Sep  6 15:41:07 2022
-Final_phase: 13  N_iterations: 2669
+Run_Date: Wed Sep  7 12:24:45 2022
+Final_phase: 13  N_iterations: 1182
 #_LIKELIHOOD 
 Label logL*Lambda
 TOTAL_LogL 2112.79
@@ -115,7 +115,7 @@ Size_DblN_descend_se_FshTrawl(1) -1.13024 175.685 Act 0.443488
 Size_DblN_start_logit_FshTrawl(1) -999 0 Fix 0.000997289
 Size_DblN_end_logit_FshTrawl(1) 10 0 Fix 1
 Size_DblN_peak_FshLL(2) 71.5157 1.76866 Act 0.580337
-Size_DblN_top_logit_FshLL(2) 1.19023 50.9857 Act 0.706341
+Size_DblN_top_logit_FshLL(2) 1.19023 50.9856 Act 0.706341
 Size_DblN_ascend_se_FshLL(2) 5.71736 0.131677 Act 0.857245
 Size_DblN_descend_se_FshLL(2) 4.97497 115.452 Act 0.497497
 Size_DblN_start_logit_FshLL(2) -999 0 Fix 0.000997289
@@ -588,18 +588,18 @@ Totbio_unfished 305720 11881.7
 SmryBio_unfished 305720 11881.7
 Recr_unfished 43297.9 3957.08
 SSB_Btgt 100476 4023.42
-SPR_Btgt 0.4 7.33148e-18
+SPR_Btgt 0.4 4.03436e-18
 annF_Btgt 0.509507 0.0339785
 Dead_Catch_Btgt 35843.7 1883.7
 SSB_SPR 100476 4023.42
 annF_SPR 0.509507 0.0339785
 Dead_Catch_SPR 35843.7 1883.7
 SSB_MSY 100476 4023.42
-SPR_MSY 0.4 4.51235e-16
+SPR_MSY 0.4 4.71845e-16
 annF_MSY 0.509507 0.0339785
 Dead_Catch_MSY 35843.7 1883.7
 Ret_Catch_MSY 35843.7 1883.7
-B_MSY/SSB_unfished 0.4 4.58624e-16
+B_MSY/SSB_unfished 0.4 4.65841e-16
 ForeCatch_2022 51901.5 5007.92
 ForeCatch_2023 43262.3 4901.48
 ForeCatch_2024 38446.5 5985.12

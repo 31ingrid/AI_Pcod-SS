@@ -26,12 +26,12 @@
 6 #_Nblock_Patterns
  1 4 1 1 1 1 #_blocks_per_pattern 
 # begin and end years of blocks
- 1980 1986
- 1990 2004 2005 2006 2007 2016 2017 2021
+ 1991 1996
+ 1991 2004 2005 2006 2007 2016 2017 2021
  2017 2021
  2014 2016
- 1976 1976
- 1976 2006
+ 1991 1991
+ 1996 2006
 #
 # controls for all timevary parameters 
 1 #_time-vary parm bound check (1=warn relative to base parm bounds; 3=no bound check); Also see env (3) and dev (5) options to constrain with base bounds
@@ -47,7 +47,7 @@
 #_DevLinks:  1: P(y)*=exp(dev(y)*dev_se;  2: P(y)+=dev(y)*dev_se;  3: random walk;  4: zero-reverting random walk with rho;  5: like 4 with logit transform to stay in base min-max
 #_DevLinks(more):  21-25 keep last dev for rest of years
 #
-#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASAL's beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
+#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASALs beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
 #
 # setup for M, growth, wt-len, maturity, fecundity, (hermaphro), recr_distr, cohort_grow, (movement), (age error), (catch_mult), sex ratio 
 #_NATMORT
@@ -128,16 +128,16 @@
            -99            99             0             0             0             0         -1          0          0          0          0          0          0          0 # SR_autocorr
 #_no timevary SR parameters
 2 #do_recdev:  0=none; 1=devvector (R=F(SSB)+dev); 2=deviations (R=F(SSB)+dev); 3=deviations (R=R0*dev; dev2=R-f(SSB)); 4=like 3 with sum(dev2) adding penalty
-1978 # first year of main recr_devs; early devs can preceed this era
+1991 # first year of main recr_devs; early devs can preceed this era
 2016 # last year of main recr_devs; forecast devs start in following year
 1 #_recdev phase 
 1 # (0/1) to read 13 advanced options
- 1967 #_recdev_early_start (0=none; neg value makes relative to recdev_start)
+ 0 #_recdev_early_start (0=none; neg value makes relative to recdev_start)
  2 #_recdev_early_phase
  0 #_forecast_recruitment phase (incl. late recr) (0 value resets to maxphase+1)
  1 #_lambda for Fcast_recr_like occurring before endyr+1
- 1964.4 #_last_yr_nobias_adj_in_MPD; begin of ramp
- 1979.7 #_first_yr_fullbias_adj_in_MPD; begin of plateau
+ 1991.4 #_last_yr_nobias_adj_in_MPD; begin of ramp
+ 1991.7 #_first_yr_fullbias_adj_in_MPD; begin of plateau
  2012.9 #_last_yr_fullbias_adj_in_MPD
  2017 #_end_yr_for_ramp_in_MPD (can be in forecast to shape ramp, but SS sets bias_adj to 0.0 for fcast yrs)
  0.9089 #_max_bias_adj_in_MPD (typical ~0.8; -3 sets all years to 0.0; -2 sets all non-forecast yrs w/ estimated recdevs to 1.0; -1 sets biasadj=1.0 for all yrs w/ recdevs)
@@ -184,13 +184,11 @@
 #_6:  0/1 to float
 #_   fleet      link link_info  extra_se   biasadj     float  #  fleetname
          4         1         0         0         0         0  #  Srv
-         5         1         0         0         0         0  #  LLSrv
 -9999 0 0 0 0 0
 #
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
            -10            10             0             0            0.01            6         10          0          0       1980       2021          1          0          0  #  LnQ_base_Srv(4)
-           -10            10             0             0            99             0         10          0          0       1990       2021          1          0          0  #  LnQ_base_LLSrv(5)
 # timevary Q parameters 
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type     PHASE  #  parm_name
  #        1e-06            10           0.1             0             0             0      -9  # LnQ_base_Srv(4)_dev_se
@@ -223,7 +221,6 @@
  24 0 0 0 # 2 FshLL
  24 0 0 0 # 3 FshPot
  24 0 0 0 # 4 Srv
- 24 0 0 0 # 5 LLSrv
 #
 #_age_selex_patterns
 #Pattern:_0; parm=0; selex=1.0 for ages 0 to maxage
@@ -248,7 +245,6 @@
  10 0 0 0 # 2 FshLL
  10 0 0 0 # 3 FshPot
  10 0 0 0 # 4 Srv
- 10 0 0 0 # 5 LLSrv
 #
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
 # 1   FshTrawl LenSelex
@@ -279,18 +275,10 @@
              0            10        3.6378            10             0             0          1          0          0          0          0          0          1          2  #  Size_DblN_descend_se_Srv(4)
            -10       2.71828      -8.86157           -10             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_start_logit_Srv(4)
            -10            10            10            10             0             0         -1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_Srv(4)
-# 5   LLSrv LenSelex
-            10            90       63.7374            50             0             0          1          0          0          0          0          0          0          0  #  Size_DblN_peak_LLSrv(5)
-           -20            10      -12.7044             0             0             0          2          0          0          0          0          0          0          0  #  Size_DblN_top_logit_LLSrv(5)
-           -10            10       4.95673             0             0             0          2          0          0          0          0          0          0          0  #  Size_DblN_ascend_se_LLSrv(5)
-             0            10       4.96368            10             0             0          2          0          0          0          0          0          0          0  #  Size_DblN_descend_se_LLSrv(5)
-         -1000       2.71828          -999           -10             0             0         -2          0          0          0          0          0          0          0  #  Size_DblN_start_logit_LLSrv(5)
-           -10            10      -3.47732            10             0             0          2          0          0          0          0          0          0          0  #  Size_DblN_end_logit_LLSrv(5)
 # 1   FshTrawl AgeSelex
 # 2   FshLL AgeSelex
 # 3   FshPot AgeSelex
 # 4   Srv AgeSelex
-# 5   LLSrv AgeSelex
 #_No_Dirichlet parameters
 # timevary selex parameters 
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type    PHASE  #  parm_name
@@ -349,15 +337,12 @@
  #_7=mult_by_generalized_sizecomp
 #_Factor  Fleet  Value
       1      4         0
-      1      5         0
       4      1         1
       4      2         1
       4      3         1
       4      4         1
-      4      5         1
       6      3         1
       6      4         1
-      6      5         0
  -9999   1    0  # terminator
 #
 1 #_maxlambdaphase
@@ -373,27 +358,22 @@
 #  0 #_CPUE/survey:_2
 #  0 #_CPUE/survey:_3
 #  1 #_CPUE/survey:_4
-#  1 #_CPUE/survey:_5
 #  1 #_lencomp:_1
 #  1 #_lencomp:_2
 #  1 #_lencomp:_3
 #  1 #_lencomp:_4
-#  1 #_lencomp:_5
 #  1 #_agecomp:_1
 #  1 #_agecomp:_2
 #  1 #_agecomp:_3
 #  1 #_agecomp:_4
-#  0 #_agecomp:_5
 #  0 #_size-age:_1
 #  0 #_size-age:_2
 #  0 #_size-age:_3
 #  1 #_size-age:_4
-#  0 #_size-age:_5
 #  1 #_init_equ_catch1
 #  1 #_init_equ_catch2
 #  1 #_init_equ_catch3
 #  1 #_init_equ_catch4
-#  1 #_init_equ_catch5
 #  1 #_recruitments
 #  1 #_parameter-priors
 #  1 #_parameter-dev-vectors

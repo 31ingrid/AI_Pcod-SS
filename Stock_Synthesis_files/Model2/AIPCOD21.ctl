@@ -95,8 +95,8 @@
 #  Movement
 #  Age Error from parameters
  -10 10 3 0 0 0 -5 0 0 0 0 0 0 0 # AgeKeyParm1
- -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 # AgeKeyParm2  #was 0 6 2
- -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 # AgeKeyParm3  #was 0 6 2 removed to removed age bias.
+ -10 10 0 0 0 0 -10 0 0 0 0 0 6 2 # AgeKeyParm2
+ -10 10 0 0 0 0 -10 0 0 0 0 0 6 2 # AgeKeyParm3
  -10 10 0 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm4
  -10 10 0.57 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm5
  -10 10 1.16 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm6

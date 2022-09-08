@@ -5,7 +5,7 @@
 0.4 # SPR target (e.g. 0.40)
 0.4 # Biomass target (e.g. 0.40)
 #_Bmark_years: beg_bio, end_bio, beg_selex, end_selex, beg_relF, end_relF, beg_recr_dist, end_recr_dist, beg_SRparm, end_SRparm (enter actual year, or values of 0 or -integer to be rel. endyr)
- 1977 2019 1977 2019 1977 2020 1977 2019 1977 2019
+ 1991 2019 1991 2019 1991 2020 1991 2019 1991 2019
 #  1977 2019 1977 2019 1977 2020 1977 2019 1977 2019
 # value <0 convert to endyr-value; except -999 converts to start_yr; must be >=start_yr and <=endyr
 1 #Bmark_relF_Basis: 1 = use year range; 2 = set relF same as forecast below
@@ -15,7 +15,7 @@
 15 # N forecast years 
 0 # Fmult (only used for Do_Forecast==5) such that apical_F(f)=Fmult*relF(f)
 #_Fcast_years:  beg_selex, end_selex, beg_relF, end_relF, beg_mean recruits, end_recruits  (enter actual year, or values of 0 or -integer to be rel. endyr)
- 2000 2019 2016 2020 1977 2019
+ 2000 2019 2016 2020 1991 2019
 #  2000 2019 2016 2020 1977 2019
 0 # Forecast selectivity (0=fcast selex is mean from year range; 1=fcast selectivity from annual time-vary parms)
 2 # Control rule method (0: none; 1: ramp does catch=f(SSB), buffer on F; 2: ramp does F=f(SSB), buffer on F; 3: ramp does catch=f(SSB), buffer on catch; 4: ramp does F=f(SSB), buffer on catch) 
