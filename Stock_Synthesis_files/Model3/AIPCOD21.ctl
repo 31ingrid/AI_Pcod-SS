@@ -95,8 +95,8 @@
 #  Movement
 #  Age Error from parameters
  -10 10 3 0 0 0 -5 0 0 0 0 0 0 0 # AgeKeyParm1
- -10 10 0 0 0 0 -10 0 0 0 0 0 6 2 # AgeKeyParm2
- -10 10 0 0 0 0 -10 0 0 0 0 0 6 2 # AgeKeyParm3
+ -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 # AgeKeyParm2
+ -10 10 0 0 0 0 -10 0 0 0 0 0 0 2 # AgeKeyParm3
  -10 10 0 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm4
  -10 10 0.57 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm5
  -10 10 1.16 0 0 0 -1 0 0 0 0 0 0 0 # AgeKeyParm6
@@ -108,8 +108,8 @@
 #
 # timevary MG parameters 
 #_ LO HI INIT PRIOR PR_SD PR_type  PHASE
- -10 10 0.224017 0 0 0 1 # AgeKeyParm2_BLK6repl_1976
- -10 10 -1.09083 0 0 0 1 # AgeKeyParm3_BLK6repl_1976
+ #-10 10 0.224017 0 0 0 1 # AgeKeyParm2_BLK6repl_1976
+ #-10 10 -1.09083 0 0 0 1 # AgeKeyParm3_BLK6repl_1976
 # info on dev vectors created for MGparms are reported with other devs after tag parameter section 
 #
 #_seasonal_effects_on_biology_parms
