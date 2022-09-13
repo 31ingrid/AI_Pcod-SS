@@ -3,8 +3,8 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 AIPcod2021.dat #_DataFile 
 AIPCOD21.ctl #_Control 
-Run_Date: Fri Sep  9 08:07:52 2022
-Final_phase: 13  N_iterations: 2303
+Run_Date: Fri Sep  9 14:34:58 2022
+Final_phase: 13  N_iterations: 1182
 #_LIKELIHOOD 
 Label logL*Lambda
 TOTAL_LogL 2138.72
@@ -15,7 +15,7 @@ Length_comp 970.473
 Age_comp 858.295
 Size_at_age 206.482
 Recruitment -6.17781
-InitEQ_regime 0
+InitEQ_regime 1.29201e-31
 Sum_recdevs -3.0931
 Forecast_Recruitment 0.262133
 Parm_priors 3.55218
@@ -50,7 +50,7 @@ FracFemale_GP_1 0.5 0 Fix 0.499999
 AgeKeyParm2_BLK6repl_1996 0.221273 0.0351411 Act 0.511064
 AgeKeyParm3_BLK6repl_1996 -0.943919 0.0979779 Act 0.452804
 #_SPAWN_RECR
-SR_LN(R0) 10.6001 0.0890457 Act 0.0600104
+SR_LN(R0) 10.6001 0.0890457 Act 0.505269
 SR_BH_steep 1 0 Fix 0.999999
 SR_sigmaR 0.48855 0.080179 Act 0.048855
 SR_regime 0 0 Fix 0.5
@@ -588,18 +588,18 @@ Totbio_unfished 289918 10465.5
 SmryBio_unfished 289918 10465.5
 Recr_unfished 40139 3574.21
 SSB_Btgt 95577.6 3631.59
-SPR_Btgt 0.4 1.81066e-18
+SPR_Btgt 0.4 1.747e-17
 annF_Btgt 0.504402 0.0338624
 Dead_Catch_Btgt 33791.7 1668.63
 SSB_SPR 95577.6 3631.59
 annF_SPR 0.504402 0.0338624
 Dead_Catch_SPR 33791.7 1668.63
 SSB_MSY 95577.6 3631.59
-SPR_MSY 0.4 4.60595e-16
+SPR_MSY 0.4 4.66998e-16
 annF_MSY 0.504402 0.0338624
 Dead_Catch_MSY 33791.7 1668.63
 Ret_Catch_MSY 33791.7 1668.63
-B_MSY/SSB_unfished 0.4 4.66961e-16
+B_MSY/SSB_unfished 0.4 4.67816e-16
 ForeCatch_2022 50058.3 4932.9
 ForeCatch_2023 41806.7 4662.79
 ForeCatch_2024 36985.1 5523.29
