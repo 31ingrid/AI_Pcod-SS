@@ -1,7 +1,7 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Tue Sep 13 14:15:07 2022
+Wed Sep 14 07:04:32 2022
 Bmark_relF(by_fleet_&seas)
  0.771551 0.159937 0.0685125 0 0
 #
@@ -257,3 +257,10 @@ pop year ABC_Loop season Ramp&Buffer bio-all bio-Smry SpawnBio Depletion recruit
 1 2034 3 1 1 0 104247 73842.1 0.42527 27033.2  11637.6 11637.6 11637.6 1680.24 1680.24 1680.24 0.244191 R   4785.02 4785.02 4785.02 1026.35 1026.35 1026.35 0.0570851 R   6484.41 6484.41 6484.41 1144.3 1144.3 1144.3 0.0900792 R  NA  22907.1 0.391355
 1 2035 3 1 1 0 104246 73840.8 0.425263 27033.2  11637.5 11637.5 11637.5 1680.23 1680.23 1680.23 0.244191 R   4784.99 4784.99 4784.99 1026.35 1026.35 1026.35 0.0570851 R   6484.37 6484.37 6484.37 1144.29 1144.29 1144.29 0.0900792 R  NA  22906.9 0.391355
 1 2036 3 1 1 0 104246 73840.2 0.42526 27033.2  11637.4 11637.4 11637.4 1680.23 1680.23 1680.23 0.244191 R   4784.98 4784.98 4784.98 1026.35 1026.35 1026.35 0.0570851 R   6484.35 6484.35 6484.35 1144.29 1144.29 1144.29 0.0900792 R  NA  22906.8 0.391355
+THIS FORECAST FOR PURPOSES OF GETTING DISPLAY QUANTITIES
+#
+ FORECAST: in Bzero report with fishery onoff= 0
+#
+ FORECAST: in M & Z report with fishery onoff= 1
+#
+ FORECAST: in M & Z report with fishery onoff= 0
