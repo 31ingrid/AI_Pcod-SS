@@ -5,3 +5,7 @@ Model 2: Same as Model 1 but starts in 1991.
 Model 3: No longline survey (just put a -1 in the .dat file).
 
 Model 4: No longline survey and also combined all fisheries into 1. (FshComb).
+
+
+
+diversity/genetic diversity

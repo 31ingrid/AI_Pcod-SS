@@ -76,9 +76,9 @@
  0.1 1.5 0.32 -0.81 0.41 3  12 0 0 0 0 0 0 0 # NatM_uniform_Fem_GP_1
 # Sex: 1  BioPattern: 1  Growth
  -10 50 0.0986981 -0.102 99 0 1 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
- 70 130 111.988 123.8 0.015 0 1 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
+ 70 150 111.988 123.8 0.015 0 1 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
  0 1 0.212281 0.1645 0.03 0 1 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
- 0 10 6.36836 0 0 0 10 0 0 0 0 0 0 0 # SD_young_Fem_GP_1
+ 0 15 6.36836 0 0 0 10 0 0 0 0 0 0 0 # SD_young_Fem_GP_1
  0 20 5.62689 0 0 0 10 0 0 0 0 0 0 0 # SD_old_Fem_GP_1
 # Sex: 1  BioPattern: 1  WtLen
  -99 99 5.611e-06 0 0 0 -3 0 0 0 0 0 0 0 # Wtlen_1_Fem_GP_1

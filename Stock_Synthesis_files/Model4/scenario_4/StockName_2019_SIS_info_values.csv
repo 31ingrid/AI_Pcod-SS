@@ -1,0 +1,56 @@
+SAIP:,https://spo.nmfs.noaa.gov/sites/default/files/TMSPO183.pdf
+
+Stock / Entity Name,StockName
+Assessment Type,X
+Ensemble/Multimodel Approach,NA
+Asmt Year and Month,2019.XX
+Last Data Year,2021
+Asmt Model Category,6 - Statistical Catch-at-Age (SS, ASAP, AMAK, BAM, MultifancL< CASAL)
+Asmt Model Category,SS
+Model Version,3.30.17.00
+Lead Lab,NWFSC
+Point of Contact (assessment lead),XXXX
+Review Result,XXXX
+Catch Input Data,XXXX
+Abundance Input Data,XXXX
+Biological Input Data,XXXX
+Size/Age Composition Input Data,XXXX
+Ecosystem Linkage,XXXX
+
+Fishing Mortality Estimates
+F Year, 2021
+Min F Estimate, 
+Max F Estimate, 
+Best F Estimate, 
+F Basis, Equilibrium SPR
+F Unit, 1-SPR
+
+Domestic Fishing Mortality Derive Management Quantities
+Flimit, 0.6
+Flimit Basis, 1-SPR_SPR40%
+FMSY, 0.6
+FMSY Basis, 1-SPR_SPR40%
+F target,
+F target Basis,
+
+Biomass Estimates
+[Unfished Spawning Biomass], 93905.5
+B Year, 2019
+Min B. Estimate, 
+Max. B Estimate, 
+Best B Estimate, 66912
+B Basis, Spawning Biomass / Female mature biomass
+B Unit, mt
+MSY, 29375
+MSY Unit, mt
+
+Domestic Biomass Derived Management Quantities
+Blimit, 23476
+Blimit Basis, B25%
+BMSY, 37562
+BMSY Basis, SSB40%
+B/Blimit, 2.85
+B/Bmsy, 1.781
+Stock Level (relative) to BMSY, ABOVE
+
+
