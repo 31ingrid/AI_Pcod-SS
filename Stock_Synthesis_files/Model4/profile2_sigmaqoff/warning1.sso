@@ -1,11 +1,10 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Mon Sep 19 18:10:03 2022
+Tue Sep 20 12:21:06 2022
 
 This file contains warnings, suggestions and notes generated as files are read and processed
 
-1 Maximum pop size bin:_116.5; is within 5% of L at maxage for sex: 1; Gpat: 1 settle: 1; L= 122.527
+1 Maximum pop size bin:_116.5; is within 5% of L at maxage for sex: 1; Gpat: 1 settle: 1; L= 120.762
 2 1st iteration warning: catch logL > 50% total logL; check configuration; suggest start with larger R0
-3 Final gradient: 4.24687e-05 is larger than final_conv: 1e-05
-N warnings: 3
+N warnings: 2

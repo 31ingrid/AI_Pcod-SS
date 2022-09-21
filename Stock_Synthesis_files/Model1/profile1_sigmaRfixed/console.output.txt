@@ -1,0 +1,12 @@
+###
+console output
+2022-09-20 06:46:30
+###
+ 
+ reading from STARTER.SS
+ reading from data file
+Data read sucessful 999
+
+ reading forecast file 
+ reading from control file
+ EXIT - see warning 

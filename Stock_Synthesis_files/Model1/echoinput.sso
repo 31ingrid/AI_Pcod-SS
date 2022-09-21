@@ -2,7 +2,7 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Thu Sep 15 18:21:09 2022
+Tue Sep 20 05:05:12 2022
 
 AIPcod2021.dat  datfilename
 AIPCOD21.ctl  ctlfilename
@@ -647,7 +647,7 @@ MG_active  2 1 1 0 0 0 0 0
  SR parms 
  1 20 10.6484 0 0 0 1 0 0 0 0 0 0 0
  0 1 1 1 0 0 -1 0 0 0 0 0 0 0
- 0 10 0.701354 0.44 0 0 1 0 0 0 0 0 0 0
+ 0 10 0.701354 0.44 0 0 -1 0 0 0 0 0 0 0
  -5 5 0 0 0 0 -3 0 0 0 0 0 0 0
  -99 99 0 0 0 0 -1 0 0 0 0 0 0 0
  Do recruitment_autocorr: 0
@@ -947,23 +947,23 @@ Parameters plus derived quant: 765
 Adjust the phases 
  requested turn_off phase: 20
 Fcast_dev_phase (read and adjusted): 0 13
-ParCount 411   Active parameters: 373
+ParCount 411   Active parameters: 372
 Turn_off_phase 20
  max_phase 12
 765
-parm 411 covar 373
-deriv_start 411 373
-parm 473 covar 435
-parm 535 covar 497
-parm 595 covar 557
-parm 655 covar 617
-parm 715 covar 677
-parm 732 covar 694  after benchmark 
-parm 762 covar 724  after forecast 
+parm 411 covar 372
+deriv_start 411 372
+parm 473 covar 434
+parm 535 covar 496
+parm 595 covar 556
+parm 655 covar 616
+parm 715 covar 676
+parm 732 covar 693  after benchmark 
+parm 762 covar 723  after forecast 
  do ln(SPB) std labels for 3 years
  do Svy_sdreport labels 0
-parm 765 covar 727  after all derived quantities 
-Active parameters plus derived quantities:  727
+parm 765 covar 726  after all derived quantities 
+Active parameters plus derived quantities:  726
  N_WTage_rd 0
  last year read for -2 through Nfleet:   0 0 0 0 0 0 0 0
  latest fill year for -2 through Nfleet:   0 0 0 0 0 0 0 0
