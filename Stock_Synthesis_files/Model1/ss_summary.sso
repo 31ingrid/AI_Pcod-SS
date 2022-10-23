@@ -3,7 +3,7 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 AIPcod2021.dat #_DataFile 
 AIPCOD21.ctl #_Control 
-Run_Date: Tue Sep 20 05:05:12 2022
+Run_Date: Sun Oct 23 05:05:24 2022
 Final_phase: 13  N_iterations: 3481
 #_LIKELIHOOD 
 Label logL*Lambda

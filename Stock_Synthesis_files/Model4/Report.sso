@@ -4,9 +4,9 @@
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
 
-StartTime: Mon Sep 19 17:04:16 2022
-EndTime: Mon Sep 19 17:07:28 2022
-This run took: 0 hours, 3 minutes, 12 seconds.
+StartTime: Sat Oct 22 14:24:39 2022
+EndTime: Sat Oct 22 14:27:55 2022
+This run took: 0 hours, 3 minutes, 16 seconds.
 Data_File: AIPcod2021.dat
 Control_File: AIPCOD21.ctl
 
