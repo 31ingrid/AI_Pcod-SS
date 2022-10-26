@@ -45,7 +45,7 @@
 #_DevLinks:  1: P(y)*=exp(dev(y)*dev_se;  2: P(y)+=dev(y)*dev_se;  3: random walk;  4: zero-reverting random walk with rho;  5: like 4 with logit transform to stay in base min-max
 #_DevLinks(more):  21-25 keep last dev for rest of years
 #
-#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASAL's beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
+#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASALs beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
 #
 # setup for M, growth, wt-len, maturity, fecundity, (hermaphro), recr_distr, cohort_grow, (movement), (age error), (catch_mult), sex ratio 
 #_NATMORT
@@ -183,7 +183,7 @@
 #
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
-           -10            10    -0.0283111             0          0.01             6         10          0          0       1991       2022          1          0          0  #  LnQ_base_Srv(4)
+           -10            10    -0.0283111             0          0.08             6         10          0          0       1991       2022          1          0          0  #  LnQ_base_Srv(4)
            -10            10       1.91037             0            99             0         10          0          0       1996       2022          1          0          0  #  LnQ_base_LLSrv(5)
 #_no timevary Q parameters
 #
