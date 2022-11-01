@@ -1,7 +1,7 @@
 #C forecast file written by R function SS_writeforecast
 #C rerun model to get more complete formatting in forecast.ss_new
 #C should work with SS version: 3.3
-#C file write time: 2022-10-25 12:24:46
+#C file write time: 2022-10-31 05:13:12
 #
 1 #_benchmarks
 1 #_MSY
@@ -56,36 +56,6 @@
  2035  1  1  0
  2036  1  1  0
  2037  1  1  0
- 2023  1  2  0
- 2024  1  2  0
- 2025  1  2  0
- 2026  1  2  0
- 2027  1  2  0
- 2028  1  2  0
- 2029  1  2  0
- 2030  1  2  0
- 2031  1  2  0
- 2032  1  2  0
- 2033  1  2  0
- 2034  1  2  0
- 2035  1  2  0
- 2036  1  2  0
- 2037  1  2  0
- 2023  1  3  0
- 2024  1  3  0
- 2025  1  3  0
- 2026  1  3  0
- 2027  1  3  0
- 2028  1  3  0
- 2029  1  3  0
- 2030  1  3  0
- 2031  1  3  0
- 2032  1  3  0
- 2033  1  3  0
- 2034  1  3  0
- 2035  1  3  0
- 2036  1  3  0
- 2037  1  3  0
 -9999 0 0 0
 #
 999 # verify end of input 

@@ -1,0 +1,8 @@
+"","MODEL","RMSE.V1","SIGMA","PARAMETER"
+"1","Model1_Nov_complex_THOMPSON",0.157631544579433,0.63639,"SR_sigmaR"
+"2","Model1_Nov_complex_THOMPSON",0.157631544579433,0.0834,"Size_DblN_peak_FshTrawl(1)_dev_se"
+"3","Model1_Nov_complex_THOMPSON",0.157631544579433,0.0387,"Size_DblN_ascend_se_FshTrawl(1)_dev_se"
+"4","Model1_Nov_complex_THOMPSON",0.157631544579433,0.1,"Size_DblN_descend_se_FshTrawl(1)_dev_se"
+"5","Model1_Nov_complex_THOMPSON",0.157631544579433,0.0486,"Size_DblN_peak_FshLL(2)_dev_se"
+"6","Model1_Nov_complex_THOMPSON",0.157631544579433,0.0235,"Size_DblN_ascend_se_FshLL(2)_dev_se"
+"7","Model1_Nov_complex_THOMPSON",0.157631544579433,0.1,"Size_DblN_descend_se_FshLL(2)_dev_se"

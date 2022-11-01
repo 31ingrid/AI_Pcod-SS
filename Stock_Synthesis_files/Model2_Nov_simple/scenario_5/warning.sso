@@ -1,0 +1,24 @@
+#V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
+#Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
+#Foreign copyrights may apply. See copyright.txt for more information.
+Mon Oct 31 11:50:16 2022
+
+This file contains warnings, suggestions and notes generated as files are read and processed
+
+1 Input catches in 2023 can be overridden by caps or allocations
+2 Input catches in 2024 can be overridden by caps or allocations
+3 Input catches in 2025 can be overridden by caps or allocations
+4 Input catches in 2026 can be overridden by caps or allocations
+5 Input catches in 2027 can be overridden by caps or allocations
+6 Input catches in 2028 can be overridden by caps or allocations
+7 Input catches in 2029 can be overridden by caps or allocations
+8 Input catches in 2030 can be overridden by caps or allocations
+9 Input catches in 2031 can be overridden by caps or allocations
+10 Input catches in 2032 can be overridden by caps or allocations
+11 Input catches in 2033 can be overridden by caps or allocations
+12 Input catches in 2034 can be overridden by caps or allocations
+13 Input catches in 2035 can be overridden by caps or allocations
+14 Input catches in 2036 can be overridden by caps or allocations
+15 Input catches in 2037 can be overridden by caps or allocations
+16 Final gradient: 3.64791e-05 is larger than final_conv: 1e-05
+N warnings: 16
