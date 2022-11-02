@@ -3,7 +3,7 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
-#_Start_time: Mon Oct 31 21:57:56 2022
+#_Start_time: Tue Nov  1 19:13:19 2022
 #_Number_of_datafiles: 1
 #C data file created using the SS_writedat function in the R package r4ss
 #C should work with SS version:
@@ -74,7 +74,7 @@
 2019 1 1 19186.9 0.05
 2020 1 1 14249.9 0.05
 2021 1 1 13966.1 0.05
-2022 1 1 10547.1 0.05
+2022 1 1 11138.3 0.05
 -9999 0 0 0 0
 #
  #_CPUE_and_surveyabundance_observations

@@ -2,7 +2,7 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Mon Oct 31 11:57:10 2022
+Tue Nov  1 19:57:24 2022
 
 AIPCOD2022_S.dat  datfilename
 AIPCOD2022_S.ctl  ctlfilename
@@ -315,8 +315,8 @@ read Do_Benchmark(0/1), then MSY basis(1=F_SPR,2=F_Btarget,3=calcMSY,4=mult*F_en
 1 echoed Do_Benchmark 
 1 echoed MSY basis
 next read SPR target and Biomass target as fractions
-0.4 echoed SPR_target 
-0.4 echoed B_target 
+0.35 echoed SPR_target 
+0.35 echoed B_target 
 next read 10 Benchmark years for:  beg-end bio; beg-end selex; beg-end relF; beg-end recr_dist; beg-end SRparm
 codes: -999 means start year; >0 is an actual year; <=0 is relative to endyr
  1991 2019 1991 2019 1991 2021 1991 2019 1991 2019 echoed Benchmark years
@@ -395,7 +395,13 @@ fishing fleets not assigned to allocation group are processed normally
  0 0
 2 # basis for input Fcast catch:  -1= read with each obs; 2=dead catch; 3=retained catch; 99=input Hrate(F); -1=read fleet/time specific (bio/num units are from fleetunits; note new codes in SSV3.20)
 # yr seas fleet catch
- -9999 1 1 0
+ 2022 1 1 10547.1
+ 2023 1 1 9071.87
+ 2024 1 1 11385.9
+ -9999 0 0 0
+0  2022 1 1 10547.1
+1  2023 1 1 9071.87
+2  2024 1 1 11385.9
 fill H4010_scale_vec with single input
 H4010_scale:  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
  done reading forecast 
