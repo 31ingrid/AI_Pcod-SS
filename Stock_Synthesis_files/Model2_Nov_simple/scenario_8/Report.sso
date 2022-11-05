@@ -4,14 +4,14 @@
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
 
-StartTime: Tue Nov  1 20:00:42 2022
-EndTime: Tue Nov  1 20:02:27 2022
-This run took: 0 hours, 1 minutes, 45 seconds.
+StartTime: Wed Nov  2 19:46:10 2022
+EndTime: Wed Nov  2 19:48:52 2022
+This run took: 0 hours, 2 minutes, 42 seconds.
 Data_File: AIPCOD2022_S.dat
 Control_File: control_modified.ss
 Start_parm_values_from_SS.PAR
 
-Convergence_Level: 6.15137e-05 is_final_gradient
+Convergence_Level: 2.4148e-05 is_final_gradient
 Hessian: 299.845 is ln(determinant).
 
 Starter_Comments
@@ -29,7 +29,7 @@ Forecast_Comments
 #C forecast file written by R function SS_writeforecast
 #C rerun model to get more complete formatting in forecast.ss_new
 #C should work with SS version: 3.3
-#C file write time: 2022-11-01 19:14:11
+#C file write time: 2022-11-02 19:10:53
 
 #_KeyWords_of_tables_available_in_report_sso
 #NOTE: table_number_is_order_in_which_tables_are_output
@@ -199,8 +199,8 @@ sizeatage_N_skip: _  0 0
  Parm_devs_detail report:4
 Index  Phase  MinYr  MaxYr  N   stddev  Rho  Like_devs  Like_se  mean  rmse  var sqrt(var) est_rho  D-W
 1 3 1991 2022 32 0.1005 0  12.1523 0 1.29168e-05 0.871503 0.759518 0.871503 0.51241 0.932796 
-2 3 1991 2022 32 0.0448 0  8.66515 0 2.23668e-06 0.735916 0.541572 0.735916 0.24509 1.47506 
-3 3 1991 2022 32 0.1 0  1.08325e-11 0 2.81137e-08 3.16335e-05 6.76242e-13 3.16335e-05 -1.555e-05 0.0416536 
+2 3 1991 2022 32 0.0448 0  8.66515 0 2.23669e-06 0.735916 0.541572 0.735916 0.24509 1.47506 
+3 3 1991 2022 32 0.1 0  1.08316e-11 0 2.81317e-08 3.16335e-05 6.76183e-13 3.16335e-05 -1.55252e-05 0.0416488 
 
 
  Input_Variance_Adjustment report:3
@@ -216,12 +216,12 @@ MG_parms_Using_offset_approach_#:_1  (1=none, 2= M, G, CV_G as offset from femal
 
  PARAMETERS report:5
 Num Label Value Active_Cnt  Phase Min Max Init  Used  Status  Parm_StDev Gradient Pr_type Prior Pr_SD Pr_Like Value_again Value-1.96*SD Value+1.96*SD V_1%  V_10% V_20% V_30% V_40% V_50% V_60% V_70% V_80% V_90% V_99% P_val P_lowCI P_hiCI  P_1%  P_10% P_20% P_30% P_40% P_50% P_60% P_70% P_80% P_90% P_99%
-1 NatM_uniform_Fem_GP_1 0.446334 1 12 0.1 1.5 0.351975 0.446334 OK  0.00839416 3.01684e-05 Log_Norm  -0.81 0.41 3.26405e-05  0.446334 0.429882 0.462787 0.114 0.24 0.38 0.52 0.66 0.8 0.94 1.08 1.22 1.36 1.486  3.26405e-05 0.00348824 0.00464343 5.51409 1.13276 0.073863 0.0724537 0.462873 1.02439 1.66475 2.33998 3.02731 3.71437 4.32673
-2 L_at_Amin_Fem_GP_1 9.3879 2 1 -10 50 11.9065 9.3879 OK  0.771067 -2.38533e-05 No_prior 
-3 L_at_Amax_Fem_GP_1 115.435 3 1 70 145 113.934 115.435 OK  0.805757 -2.46736e-05 No_prior 
-4 VonBert_K_Fem_GP_1 0.240011 4 1 0 1 0.239122 0.240011 OK  0.00442488 -6.15103e-05 No_prior 
-5 SD_young_Fem_GP_1 10 5 10 0 10 9.40035 10 HI  0.00073952 4.77548e-07 No_prior 
-6 SD_old_Fem_GP_1 4.60997 6 10 0 20 4.82162 4.60997 OK  0.294355 -6.55103e-06 No_prior 
+1 NatM_uniform_Fem_GP_1 0.446334 1 12 0.1 1.5 0.351975 0.446334 OK  0.00839416 2.0671e-05 Log_Norm  -0.81 0.41 3.26405e-05  0.446334 0.429882 0.462787 0.114 0.24 0.38 0.52 0.66 0.8 0.94 1.08 1.22 1.36 1.486  3.26405e-05 0.00348824 0.00464343 5.51409 1.13276 0.073863 0.0724537 0.462873 1.02439 1.66475 2.33998 3.02731 3.71437 4.32673
+2 L_at_Amin_Fem_GP_1 9.3879 2 1 -10 50 11.9065 9.3879 OK  0.771067 -1.6541e-05 No_prior 
+3 L_at_Amax_Fem_GP_1 115.435 3 1 70 145 113.934 115.435 OK  0.805757 -1.00996e-05 No_prior 
+4 VonBert_K_Fem_GP_1 0.240011 4 1 0 1 0.239122 0.240011 OK  0.00442488 -2.41478e-05 No_prior 
+5 SD_young_Fem_GP_1 10 5 10 0 10 9.40035 10 HI  0.00073952 4.77764e-07 No_prior 
+6 SD_old_Fem_GP_1 4.60997 6 10 0 20 4.82162 4.60997 OK  0.294355 -5.27115e-06 No_prior 
 7 Wtlen_1_Fem_GP_1 5.611e-06 _ -3 -99 99 5.611e-06 5.611e-06 NA _ _  No_prior 
 8 Wtlen_2_Fem_GP_1 3.1756 _ -3 -99 99 3.1756 3.1756 NA _ _  No_prior 
 9 Mat50%_Fem_GP_1 54.9 _ -1 -99 99 54.9 54.9 NA _ _  No_prior 
@@ -242,37 +242,37 @@ Num Label Value Active_Cnt  Phase Min Max Init  Used  Status  Parm_StDev Gradien
 24 SR_sigmaR 0.636 _ -1 0 10 0.636 0.636 NA _ _  No_prior 
 25 SR_regime 0 _ -3 -5 5 0 0 NA _ _  No_prior 
 26 SR_autocorr 0 _ -1 -99 99 0 0 NA _ _  No_prior 
-27 Main_RecrDev_1991 -0.00464605 7 1 -5 5 -0.00464605 -0.00464605 act 0.112599 -3.80168e-06 dev 
-28 Main_RecrDev_1992 -0.336399 8 1 -5 5 -0.336399 -0.336399 act 0.133156 -1.00917e-06 dev 
-29 Main_RecrDev_1993 0.47204 9 1 -5 5 0.47204 0.47204 act 0.0872454 3.48474e-07 dev 
-30 Main_RecrDev_1994 0.153569 10 1 -5 5 0.153569 0.153569 act 0.110795 -5.86865e-07 dev 
-31 Main_RecrDev_1995 0.0106554 11 1 -5 5 0.0106554 0.0106554 act 0.110906 -1.75322e-06 dev 
-32 Main_RecrDev_1996 0.442283 12 1 -5 5 0.442283 0.442283 act 0.0851181 -5.04927e-07 dev 
-33 Main_RecrDev_1997 0.574529 13 1 -5 5 0.574529 0.574529 act 0.0841234 -1.20467e-06 dev 
-34 Main_RecrDev_1998 0.0492416 14 1 -5 5 0.0492416 0.0492416 act 0.100673 -3.60731e-06 dev 
-35 Main_RecrDev_1999 0.242274 15 1 -5 5 0.242274 0.242274 act 0.0901157 -4.39605e-06 dev 
-36 Main_RecrDev_2000 0.315991 16 1 -5 5 0.315991 0.315991 act 0.0886428 -8.14846e-07 dev 
-37 Main_RecrDev_2001 0.209043 17 1 -5 5 0.209043 0.209043 act 0.0958289 3.27917e-07 dev 
-38 Main_RecrDev_2002 -0.561235 18 1 -5 5 -0.561235 -0.561235 act 0.132546 -1.61576e-06 dev 
-39 Main_RecrDev_2003 -0.27681 19 1 -5 5 -0.27681 -0.27681 act 0.10481 -1.71232e-06 dev 
-40 Main_RecrDev_2004 -1.09203 20 1 -5 5 -1.09203 -1.09203 act 0.175167 -1.81469e-06 dev 
-41 Main_RecrDev_2005 -0.231815 21 1 -5 5 -0.231815 -0.231815 act 0.0928537 9.04419e-08 dev 
-42 Main_RecrDev_2006 -0.948571 22 1 -5 5 -0.948571 -0.948571 act 0.140864 -1.16298e-06 dev 
-43 Main_RecrDev_2007 -0.207165 23 1 -5 5 -0.207165 -0.207165 act 0.0935171 -1.57663e-06 dev 
-44 Main_RecrDev_2008 -0.27829 24 1 -5 5 -0.27829 -0.27829 act 0.103639 2.61444e-07 dev 
-45 Main_RecrDev_2009 -0.925694 25 1 -5 5 -0.925694 -0.925694 act 0.142742 -3.24347e-08 dev 
-46 Main_RecrDev_2010 -0.960615 26 1 -5 5 -0.960615 -0.960615 act 0.135996 -9.8318e-07 dev 
-47 Main_RecrDev_2011 -0.740923 27 1 -5 5 -0.740923 -0.740923 act 0.11974 -1.19963e-06 dev 
-48 Main_RecrDev_2012 -0.926735 28 1 -5 5 -0.926735 -0.926735 act 0.128164 -9.65577e-08 dev 
-49 Main_RecrDev_2013 -0.721997 29 1 -5 5 -0.721997 -0.721997 act 0.120258 2.81412e-07 dev 
-50 Main_RecrDev_2014 -0.706909 30 1 -5 5 -0.706909 -0.706909 act 0.126169 -1.08364e-07 dev 
-51 Main_RecrDev_2015 -0.739116 31 1 -5 5 -0.739116 -0.739116 act 0.145368 7.44493e-07 dev 
-52 Main_RecrDev_2016 -1.20025 32 1 -5 5 -1.20025 -1.20025 act 0.20371 9.87987e-07 dev 
-53 Main_RecrDev_2017 -0.677558 33 1 -5 5 -0.677558 -0.677558 act 0.184776 1.69133e-06 dev 
-54 Late_RecrDev_2018 -0.883262 34 13 -5 5 -0.883262 -0.883262 act 0.254953 3.95962e-06 dev 
-55 Late_RecrDev_2019 -0.633466 35 13 -5 5 -0.633466 -0.633466 act 0.276078 5.88797e-09 dev 
-56 Late_RecrDev_2020 -1.05212 36 13 -5 5 -1.05212 -1.05212 act 0.390534 -1.30857e-06 dev 
-57 Late_RecrDev_2021 -0.658895 37 13 -5 5 -0.658895 -0.658895 act 0.456105 -8.02584e-08 dev 
+27 Main_RecrDev_1991 -0.00464605 7 1 -5 5 -0.00464605 -0.00464605 act 0.112599 -3.47298e-06 dev 
+28 Main_RecrDev_1992 -0.336399 8 1 -5 5 -0.336399 -0.336399 act 0.133156 -8.16983e-07 dev 
+29 Main_RecrDev_1993 0.47204 9 1 -5 5 0.47204 0.47204 act 0.0872454 8.50763e-07 dev 
+30 Main_RecrDev_1994 0.153569 10 1 -5 5 0.153569 0.153569 act 0.110795 -4.07827e-07 dev 
+31 Main_RecrDev_1995 0.0106554 11 1 -5 5 0.0106554 0.0106554 act 0.110906 -1.39996e-06 dev 
+32 Main_RecrDev_1996 0.442283 12 1 -5 5 0.442283 0.442283 act 0.0851181 3.84596e-07 dev 
+33 Main_RecrDev_1997 0.574529 13 1 -5 5 0.574529 0.574529 act 0.0841234 -5.8004e-07 dev 
+34 Main_RecrDev_1998 0.0492416 14 1 -5 5 0.0492416 0.0492416 act 0.100673 -2.94591e-06 dev 
+35 Main_RecrDev_1999 0.242274 15 1 -5 5 0.242274 0.242274 act 0.0901157 -3.30226e-06 dev 
+36 Main_RecrDev_2000 0.315991 16 1 -5 5 0.315991 0.315991 act 0.0886427 -1.12071e-07 dev 
+37 Main_RecrDev_2001 0.209043 17 1 -5 5 0.209043 0.209043 act 0.0958289 7.22345e-07 dev 
+38 Main_RecrDev_2002 -0.561235 18 1 -5 5 -0.561235 -0.561235 act 0.132546 -1.4056e-06 dev 
+39 Main_RecrDev_2003 -0.27681 19 1 -5 5 -0.27681 -0.27681 act 0.10481 -1.26412e-06 dev 
+40 Main_RecrDev_2004 -1.09203 20 1 -5 5 -1.09203 -1.09203 act 0.175167 -1.5646e-06 dev 
+41 Main_RecrDev_2005 -0.231815 21 1 -5 5 -0.231815 -0.231815 act 0.0928537 7.61044e-07 dev 
+42 Main_RecrDev_2006 -0.948571 22 1 -5 5 -0.948571 -0.948571 act 0.140864 -9.00341e-07 dev 
+43 Main_RecrDev_2007 -0.207165 23 1 -5 5 -0.207165 -0.207165 act 0.0935171 -8.74012e-07 dev 
+44 Main_RecrDev_2008 -0.27829 24 1 -5 5 -0.27829 -0.27829 act 0.103639 3.67597e-07 dev 
+45 Main_RecrDev_2009 -0.925694 25 1 -5 5 -0.925694 -0.925694 act 0.142742 -3.79061e-08 dev 
+46 Main_RecrDev_2010 -0.960615 26 1 -5 5 -0.960615 -0.960615 act 0.135996 -9.14916e-07 dev 
+47 Main_RecrDev_2011 -0.740923 27 1 -5 5 -0.740923 -0.740923 act 0.11974 -1.0562e-06 dev 
+48 Main_RecrDev_2012 -0.926735 28 1 -5 5 -0.926735 -0.926735 act 0.128164 -5.02949e-08 dev 
+49 Main_RecrDev_2013 -0.721997 29 1 -5 5 -0.721997 -0.721997 act 0.120258 4.18136e-07 dev 
+50 Main_RecrDev_2014 -0.706909 30 1 -5 5 -0.706909 -0.706909 act 0.126169 -1.59136e-07 dev 
+51 Main_RecrDev_2015 -0.739116 31 1 -5 5 -0.739116 -0.739116 act 0.145368 6.57469e-07 dev 
+52 Main_RecrDev_2016 -1.20025 32 1 -5 5 -1.20025 -1.20025 act 0.20371 9.23418e-07 dev 
+53 Main_RecrDev_2017 -0.677558 33 1 -5 5 -0.677558 -0.677558 act 0.184776 1.69862e-06 dev 
+54 Late_RecrDev_2018 -0.883262 34 13 -5 5 -0.883262 -0.883262 act 0.254953 4.01271e-06 dev 
+55 Late_RecrDev_2019 -0.633466 35 13 -5 5 -0.633466 -0.633466 act 0.276078 5.95984e-08 dev 
+56 Late_RecrDev_2020 -1.05212 36 13 -5 5 -1.05212 -1.05212 act 0.390534 -1.3158e-06 dev 
+57 Late_RecrDev_2021 -0.658895 37 13 -5 5 -0.658895 -0.658895 act 0.456105 -8.97017e-08 dev 
 58 Late_RecrDev_2022 0 38 13 -5 5 0 0 act 0.636 0 dev 
 59 ForeRecr_2023 0 39 13 -5 5 0 0 act 0.636 0 dev 
 60 ForeRecr_2024 0 40 13 -5 5 0 0 act 0.636 0 dev 
@@ -289,18 +289,18 @@ Num Label Value Active_Cnt  Phase Min Max Init  Used  Status  Parm_StDev Gradien
 71 ForeRecr_2035 0 51 13 -5 5 0 0 act 0.636 0 dev 
 72 ForeRecr_2036 0 52 13 -5 5 0 0 act 0.636 0 dev 
 73 ForeRecr_2037 0 53 13 -5 5 0 0 act 0.636 0 dev 
-74 LnQ_base_Srv(2) -0.0197157 54 10 -10 10 -0.014911 -0.0197157 OK  0.00992081 3.1381e-07 Normal  0 0.01 1.94354  -0.0197157 -0.0391605 -0.000270898 -9.8 -8 -6 -4 -2 0 2 4 6 8 9.8  1.94354 7.66772 0.000366928 480200 320000 180000 80000 20000 0 20000 80000 180000 320000 480200
-75 Size_DblN_peak_FshComb(1) 97.3663 55 1 10 116 93.3593 97.3663 OK  2.32234 -4.34133e-06 No_prior 
-76 Size_DblN_top_logit_FshComb(1) 0.180293 56 2 -20 10 0.254564 0.180293 OK  10.506 1.12861e-06 No_prior 
-77 Size_DblN_ascend_se_FshComb(1) 6.6682 57 2 -10 10 6.59974 6.6682 OK  0.0719036 3.78364e-06 No_prior 
-78 Size_DblN_descend_se_FshComb(1) -1.0336 58 2 -10 10 -1.32501 -1.0336 OK  149.769 -2.04643e-08 No_prior 
+74 LnQ_base_Srv(2) -0.0197157 54 10 -10 10 -0.014911 -0.0197157 OK  0.00992081 -9.01003e-06 Normal  0 0.01 1.94354  -0.0197157 -0.0391605 -0.000270898 -9.8 -8 -6 -4 -2 0 2 4 6 8 9.8  1.94354 7.66772 0.000366928 480200 320000 180000 80000 20000 0 20000 80000 180000 320000 480200
+75 Size_DblN_peak_FshComb(1) 97.3663 55 1 10 116 93.3593 97.3663 OK  2.32234 -6.45138e-06 No_prior 
+76 Size_DblN_top_logit_FshComb(1) 0.180293 56 2 -20 10 0.254564 0.180293 OK  10.506 1.12868e-06 No_prior 
+77 Size_DblN_ascend_se_FshComb(1) 6.6682 57 2 -10 10 6.59974 6.6682 OK  0.0719036 2.08065e-05 No_prior 
+78 Size_DblN_descend_se_FshComb(1) -1.0336 58 2 -10 10 -1.32501 -1.0336 OK  149.769 -2.04614e-08 No_prior 
 79 Size_DblN_start_logit_FshComb(1) -999 _ -2 -1000 2.71828 -999 -999 NA _ _  No_prior 
 80 Size_DblN_end_logit_FshComb(1) 10 _ -2 -10 10 10 10 NA _ _  No_prior 
-81 Size_DblN_peak_Srv(2) 65.0904 59 1 10 90 57.9819 65.0904 OK  3.18971 -1.74448e-06 No_prior 
-82 Size_DblN_top_logit_Srv(2) -6.86109 60 2 -20 10 -6.00452 -6.86109 OK  195.158 5.17081e-08 No_prior 
-83 Size_DblN_ascend_se_Srv(2) 6.8627 61 2 -10 10 6.66858 6.8627 OK  0.168879 1.68252e-05 No_prior 
-84 Size_DblN_descend_se_Srv(2) 1.90408 62 1 0 10 3.00529 1.90408 OK  42.5478 -6.39849e-08 No_prior 
-85 Size_DblN_start_logit_Srv(2) -5.65399 63 2 -12 2.71828 -4.93302 -5.65399 OK  0.621508 4.58478e-06 No_prior 
+81 Size_DblN_peak_Srv(2) 65.0904 59 1 10 90 57.9819 65.0904 OK  3.18971 4.92735e-08 No_prior 
+82 Size_DblN_top_logit_Srv(2) -6.86109 60 2 -20 10 -6.00452 -6.86109 OK  195.158 5.17084e-08 No_prior 
+83 Size_DblN_ascend_se_Srv(2) 6.8627 61 2 -10 10 6.66858 6.8627 OK  0.168879 1.11219e-05 No_prior 
+84 Size_DblN_descend_se_Srv(2) 1.90408 62 1 0 10 3.00529 1.90408 OK  42.5478 -6.39829e-08 No_prior 
+85 Size_DblN_start_logit_Srv(2) -5.65399 63 2 -12 2.71828 -4.93302 -5.65399 OK  0.621508 4.39046e-06 No_prior 
 86 Size_DblN_end_logit_Srv(2) 10 _ -1 -10 10 10 10 NA _ _  No_prior 
 87 Size_DblN_peak_FshComb(1)_dev_se 0.1005 _ -5 0.0001 2 0.1005 0.1005 NA _ _  Normal  0.1 0.5 5e-07  0.1005 0.1005 0.1005 0.020099 0.20009 0.40008 0.60007 0.80006 1.00005 1.20004 1.40003 1.60002 1.80001 1.98  5e-07 5e-07 5e-07 0.0127683 0.020036 0.180096 0.50014 0.980168 1.62018 2.42018 3.38016 4.50012 5.78007 7.06881
 88 Size_DblN_peak_FshComb(1)_dev_autocorr 0 _ -6 -0.99 0.99 0 0 NA _ _  Normal  0 0.5 0  0 0 0 -0.9702 -0.792 -0.594 -0.396 -0.198 0 0.198 0.396 0.594 0.792 0.9702  0 0 0 1.88258 1.25453 0.705672 0.313632 0.078408 0 0.078408 0.313632 0.705672 1.25453 1.88258
@@ -308,107 +308,107 @@ Num Label Value Active_Cnt  Phase Min Max Init  Used  Status  Parm_StDev Gradien
 90 Size_DblN_ascend_se_FshComb(1)_dev_autocorr 0 _ -6 -0.99 0.99 0 0 NA _ _  Normal  0 0.5 0  0 0 0 -0.9702 -0.792 -0.594 -0.396 -0.198 0 0.198 0.396 0.594 0.792 0.9702  0 0 0 1.88258 1.25453 0.705672 0.313632 0.078408 0 0.078408 0.313632 0.705672 1.25453 1.88258
 91 Size_DblN_descend_se_FshComb(1)_dev_se 0.1 _ -5 0.0001 2 0.1 0.1 NA _ _  Normal  0.1 0.5 0  0.1 0.1 0.1 0.020099 0.20009 0.40008 0.60007 0.80006 1.00005 1.20004 1.40003 1.60002 1.80001 1.98  0 0 0 0.0127683 0.020036 0.180096 0.50014 0.980168 1.62018 2.42018 3.38016 4.50012 5.78007 7.06881
 92 Size_DblN_descend_se_FshComb(1)_dev_autocorr 0 _ -6 -0.99 0.99 0 0 NA _ _  Normal  0 0.5 0  0 0 0 -0.9702 -0.792 -0.594 -0.396 -0.198 0 0.198 0.396 0.594 0.792 0.9702  0 0 0 1.88258 1.25453 0.705672 0.313632 0.078408 0 0.078408 0.313632 0.705672 1.25453 1.88258
-93 Size_DblN_peak_Srv(2)_BLK1repl_1991 60.9403 64 1 10 90 53.6167 60.9403 OK  4.75719 -3.6872e-06 No_prior 
-94 Size_DblN_top_logit_Srv(2)_BLK1repl_1991 -1.09088 65 2 -20 10 -0.596998 -1.09088 OK  155.566 2.77102e-07 No_prior 
-95 Size_DblN_ascend_se_Srv(2)_BLK1repl_1991 6.81092 66 2 -10 10 6.60361 6.81092 OK  0.232015 1.39545e-05 No_prior 
-96 Size_DblN_descend_se_Srv(2)_BLK1repl_1991 4.85724 67 1 0 10 4.71464 4.85724 OK  122.393 5.05005e-08 No_prior 
-97 Size_DblN_start_logit_Srv(2)_BLK1repl_1991 -11.6371 68 2 -12 2.71828 -11.4874 -11.6371 OK  9.8602 -1.21947e-07 No_prior 
-98 Size_DblN_peak_FshComb(1)_DEVmult_1991 -1.33153 69 3 -10 10 -1.33153 -1.33153 act 0.448981 -6.3286e-07 dev 
-99 Size_DblN_peak_FshComb(1)_DEVmult_1992 -1.52876 70 3 -10 10 -1.52876 -1.52876 act 0.424996 7.10689e-07 dev 
-100 Size_DblN_peak_FshComb(1)_DEVmult_1993 -0.621985 71 3 -10 10 -0.621985 -0.621985 act 0.459355 4.40593e-07 dev 
-101 Size_DblN_peak_FshComb(1)_DEVmult_1994 -0.763802 72 3 -10 10 -0.763802 -0.763802 act 0.469604 -1.70583e-06 dev 
-102 Size_DblN_peak_FshComb(1)_DEVmult_1995 0.509412 73 3 -10 10 0.509412 0.509412 act 0.472174 -4.49686e-06 dev 
-103 Size_DblN_peak_FshComb(1)_DEVmult_1996 0.212881 74 3 -10 10 0.212881 0.212881 act 0.432655 3.58224e-06 dev 
-104 Size_DblN_peak_FshComb(1)_DEVmult_1997 0.567359 75 3 -10 10 0.567359 0.567359 act 0.489966 -8.31897e-07 dev 
-105 Size_DblN_peak_FshComb(1)_DEVmult_1998 -0.174819 76 3 -10 10 -0.174819 -0.174819 act 0.479992 -5.08354e-07 dev 
-106 Size_DblN_peak_FshComb(1)_DEVmult_1999 -0.377569 77 3 -10 10 -0.377569 -0.377569 act 0.409358 1.07016e-06 dev 
-107 Size_DblN_peak_FshComb(1)_DEVmult_2000 0.701479 78 3 -10 10 0.701479 0.701479 act 0.395933 -1.71798e-07 dev 
-108 Size_DblN_peak_FshComb(1)_DEVmult_2001 -1.57836 79 3 -10 10 -1.57836 -1.57836 act 0.456923 2.47573e-06 dev 
-109 Size_DblN_peak_FshComb(1)_DEVmult_2002 -0.221255 80 3 -10 10 -0.221255 -0.221255 act 0.390194 -5.72864e-06 dev 
-110 Size_DblN_peak_FshComb(1)_DEVmult_2003 0.920876 81 3 -10 10 0.920876 0.920876 act 0.400617 -1.83764e-06 dev 
-111 Size_DblN_peak_FshComb(1)_DEVmult_2004 0.922511 82 3 -10 10 0.922511 0.922511 act 0.454208 9.52089e-07 dev 
-112 Size_DblN_peak_FshComb(1)_DEVmult_2005 -0.154188 83 3 -10 10 -0.154188 -0.154188 act 0.414642 7.83863e-07 dev 
-113 Size_DblN_peak_FshComb(1)_DEVmult_2006 0.0394906 84 3 -10 10 0.0394906 0.0394906 act 0.510027 -2.11157e-06 dev 
-114 Size_DblN_peak_FshComb(1)_DEVmult_2007 0.414267 85 3 -10 10 0.414267 0.414267 act 0.415979 2.7626e-06 dev 
-115 Size_DblN_peak_FshComb(1)_DEVmult_2008 0.791864 86 3 -10 10 0.791864 0.791864 act 0.452511 4.99098e-07 dev 
-116 Size_DblN_peak_FshComb(1)_DEVmult_2009 0.54456 87 3 -10 10 0.54456 0.54456 act 0.472378 5.89178e-06 dev 
-117 Size_DblN_peak_FshComb(1)_DEVmult_2010 1.08123 88 3 -10 10 1.08123 1.08123 act 0.439332 1.91491e-08 dev 
-118 Size_DblN_peak_FshComb(1)_DEVmult_2011 0.677261 89 3 -10 10 0.677261 0.677261 act 0.500182 -2.06822e-06 dev 
-119 Size_DblN_peak_FshComb(1)_DEVmult_2012 0.0724796 90 3 -10 10 0.0724796 0.0724796 act 0.622123 -3.67414e-07 dev 
-120 Size_DblN_peak_FshComb(1)_DEVmult_2013 0.630319 91 3 -10 10 0.630319 0.630319 act 0.489981 -4.43075e-06 dev 
-121 Size_DblN_peak_FshComb(1)_DEVmult_2014 0.883835 92 3 -10 10 0.883835 0.883835 act 0.520128 9.49037e-08 dev 
-122 Size_DblN_peak_FshComb(1)_DEVmult_2015 1.21106 93 3 -10 10 1.21106 1.21106 act 0.554277 3.93743e-07 dev 
-123 Size_DblN_peak_FshComb(1)_DEVmult_2016 0.701884 94 3 -10 10 0.701884 0.701884 act 0.543348 3.04817e-07 dev 
-124 Size_DblN_peak_FshComb(1)_DEVmult_2017 0.416027 95 3 -10 10 0.416027 0.416027 act 0.514035 -1.84991e-06 dev 
-125 Size_DblN_peak_FshComb(1)_DEVmult_2018 -0.477948 96 3 -10 10 -0.477948 -0.477948 act 0.573993 -1.39163e-06 dev 
-126 Size_DblN_peak_FshComb(1)_DEVmult_2019 -0.635434 97 3 -10 10 -0.635434 -0.635434 act 0.583762 1.77507e-06 dev 
-127 Size_DblN_peak_FshComb(1)_DEVmult_2020 -2.26038 98 3 -10 10 -2.26038 -2.26038 NO_MOVE 0.423307 1.49349e-07 dev 
-128 Size_DblN_peak_FshComb(1)_DEVmult_2021 -1.36077 99 3 -10 10 -1.36077 -1.36077 act 0.645302 -1.8864e-06 dev 
-129 Size_DblN_peak_FshComb(1)_DEVmult_2022 0.188411 100 3 -10 10 0.188411 0.188411 act 0.70734 7.02144e-07 dev 
-130 Size_DblN_ascend_se_FshComb(1)_DEVmult_1991 -0.893246 101 3 -10 10 -0.893246 -0.893246 act 0.743507 -2.30594e-06 dev 
-131 Size_DblN_ascend_se_FshComb(1)_DEVmult_1992 -0.89154 102 3 -10 10 -0.89154 -0.89154 act 0.662863 -3.38518e-07 dev 
-132 Size_DblN_ascend_se_FshComb(1)_DEVmult_1993 -0.0778692 103 3 -10 10 -0.0778692 -0.0778692 act 0.613517 -1.10514e-06 dev 
-133 Size_DblN_ascend_se_FshComb(1)_DEVmult_1994 -0.290022 104 3 -10 10 -0.290022 -0.290022 act 0.651904 -2.78797e-06 dev 
-134 Size_DblN_ascend_se_FshComb(1)_DEVmult_1995 0.655441 105 3 -10 10 0.655441 0.655441 act 0.545079 -3.30918e-06 dev 
-135 Size_DblN_ascend_se_FshComb(1)_DEVmult_1996 0.456648 106 3 -10 10 0.456648 0.456648 act 0.506959 2.68454e-06 dev 
-136 Size_DblN_ascend_se_FshComb(1)_DEVmult_1997 0.331592 107 3 -10 10 0.331592 0.331592 act 0.587181 -1.67611e-06 dev 
-137 Size_DblN_ascend_se_FshComb(1)_DEVmult_1998 0.254025 108 3 -10 10 0.254025 0.254025 act 0.529739 -1.71935e-06 dev 
-138 Size_DblN_ascend_se_FshComb(1)_DEVmult_1999 -0.405388 109 3 -10 10 -0.405388 -0.405388 act 0.508022 2.75787e-07 dev 
-139 Size_DblN_ascend_se_FshComb(1)_DEVmult_2000 0.886607 110 3 -10 10 0.886607 0.886607 act 0.414408 2.33478e-08 dev 
-140 Size_DblN_ascend_se_FshComb(1)_DEVmult_2001 -1.0385 111 3 -10 10 -1.0385 -1.0385 act 0.604419 2.32441e-06 dev 
-141 Size_DblN_ascend_se_FshComb(1)_DEVmult_2002 -0.762026 112 3 -10 10 -0.762026 -0.762026 act 0.526136 -4.03098e-06 dev 
-142 Size_DblN_ascend_se_FshComb(1)_DEVmult_2003 0.33041 113 3 -10 10 0.33041 0.33041 act 0.452394 -1.54111e-06 dev 
-143 Size_DblN_ascend_se_FshComb(1)_DEVmult_2004 0.95643 114 3 -10 10 0.95643 0.95643 act 0.481627 1.8926e-06 dev 
-144 Size_DblN_ascend_se_FshComb(1)_DEVmult_2005 -0.482907 115 3 -10 10 -0.482907 -0.482907 act 0.582724 1.90796e-06 dev 
-145 Size_DblN_ascend_se_FshComb(1)_DEVmult_2006 0.452335 116 3 -10 10 0.452335 0.452335 act 0.607737 -7.86383e-07 dev 
-146 Size_DblN_ascend_se_FshComb(1)_DEVmult_2007 0.54768 117 3 -10 10 0.54768 0.54768 act 0.481958 3.35117e-06 dev 
-147 Size_DblN_ascend_se_FshComb(1)_DEVmult_2008 0.947989 118 3 -10 10 0.947989 0.947989 act 0.482051 -5.91128e-07 dev 
-148 Size_DblN_ascend_se_FshComb(1)_DEVmult_2009 0.552295 119 3 -10 10 0.552295 0.552295 act 0.508362 4.1036e-06 dev 
-149 Size_DblN_ascend_se_FshComb(1)_DEVmult_2010 0.77901 120 3 -10 10 0.77901 0.77901 act 0.432521 1.12319e-06 dev 
-150 Size_DblN_ascend_se_FshComb(1)_DEVmult_2011 -0.021097 121 3 -10 10 -0.021097 -0.021097 act 0.579356 -1.16932e-06 dev 
-151 Size_DblN_ascend_se_FshComb(1)_DEVmult_2012 -0.383626 122 3 -10 10 -0.383626 -0.383626 act 0.77276 -1.86948e-06 dev 
-152 Size_DblN_ascend_se_FshComb(1)_DEVmult_2013 -0.354873 123 3 -10 10 -0.354873 -0.354873 act 0.614281 5.47189e-08 dev 
-153 Size_DblN_ascend_se_FshComb(1)_DEVmult_2014 -0.29793 124 3 -10 10 -0.29793 -0.29793 act 0.648594 -1.44033e-08 dev 
-154 Size_DblN_ascend_se_FshComb(1)_DEVmult_2015 1.51518 125 3 -10 10 1.51518 1.51518 act 0.503618 9.36308e-07 dev 
-155 Size_DblN_ascend_se_FshComb(1)_DEVmult_2016 -0.0590454 126 3 -10 10 -0.0590454 -0.0590454 act 0.646365 -6.14888e-07 dev 
-156 Size_DblN_ascend_se_FshComb(1)_DEVmult_2017 0.43897 127 3 -10 10 0.43897 0.43897 act 0.556999 -2.93585e-06 dev 
-157 Size_DblN_ascend_se_FshComb(1)_DEVmult_2018 0.113612 128 3 -10 10 0.113612 0.113612 act 0.649742 -3.55667e-07 dev 
-158 Size_DblN_ascend_se_FshComb(1)_DEVmult_2019 -0.537431 129 3 -10 10 -0.537431 -0.537431 act 0.732593 2.471e-06 dev 
-159 Size_DblN_ascend_se_FshComb(1)_DEVmult_2020 -2.18825 130 3 -10 10 -2.18825 -2.18825 act 0.747482 1.06702e-06 dev 
-160 Size_DblN_ascend_se_FshComb(1)_DEVmult_2021 -0.799046 131 3 -10 10 -0.799046 -0.799046 act 0.813394 9.61856e-07 dev 
-161 Size_DblN_ascend_se_FshComb(1)_DEVmult_2022 0.264644 132 3 -10 10 0.264644 0.264644 act 0.74495 2.82773e-06 dev 
-162 Size_DblN_descend_se_FshComb(1)_DEVmult_1991 1.32402e-06 133 3 -10 10 1.32402e-06 1.32402e-06 act 1 4.12371e-06 dev 
-163 Size_DblN_descend_se_FshComb(1)_DEVmult_1992 1.1793e-06 134 3 -10 10 1.1793e-06 1.1793e-06 act 1 2.38014e-06 dev 
-164 Size_DblN_descend_se_FshComb(1)_DEVmult_1993 4.68996e-07 135 3 -10 10 4.68995e-07 4.68995e-07 act 1 -2.30647e-06 dev 
-165 Size_DblN_descend_se_FshComb(1)_DEVmult_1994 9.5943e-07 136 3 -10 10 9.5943e-07 9.5943e-07 act 1 1.73724e-06 dev 
-166 Size_DblN_descend_se_FshComb(1)_DEVmult_1995 4.43035e-07 137 3 -10 10 4.43035e-07 4.43035e-07 act 1 -4.04258e-06 dev 
-167 Size_DblN_descend_se_FshComb(1)_DEVmult_1996 2.22174e-07 138 3 -10 10 2.22174e-07 2.22174e-07 act 1 3.01699e-07 dev 
-168 Size_DblN_descend_se_FshComb(1)_DEVmult_1997 2.7555e-07 139 3 -10 10 2.7555e-07 2.7555e-07 act 1 -1.47997e-07 dev 
-169 Size_DblN_descend_se_FshComb(1)_DEVmult_1998 -1.74909e-07 140 3 -10 10 -1.74909e-07 -1.74909e-07 act 1 -1.51074e-06 dev 
-170 Size_DblN_descend_se_FshComb(1)_DEVmult_1999 -1.53841e-07 141 3 -10 10 -1.53841e-07 -1.53841e-07 act 1 -1.42408e-06 dev 
-171 Size_DblN_descend_se_FshComb(1)_DEVmult_2000 2.73452e-07 142 3 -10 10 2.73452e-07 2.73452e-07 act 1 -1.18758e-06 dev 
-172 Size_DblN_descend_se_FshComb(1)_DEVmult_2001 -3.58273e-06 143 3 -10 10 -3.58273e-06 -3.58273e-06 act 1 7.6702e-07 dev 
-173 Size_DblN_descend_se_FshComb(1)_DEVmult_2002 5.38739e-07 144 3 -10 10 5.38739e-07 5.38739e-07 act 1 5.06121e-06 dev 
-174 Size_DblN_descend_se_FshComb(1)_DEVmult_2003 2.44919e-07 145 3 -10 10 2.44919e-07 2.44919e-07 act 1 -6.63052e-06 dev 
-175 Size_DblN_descend_se_FshComb(1)_DEVmult_2004 3.07567e-07 146 3 -10 10 3.07567e-07 3.07567e-07 act 1 -1.35567e-07 dev 
-176 Size_DblN_descend_se_FshComb(1)_DEVmult_2005 4.04904e-08 147 3 -10 10 4.04904e-08 4.04904e-08 act 1 7.47585e-07 dev 
-177 Size_DblN_descend_se_FshComb(1)_DEVmult_2006 -9.12716e-07 148 3 -10 10 -9.12716e-07 -9.12716e-07 act 1 -4.61211e-06 dev 
-178 Size_DblN_descend_se_FshComb(1)_DEVmult_2007 7.87356e-07 149 3 -10 10 7.87356e-07 7.87356e-07 act 1 2.78824e-06 dev 
-179 Size_DblN_descend_se_FshComb(1)_DEVmult_2008 6.42056e-08 150 3 -10 10 6.42056e-08 6.42056e-08 act 1 -1.32642e-06 dev 
-180 Size_DblN_descend_se_FshComb(1)_DEVmult_2009 -1.65322e-07 151 3 -10 10 -1.65322e-07 -1.65322e-07 act 1 -3.63119e-06 dev 
-181 Size_DblN_descend_se_FshComb(1)_DEVmult_2010 7.7636e-08 152 3 -10 10 7.76359e-08 7.76359e-08 act 1 -3.50888e-06 dev 
-182 Size_DblN_descend_se_FshComb(1)_DEVmult_2011 8.09004e-07 153 3 -10 10 8.09004e-07 8.09004e-07 act 1 1.02346e-05 dev 
-183 Size_DblN_descend_se_FshComb(1)_DEVmult_2012 -4.31248e-07 154 3 -10 10 -4.31248e-07 -4.31248e-07 act 1 -1.70565e-06 dev 
-184 Size_DblN_descend_se_FshComb(1)_DEVmult_2013 2.42966e-07 155 3 -10 10 2.42966e-07 2.42966e-07 act 1 1.58322e-06 dev 
-185 Size_DblN_descend_se_FshComb(1)_DEVmult_2014 1.07919e-07 156 3 -10 10 1.07919e-07 1.07919e-07 act 1 1.72712e-06 dev 
-186 Size_DblN_descend_se_FshComb(1)_DEVmult_2015 9.54646e-08 157 3 -10 10 9.54646e-08 9.54646e-08 act 1 4.06892e-08 dev 
-187 Size_DblN_descend_se_FshComb(1)_DEVmult_2016 -5.56558e-07 158 3 -10 10 -5.56558e-07 -5.56558e-07 act 1 -3.59422e-06 dev 
-188 Size_DblN_descend_se_FshComb(1)_DEVmult_2017 -1.69636e-07 159 3 -10 10 -1.69636e-07 -1.69636e-07 act 1 -2.19012e-06 dev 
-189 Size_DblN_descend_se_FshComb(1)_DEVmult_2018 -5.1935e-07 160 3 -10 10 -5.1935e-07 -5.1935e-07 act 1 -4.92634e-06 dev 
-190 Size_DblN_descend_se_FshComb(1)_DEVmult_2019 -6.84824e-08 161 3 -10 10 -6.84824e-08 -6.84824e-08 act 1 -1.39306e-06 dev 
-191 Size_DblN_descend_se_FshComb(1)_DEVmult_2020 2.97257e-08 162 3 -10 10 2.97257e-08 2.97257e-08 act 1 1.01627e-06 dev 
-192 Size_DblN_descend_se_FshComb(1)_DEVmult_2021 -7.86214e-07 163 3 -10 10 -7.86214e-07 -7.86214e-07 act 1 -6.29813e-06 dev 
-193 Size_DblN_descend_se_FshComb(1)_DEVmult_2022 -7.13062e-08 164 3 -10 10 -7.13062e-08 -7.13062e-08 act 1 -1.72971e-06 dev 
+93 Size_DblN_peak_Srv(2)_BLK1repl_1991 60.9403 64 1 10 90 53.6167 60.9403 OK  4.75719 -3.18629e-06 No_prior 
+94 Size_DblN_top_logit_Srv(2)_BLK1repl_1991 -1.09088 65 2 -20 10 -0.596998 -1.09088 OK  155.566 2.77133e-07 No_prior 
+95 Size_DblN_ascend_se_Srv(2)_BLK1repl_1991 6.81092 66 2 -10 10 6.60361 6.81092 OK  0.232015 1.234e-05 No_prior 
+96 Size_DblN_descend_se_Srv(2)_BLK1repl_1991 4.85724 67 1 0 10 4.71464 4.85724 OK  122.393 5.05061e-08 No_prior 
+97 Size_DblN_start_logit_Srv(2)_BLK1repl_1991 -11.6371 68 2 -12 2.71828 -11.4874 -11.6371 OK  9.8602 -1.21996e-07 No_prior 
+98 Size_DblN_peak_FshComb(1)_DEVmult_1991 -1.33153 69 3 -10 10 -1.33153 -1.33153 act 0.448981 -6.98699e-07 dev 
+99 Size_DblN_peak_FshComb(1)_DEVmult_1992 -1.52876 70 3 -10 10 -1.52876 -1.52876 act 0.424996 6.04883e-07 dev 
+100 Size_DblN_peak_FshComb(1)_DEVmult_1993 -0.621985 71 3 -10 10 -0.621985 -0.621985 act 0.459355 2.96786e-07 dev 
+101 Size_DblN_peak_FshComb(1)_DEVmult_1994 -0.763802 72 3 -10 10 -0.763802 -0.763802 act 0.469604 -1.79913e-06 dev 
+102 Size_DblN_peak_FshComb(1)_DEVmult_1995 0.509412 73 3 -10 10 0.509412 0.509412 act 0.472174 -4.59866e-06 dev 
+103 Size_DblN_peak_FshComb(1)_DEVmult_1996 0.212881 74 3 -10 10 0.212881 0.212881 act 0.432655 3.3243e-06 dev 
+104 Size_DblN_peak_FshComb(1)_DEVmult_1997 0.567359 75 3 -10 10 0.567359 0.567359 act 0.489966 -9.52619e-07 dev 
+105 Size_DblN_peak_FshComb(1)_DEVmult_1998 -0.174819 76 3 -10 10 -0.174819 -0.174819 act 0.479992 -9.03928e-07 dev 
+106 Size_DblN_peak_FshComb(1)_DEVmult_1999 -0.377569 77 3 -10 10 -0.377569 -0.377569 act 0.409358 5.25172e-07 dev 
+107 Size_DblN_peak_FshComb(1)_DEVmult_2000 0.701479 78 3 -10 10 0.701479 0.701479 act 0.395933 -8.3296e-07 dev 
+108 Size_DblN_peak_FshComb(1)_DEVmult_2001 -1.57836 79 3 -10 10 -1.57836 -1.57836 act 0.456923 2.00049e-06 dev 
+109 Size_DblN_peak_FshComb(1)_DEVmult_2002 -0.221255 80 3 -10 10 -0.221255 -0.221255 act 0.390194 -5.85066e-06 dev 
+110 Size_DblN_peak_FshComb(1)_DEVmult_2003 0.920876 81 3 -10 10 0.920876 0.920876 act 0.400617 -2.08344e-06 dev 
+111 Size_DblN_peak_FshComb(1)_DEVmult_2004 0.922511 82 3 -10 10 0.922511 0.922511 act 0.454208 8.26681e-07 dev 
+112 Size_DblN_peak_FshComb(1)_DEVmult_2005 -0.154188 83 3 -10 10 -0.154188 -0.154188 act 0.414642 7.5556e-07 dev 
+113 Size_DblN_peak_FshComb(1)_DEVmult_2006 0.0394906 84 3 -10 10 0.0394906 0.0394906 act 0.510027 -2.15685e-06 dev 
+114 Size_DblN_peak_FshComb(1)_DEVmult_2007 0.414267 85 3 -10 10 0.414267 0.414267 act 0.415979 2.59046e-06 dev 
+115 Size_DblN_peak_FshComb(1)_DEVmult_2008 0.791864 86 3 -10 10 0.791864 0.791864 act 0.452511 2.62811e-07 dev 
+116 Size_DblN_peak_FshComb(1)_DEVmult_2009 0.54456 87 3 -10 10 0.54456 0.54456 act 0.472378 5.56613e-06 dev 
+117 Size_DblN_peak_FshComb(1)_DEVmult_2010 1.08123 88 3 -10 10 1.08123 1.08123 act 0.439332 -2.14573e-07 dev 
+118 Size_DblN_peak_FshComb(1)_DEVmult_2011 0.677261 89 3 -10 10 0.677261 0.677261 act 0.500182 -2.07201e-06 dev 
+119 Size_DblN_peak_FshComb(1)_DEVmult_2012 0.0724796 90 3 -10 10 0.0724796 0.0724796 act 0.622123 -3.78304e-07 dev 
+120 Size_DblN_peak_FshComb(1)_DEVmult_2013 0.630319 91 3 -10 10 0.630319 0.630319 act 0.489981 -4.3549e-06 dev 
+121 Size_DblN_peak_FshComb(1)_DEVmult_2014 0.883835 92 3 -10 10 0.883835 0.883835 act 0.520128 7.8693e-08 dev 
+122 Size_DblN_peak_FshComb(1)_DEVmult_2015 1.21106 93 3 -10 10 1.21106 1.21106 act 0.554277 2.94028e-07 dev 
+123 Size_DblN_peak_FshComb(1)_DEVmult_2016 0.701884 94 3 -10 10 0.701884 0.701884 act 0.543348 2.11531e-07 dev 
+124 Size_DblN_peak_FshComb(1)_DEVmult_2017 0.416027 95 3 -10 10 0.416027 0.416027 act 0.514035 -1.99548e-06 dev 
+125 Size_DblN_peak_FshComb(1)_DEVmult_2018 -0.477948 96 3 -10 10 -0.477948 -0.477948 act 0.573993 -1.49169e-06 dev 
+126 Size_DblN_peak_FshComb(1)_DEVmult_2019 -0.635434 97 3 -10 10 -0.635434 -0.635434 act 0.583762 1.70953e-06 dev 
+127 Size_DblN_peak_FshComb(1)_DEVmult_2020 -2.26038 98 3 -10 10 -2.26038 -2.26038 act 0.423307 6.44341e-08 dev 
+128 Size_DblN_peak_FshComb(1)_DEVmult_2021 -1.36077 99 3 -10 10 -1.36077 -1.36077 act 0.645302 -1.93437e-06 dev 
+129 Size_DblN_peak_FshComb(1)_DEVmult_2022 0.188411 100 3 -10 10 0.188411 0.188411 act 0.70734 6.94441e-07 dev 
+130 Size_DblN_ascend_se_FshComb(1)_DEVmult_1991 -0.893246 101 3 -10 10 -0.893246 -0.893246 act 0.743507 -2.26214e-06 dev 
+131 Size_DblN_ascend_se_FshComb(1)_DEVmult_1992 -0.89154 102 3 -10 10 -0.89154 -0.89154 act 0.662863 -2.60617e-07 dev 
+132 Size_DblN_ascend_se_FshComb(1)_DEVmult_1993 -0.0778692 103 3 -10 10 -0.0778692 -0.0778692 act 0.613517 -9.72889e-07 dev 
+133 Size_DblN_ascend_se_FshComb(1)_DEVmult_1994 -0.290022 104 3 -10 10 -0.290022 -0.290022 act 0.651904 -2.69265e-06 dev 
+134 Size_DblN_ascend_se_FshComb(1)_DEVmult_1995 0.655441 105 3 -10 10 0.655441 0.655441 act 0.545079 -3.16299e-06 dev 
+135 Size_DblN_ascend_se_FshComb(1)_DEVmult_1996 0.456648 106 3 -10 10 0.456648 0.456648 act 0.506959 2.95996e-06 dev 
+136 Size_DblN_ascend_se_FshComb(1)_DEVmult_1997 0.331592 107 3 -10 10 0.331592 0.331592 act 0.587181 -1.54485e-06 dev 
+137 Size_DblN_ascend_se_FshComb(1)_DEVmult_1998 0.254025 108 3 -10 10 0.254025 0.254025 act 0.529739 -1.25755e-06 dev 
+138 Size_DblN_ascend_se_FshComb(1)_DEVmult_1999 -0.405388 109 3 -10 10 -0.405388 -0.405388 act 0.508022 8.09903e-07 dev 
+139 Size_DblN_ascend_se_FshComb(1)_DEVmult_2000 0.886607 110 3 -10 10 0.886607 0.886607 act 0.414408 8.52066e-07 dev 
+140 Size_DblN_ascend_se_FshComb(1)_DEVmult_2001 -1.0385 111 3 -10 10 -1.0385 -1.0385 act 0.604419 2.81999e-06 dev 
+141 Size_DblN_ascend_se_FshComb(1)_DEVmult_2002 -0.762026 112 3 -10 10 -0.762026 -0.762026 act 0.526136 -3.8275e-06 dev 
+142 Size_DblN_ascend_se_FshComb(1)_DEVmult_2003 0.33041 113 3 -10 10 0.33041 0.33041 act 0.452394 -1.19199e-06 dev 
+143 Size_DblN_ascend_se_FshComb(1)_DEVmult_2004 0.95643 114 3 -10 10 0.95643 0.95643 act 0.481627 2.12521e-06 dev 
+144 Size_DblN_ascend_se_FshComb(1)_DEVmult_2005 -0.482907 115 3 -10 10 -0.482907 -0.482907 act 0.582724 2.0059e-06 dev 
+145 Size_DblN_ascend_se_FshComb(1)_DEVmult_2006 0.452335 116 3 -10 10 0.452335 0.452335 act 0.607737 -6.59325e-07 dev 
+146 Size_DblN_ascend_se_FshComb(1)_DEVmult_2007 0.54768 117 3 -10 10 0.54768 0.54768 act 0.481958 3.62682e-06 dev 
+147 Size_DblN_ascend_se_FshComb(1)_DEVmult_2008 0.947989 118 3 -10 10 0.947989 0.947989 act 0.482051 -2.56519e-07 dev 
+148 Size_DblN_ascend_se_FshComb(1)_DEVmult_2009 0.552295 119 3 -10 10 0.552295 0.552295 act 0.508362 4.50118e-06 dev 
+149 Size_DblN_ascend_se_FshComb(1)_DEVmult_2010 0.77901 120 3 -10 10 0.77901 0.77901 act 0.432521 1.6015e-06 dev 
+150 Size_DblN_ascend_se_FshComb(1)_DEVmult_2011 -0.021097 121 3 -10 10 -0.021097 -0.021097 act 0.579356 -1.09152e-06 dev 
+151 Size_DblN_ascend_se_FshComb(1)_DEVmult_2012 -0.383626 122 3 -10 10 -0.383626 -0.383626 act 0.77276 -1.80162e-06 dev 
+152 Size_DblN_ascend_se_FshComb(1)_DEVmult_2013 -0.354873 123 3 -10 10 -0.354873 -0.354873 act 0.614281 7.16413e-08 dev 
+153 Size_DblN_ascend_se_FshComb(1)_DEVmult_2014 -0.29793 124 3 -10 10 -0.29793 -0.29793 act 0.648594 4.06316e-08 dev 
+154 Size_DblN_ascend_se_FshComb(1)_DEVmult_2015 1.51518 125 3 -10 10 1.51518 1.51518 act 0.503618 1.1262e-06 dev 
+155 Size_DblN_ascend_se_FshComb(1)_DEVmult_2016 -0.0590454 126 3 -10 10 -0.0590454 -0.0590454 act 0.646365 -4.84797e-07 dev 
+156 Size_DblN_ascend_se_FshComb(1)_DEVmult_2017 0.43897 127 3 -10 10 0.43897 0.43897 act 0.556999 -2.725e-06 dev 
+157 Size_DblN_ascend_se_FshComb(1)_DEVmult_2018 0.113612 128 3 -10 10 0.113612 0.113612 act 0.649742 -2.21362e-07 dev 
+158 Size_DblN_ascend_se_FshComb(1)_DEVmult_2019 -0.537431 129 3 -10 10 -0.537431 -0.537431 act 0.732593 2.54888e-06 dev 
+159 Size_DblN_ascend_se_FshComb(1)_DEVmult_2020 -2.18825 130 3 -10 10 -2.18825 -2.18825 act 0.747482 1.11944e-06 dev 
+160 Size_DblN_ascend_se_FshComb(1)_DEVmult_2021 -0.799046 131 3 -10 10 -0.799046 -0.799046 act 0.813394 1.02329e-06 dev 
+161 Size_DblN_ascend_se_FshComb(1)_DEVmult_2022 0.264644 132 3 -10 10 0.264644 0.264644 act 0.74495 2.84486e-06 dev 
+162 Size_DblN_descend_se_FshComb(1)_DEVmult_1991 1.3239e-06 133 3 -10 10 1.32402e-06 1.32402e-06 act 1 4.12183e-06 dev 
+163 Size_DblN_descend_se_FshComb(1)_DEVmult_1992 1.17923e-06 134 3 -10 10 1.1793e-06 1.1793e-06 act 1 2.37905e-06 dev 
+164 Size_DblN_descend_se_FshComb(1)_DEVmult_1993 4.69063e-07 135 3 -10 10 4.68996e-07 4.68996e-07 act 1 -2.30542e-06 dev 
+165 Size_DblN_descend_se_FshComb(1)_DEVmult_1994 9.5938e-07 136 3 -10 10 9.5943e-07 9.5943e-07 act 1 1.73644e-06 dev 
+166 Size_DblN_descend_se_FshComb(1)_DEVmult_1995 4.43153e-07 137 3 -10 10 4.43035e-07 4.43035e-07 act 1 -4.04074e-06 dev 
+167 Size_DblN_descend_se_FshComb(1)_DEVmult_1996 2.22165e-07 138 3 -10 10 2.22174e-07 2.22174e-07 act 1 3.01562e-07 dev 
+168 Size_DblN_descend_se_FshComb(1)_DEVmult_1997 2.75554e-07 139 3 -10 10 2.7555e-07 2.7555e-07 act 1 -1.47929e-07 dev 
+169 Size_DblN_descend_se_FshComb(1)_DEVmult_1998 -1.74865e-07 140 3 -10 10 -1.74909e-07 -1.74909e-07 act 1 -1.51005e-06 dev 
+170 Size_DblN_descend_se_FshComb(1)_DEVmult_1999 -1.53799e-07 141 3 -10 10 -1.53841e-07 -1.53841e-07 act 1 -1.42343e-06 dev 
+171 Size_DblN_descend_se_FshComb(1)_DEVmult_2000 2.73486e-07 142 3 -10 10 2.73452e-07 2.73452e-07 act 1 -1.18704e-06 dev 
+172 Size_DblN_descend_se_FshComb(1)_DEVmult_2001 -3.58275e-06 143 3 -10 10 -3.58273e-06 -3.58273e-06 act 1 7.6667e-07 dev 
+173 Size_DblN_descend_se_FshComb(1)_DEVmult_2002 5.38592e-07 144 3 -10 10 5.38739e-07 5.38739e-07 act 1 5.0589e-06 dev 
+174 Size_DblN_descend_se_FshComb(1)_DEVmult_2003 2.45112e-07 145 3 -10 10 2.44919e-07 2.44919e-07 act 1 -6.62749e-06 dev 
+175 Size_DblN_descend_se_FshComb(1)_DEVmult_2004 3.07571e-07 146 3 -10 10 3.07567e-07 3.07567e-07 act 1 -1.35505e-07 dev 
+176 Size_DblN_descend_se_FshComb(1)_DEVmult_2005 4.04687e-08 147 3 -10 10 4.04904e-08 4.04904e-08 act 1 7.47244e-07 dev 
+177 Size_DblN_descend_se_FshComb(1)_DEVmult_2006 -9.12582e-07 148 3 -10 10 -9.12716e-07 -9.12716e-07 act 1 -4.61e-06 dev 
+178 Size_DblN_descend_se_FshComb(1)_DEVmult_2007 7.87275e-07 149 3 -10 10 7.87356e-07 7.87356e-07 act 1 2.78697e-06 dev 
+179 Size_DblN_descend_se_FshComb(1)_DEVmult_2008 6.42441e-08 150 3 -10 10 6.42056e-08 6.42056e-08 act 1 -1.32581e-06 dev 
+180 Size_DblN_descend_se_FshComb(1)_DEVmult_2009 -1.65216e-07 151 3 -10 10 -1.65322e-07 -1.65322e-07 act 1 -3.62953e-06 dev 
+181 Size_DblN_descend_se_FshComb(1)_DEVmult_2010 7.77379e-08 152 3 -10 10 7.7636e-08 7.7636e-08 act 1 -3.50727e-06 dev 
+182 Size_DblN_descend_se_FshComb(1)_DEVmult_2011 8.08707e-07 153 3 -10 10 8.09004e-07 8.09004e-07 act 1 1.02299e-05 dev 
+183 Size_DblN_descend_se_FshComb(1)_DEVmult_2012 -4.31199e-07 154 3 -10 10 -4.31248e-07 -4.31248e-07 act 1 -1.70487e-06 dev 
+184 Size_DblN_descend_se_FshComb(1)_DEVmult_2013 2.4292e-07 155 3 -10 10 2.42966e-07 2.42966e-07 act 1 1.5825e-06 dev 
+185 Size_DblN_descend_se_FshComb(1)_DEVmult_2014 1.07869e-07 156 3 -10 10 1.07919e-07 1.07919e-07 act 1 1.72633e-06 dev 
+186 Size_DblN_descend_se_FshComb(1)_DEVmult_2015 9.54635e-08 157 3 -10 10 9.54646e-08 9.54646e-08 act 1 4.06707e-08 dev 
+187 Size_DblN_descend_se_FshComb(1)_DEVmult_2016 -5.56454e-07 158 3 -10 10 -5.56558e-07 -5.56558e-07 act 1 -3.59258e-06 dev 
+188 Size_DblN_descend_se_FshComb(1)_DEVmult_2017 -1.69573e-07 159 3 -10 10 -1.69636e-07 -1.69636e-07 act 1 -2.18912e-06 dev 
+189 Size_DblN_descend_se_FshComb(1)_DEVmult_2018 -5.19207e-07 160 3 -10 10 -5.1935e-07 -5.1935e-07 act 1 -4.92409e-06 dev 
+190 Size_DblN_descend_se_FshComb(1)_DEVmult_2019 -6.84419e-08 161 3 -10 10 -6.84824e-08 -6.84824e-08 act 1 -1.39242e-06 dev 
+191 Size_DblN_descend_se_FshComb(1)_DEVmult_2020 2.96961e-08 162 3 -10 10 2.97257e-08 2.97257e-08 act 1 1.01581e-06 dev 
+192 Size_DblN_descend_se_FshComb(1)_DEVmult_2021 -7.86031e-07 163 3 -10 10 -7.86214e-07 -7.86214e-07 act 1 -6.29525e-06 dev 
+193 Size_DblN_descend_se_FshComb(1)_DEVmult_2022 -7.1256e-08 164 3 -10 10 -7.13062e-08 -7.13062e-08 act 1 -1.72892e-06 dev 
 #
 Number_of_parameters: 193
 Active_count: 164
@@ -574,12 +574,12 @@ B_ratio_denominator:  100%*Virgin_Biomass
  F_1998 0.279697 0.0342167 -21.0512 1.20987e-98
  F_1999 0.233481 0.0245039 -31.2814 4.74379e-215
  F_2000 0.405282 0.0534078 -11.1354 4.32775e-29
- F_2001 0.217695 0.0208367 -37.5446 1.00076e-308
+ F_2001 0.217695 0.0208367 -37.5446 1.00075e-308
  F_2002 0.265439 0.0308901 -23.7798 2.97455e-125
  F_2003 0.379279 0.0567908 -10.93 4.24728e-28
  F_2004 0.304925 0.0465523 -14.9311 1.08539e-50
  F_2005 0.193419 0.0210735 -38.2746 9.43171e-321
- F_2006 0.208399 0.0232502 -34.0471 2.57243e-254
+ F_2006 0.208399 0.0232502 -34.0471 2.57244e-254
  F_2007 0.379201 0.0386586 -16.0585 2.63216e-58
  F_2008 0.481938 0.0576453 -8.98707 1.28818e-19
  F_2009 0.566949 0.0734904 -5.89262 1.90695e-09
@@ -611,7 +611,7 @@ B_ratio_denominator:  100%*Virgin_Biomass
  F_2035 0.805084 0.200123 -0.97398 0.165033
  F_2036 0.805093 0.20012 -0.973949 0.165041
  F_2037 0.805094 0.200118 -0.973953 0.16504
- Bratio_1992 0.939042 0.00305208 -19.9727 5.14223e-89
+ Bratio_1992 0.939042 0.00305208 -19.9727 5.14224e-89
  Bratio_1993 0.810307 0.00860786 -22.0372 6.91299e-108
  Bratio_1994 0.739008 0.010145 -25.7262 3.3051e-146
  Bratio_1995 0.713237 0.0126409 -22.6853 3.42321e-114
@@ -631,16 +631,16 @@ B_ratio_denominator:  100%*Virgin_Biomass
  Bratio_2009 0.326446 0.021307 -31.6119 1.44282e-219
  Bratio_2010 0.265785 0.0193045 -38.0334 9.42038e-317
  Bratio_2011 0.247069 0.0190988 -39.423 0
- Bratio_2012 0.27933 0.0209836 -34.3444 9.81983e-259
+ Bratio_2012 0.27933 0.0209836 -34.3444 9.81982e-259
  Bratio_2013 0.271751 0.0213364 -34.1317 1.43449e-255
  Bratio_2014 0.259258 0.0209188 -35.4103 6.83345e-275
- Bratio_2015 0.254346 0.0205781 -36.2354 9.76098e-288
+ Bratio_2015 0.254346 0.0205781 -36.2354 9.76097e-288
  Bratio_2016 0.249059 0.0202617 -37.0622 6.63426e-301
  Bratio_2017 0.238104 0.02031 -37.5134 3.2358e-308
- Bratio_2018 0.226731 0.0214258 -36.0906 1.84164e-285
+ Bratio_2018 0.226731 0.0214258 -36.0906 1.84165e-285
  Bratio_2019 0.202943 0.0232788 -34.2396 3.57671e-257
  Bratio_2020 0.184643 0.0250909 -32.4961 6.91153e-232
- Bratio_2021 0.188203 0.0266317 -30.4824 2.52717e-204
+ Bratio_2021 0.188203 0.0266317 -30.4824 2.52718e-204
  Bratio_2022 0.199442 0.027461 -29.1525 4.37468e-187
  Bratio_2023 0.222115 0.0307175 -25.3238 9.68272e-142
  Bratio_2024 0.240426 0.0346318 -21.9329 6.88511e-107
@@ -662,7 +662,7 @@ Totbio_unfished 300091 13897.1
 SmryBio_unfished 300091 13897.1
 Recr_unfished 66171.2 0
 SSB_Btgt 83003.2 4520.3
-SPR_Btgt 0.35 7.20337e-18
+SPR_Btgt 0.35 5.27892e-18
 annF_Btgt 0.845269 0.0658613
 Dead_Catch_Btgt 43769.3 1189.42
 SSB_SPR 83003.2 4520.3
@@ -674,7 +674,7 @@ annF_MSY 0.845269 0.0658613
 Dead_Catch_MSY 43769.3 1189.42
 Ret_Catch_MSY 43769.3 1189.42
 B_MSY/SSB_unfished 0.35 7.86379e-09
-ForeCatch_2023 9071.87 1.73334e-11
+ForeCatch_2023 9071.87 1.69806e-11
 ForeCatch_2024 17237.5 4993.21
 ForeCatch_2025 18840.8 5251.19
 ForeCatch_2026 25985.3 10601.5
@@ -1726,7 +1726,7 @@ Fleet Fleet_Name Area Yr Seas Subseas Month Time Sexes Part Ageerr Lbin_lo Lbin_
 2 Srv 1 1997 1 1 1 1997 0 0 1 87 87  _  _ 0.56 1 1  2.39545 0.782405  6.999 7.15683 -0.157826 5.16898 9.34192 1.38549
 2 Srv 1 1997 1 1 1 1997 0 0 1 88 88  _  _ 1.4 1.81556 1.81556  20.6881 0.411655  7.5984 7.27674 0.321661 5.23165 9.52748 1.28414
 2 Srv 1 1997 1 1 1 1997 0 0 1 89 89  _  _ 1.12 1.45245 1.45245  16.3017 0.400753  7.998 7.40014 0.597867 5.3036 9.6805 -0.248373
-2 Srv 1 1997 1 1 1 1997 0 0 1 90 90  _  _ 1.54 1.99712 1.99712  15.3059 0.318916  7.86201 7.52673 0.335285 5.38806 9.80948 6.32791e-05
+2 Srv 1 1997 1 1 1 1997 0 0 1 90 90  _  _ 1.54 1.99712 1.99712  15.3059 0.318916  7.86201 7.52673 0.335285 5.38806 9.80948 6.32785e-05
 2 Srv 1 1997 1 1 1 1997 0 0 1 91 91  _  _ 1.12 1.45245 1.45245  16.7665 0.308067  8.37263 7.65616 0.716466 5.48898 9.92114 -0.570525
 2 Srv 1 1997 1 1 1 1997 0 0 1 92 92  _  _ 0.84 1.08934 1.08934  2.71929 1.0313  8.4975 7.78816 0.709346 5.61142 10 1.28762
 2 Srv 1 1997 1 1 1 1997 0 0 1 93 93  _  _ 1.26 1.63401 1.63401  7.10425 0.583707  8.27473 7.92264 0.352087 5.762 10 0.838537
@@ -2139,7 +2139,7 @@ Fleet Fleet_Name Area Yr Seas Subseas Month Time Sexes Part Ageerr Lbin_lo Lbin_
 2 Srv 1 2010 1 1 1 2010 0 0 1 35 35  _  _ 1.4 1.81556 1.81556  8.83049 0.386337  2.8032 3.02002 -0.216825 1 4.51905 0.722081
 2 Srv 1 2010 1 1 1 2010 0 0 1 36 36  _  _ 1.12 1.45245 1.45245  9.55767 0.314732  3.12787 3.08425 0.0436188 1 4.57623 1.08987
 2 Srv 1 2010 1 1 1 2010 0 0 1 37 37  _  _ 1.54 1.99712 1.99712  98.8624 0.109449  3.13909 3.14558 -0.00649452 2.01554 4.62152 1.21954
-2 Srv 1 2010 1 1 1 2010 0 0 1 38 38  _  _ 1.4 1.81556 1.81556  123.795 0.0874977  3.2028 3.2028 -4.15292e-06 2.03399 4.65811 0.936429
+2 Srv 1 2010 1 1 1 2010 0 0 1 38 38  _  _ 1.4 1.81556 1.81556  123.795 0.0874977  3.2028 3.2028 -4.1528e-06 2.03399 4.65811 0.936429
 2 Srv 1 2010 1 1 1 2010 0 0 1 39 39  _  _ 1.12 1.45245 1.45245  6.40187 0.364674  3.25275 3.25522 -0.00246941 2.05345 4.68853 1.17431
 2 Srv 1 2010 1 1 1 2010 0 0 1 40 40  _  _ 1.4 1.81556 1.81556  10.4591 0.421055  3.003 3.30266 -0.299664 2.07356 4.71477 0.163196
 2 Srv 1 2010 1 1 1 2010 0 0 1 41 41  _  _ 1.54 1.99712 1.99712  10.7657 0.30089  3.68413 3.34543 0.338703 2.09393 4.73849 0.212275
@@ -2601,7 +2601,7 @@ Lsel 1 2003 1 2003_1_Lsel 2.55343e-06 3.25282e-06 4.13445e-06 5.24312e-06 6.634e
 Lsel 1 2004 1 2004_1_Lsel 2.4243e-05 2.9607e-05 3.60894e-05 4.39079e-05 5.33189e-05 6.46244e-05 7.81786e-05 9.43965e-05 0.000113763 0.000136842 0.000164292 0.000196874 0.000235471 0.0002811 0.000334935 0.000398324 0.000472811 0.000560164 0.000662397 0.000781803 0.000920983 0.00108288 0.00127083 0.00148857 0.00174032 0.00203077 0.00236522 0.00274951 0.00319019 0.00369448 0.00427036 0.00492666 0.00567305 0.00652012 0.00747947 0.00856371 0.00978652 0.0111627 0.0127083 0.0144405 0.0163777 0.0185395 0.0209468 0.0236219 0.0265881 0.02987 0.0334934 0.0374852 0.0418731 0.0466859 0.0519533 0.0577053 0.0639726 0.0707861 0.0781767 0.0861754 0.0948122 0.104117 0.114118 0.124843 0.136316 0.148562 0.1616 0.17545 0.190126 0.205638 0.221995 0.239198 0.257245 0.276129 0.295838 0.316353 0.337648 0.359694 0.382452 0.40588 0.429926 0.454533 0.479637 0.505168 0.531049 0.557198 0.583525 0.609938 0.636337 0.662621 0.688681 0.71441 0.739694 0.764421 0.788476 0.811747 0.834119 0.855483 0.875731 0.894758 0.912465 0.928758 0.943549 0.956758 0.968313 0.978149 0.986212 0.992455 0.996844 0.999354 0.999999 1 1 1 1 1 0.999962 0.999955 0.999955 0.999955 0.999955
 Lsel 1 2005 1 2005_1_Lsel 1.87055e-06 2.46581e-06 3.24125e-06 4.24833e-06 5.55227e-06 7.23544e-06 9.4015e-06 1.21805e-05 1.57349e-05 2.02674e-05 2.60292e-05 3.33314e-05 4.25575e-05 5.41785e-05 6.8771e-05 8.70387e-05 0.000109837 0.0001382 0.00017338 0.000216878 0.000270496 0.000336381 0.00041709 0.000515651 0.000635637 0.000781248 0.000957405 0.00116985 0.00142525 0.00173133 0.00209698 0.00253242 0.00304934 0.00366102 0.00438253 0.00523088 0.00622518 0.0073868 0.00873952 0.0103097 0.0121264 0.0142214 0.0166296 0.0193887 0.0225394 0.0261253 0.0301932 0.0347923 0.0399746 0.0457944 0.0523079 0.059573 0.0676486 0.0765941 0.0864685 0.0973304 0.109236 0.122239 0.136389 0.151733 0.168308 0.186147 0.205275 0.225705 0.247442 0.270479 0.294796 0.320358 0.347117 0.375011 0.403961 0.433872 0.464634 0.49612 0.528189 0.560686 0.59344 0.626269 0.658979 0.691369 0.723227 0.754339 0.784487 0.813452 0.841017 0.866971 0.891111 0.913241 0.933182 0.950768 0.965849 0.978298 0.988008 0.994893 0.998894 0.999998 1 1 1 1 1 1 1 1 1 1 1 0.999962 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
 Lsel 1 2006 1 2006_1_Lsel 3.11327e-05 3.8538e-05 4.75993e-05 5.8661e-05 7.21335e-05 8.85038e-05 0.000108349 0.00013235 0.000161311 0.000196173 0.000238041 0.000288205 0.000348167 0.000419675 0.000504748 0.000605722 0.000725286 0.000866528 0.00103298 0.00122869 0.00145823 0.00172682 0.00204036 0.00240549 0.00282967 0.00332129 0.00388968 0.00454526 0.00529958 0.00616538 0.00715676 0.00828914 0.00957944 0.0110461 0.012709 0.01459 0.0167122 0.0191007 0.0217823 0.0247853 0.0281398 0.0318776 0.0360319 0.0406374 0.0457301 0.0513471 0.0575263 0.0643063 0.0717263 0.0798252 0.0886418 0.0982143 0.10858 0.119773 0.131827 0.144774 0.15864 0.173449 0.18922 0.205968 0.223702 0.242425 0.262133 0.282816 0.304454 0.327023 0.350486 0.374801 0.399915 0.425768 0.452287 0.479394 0.507001 0.535009 0.563315 0.591805 0.620359 0.64885 0.677147 0.705113 0.732608 0.759489 0.785613 0.810835 0.835015 0.85801 0.879687 0.899914 0.918567 0.93553 0.950697 0.963969 0.975263 0.984503 0.991631 0.996597 0.999371 0.999999 1 1 1 1 1 1 1 1 1 1 0.999958 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
-Lsel 1 2007 1 2007_1_Lsel 1.89027e-05 2.34444e-05 2.90151e-05 3.58322e-05 4.4156e-05 5.42966e-05 6.66224e-05 8.15707e-05 9.96581e-05 0.000121495 0.000147797 0.000179407 0.00021731 0.000262654 0.000316777 0.00038123 0.000457811 0.000548593 0.000655962 0.000782658 0.000931817 0.00110702 0.00131233 0.00155237 0.00183236 0.00215821 0.00253654 0.00297477 0.00348121 0.0040651 0.00473672 0.00550743 0.00638976 0.0073975 0.00854575 0.009851 0.0113312 0.0130057 0.0148957 0.0170235 0.0194135 0.0220913 0.0250845 0.0284219 0.0321341 0.0362531 0.0408119 0.0458453 0.0513886 0.0574783 0.0641513 0.0714451 0.0793969 0.088044 0.0974228 0.107569 0.118516 0.130296 0.142939 0.156472 0.170917 0.186295 0.202619 0.219899 0.23814 0.257339 0.277487 0.29857 0.320563 0.343436 0.36715 0.391657 0.4169 0.442816 0.469332 0.496365 0.523826 0.551617 0.579633 0.607762 0.635885 0.663878 0.691612 0.718955 0.745772 0.771925 0.797276 0.821688 0.845026 0.867158 0.887955 0.907294 0.925061 0.941147 0.955453 0.96789 0.978379 0.986855 0.993263 0.997562 0.999725 1 1 1 1 1 1 1 1 0.999994 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
+Lsel 1 2007 1 2007_1_Lsel 1.89027e-05 2.34444e-05 2.90151e-05 3.58322e-05 4.4156e-05 5.42966e-05 6.66224e-05 8.15707e-05 9.96582e-05 0.000121495 0.000147797 0.000179407 0.00021731 0.000262654 0.000316777 0.00038123 0.000457811 0.000548593 0.000655962 0.000782658 0.000931817 0.00110702 0.00131233 0.00155237 0.00183236 0.00215821 0.00253654 0.00297477 0.00348121 0.0040651 0.00473672 0.00550743 0.00638976 0.0073975 0.00854575 0.009851 0.0113312 0.0130057 0.0148957 0.0170235 0.0194135 0.0220913 0.0250845 0.0284219 0.0321341 0.0362531 0.0408119 0.0458453 0.0513886 0.0574783 0.0641513 0.0714451 0.0793969 0.088044 0.0974228 0.107569 0.118516 0.130296 0.142939 0.156472 0.170917 0.186295 0.202619 0.219899 0.23814 0.257339 0.277487 0.29857 0.320563 0.343436 0.36715 0.391657 0.4169 0.442816 0.469332 0.496365 0.523826 0.551617 0.579633 0.607762 0.635885 0.663878 0.691612 0.718955 0.745772 0.771925 0.797276 0.821688 0.845026 0.867158 0.887955 0.907294 0.925061 0.941147 0.955453 0.96789 0.978379 0.986855 0.993263 0.997562 0.999725 1 1 1 1 1 1 1 1 0.999994 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
 Lsel 1 2008 1 2008_1_Lsel 3.11517e-05 3.79637e-05 4.61775e-05 5.60617e-05 6.79324e-05 8.21602e-05 9.91791e-05 0.000119496 0.000143701 0.00017248 0.00020663 0.000247071 0.000294865 0.000351236 0.000417587 0.00049553 0.000586903 0.000693802 0.000818614 0.000964042 0.00113315 0.00132939 0.00155664 0.00181928 0.00212219 0.00247083 0.00287128 0.00333028 0.00385532 0.00445464 0.00513735 0.00591343 0.0067938 0.0077904 0.00891621 0.0101853 0.0116129 0.0132155 0.0150106 0.0170172 0.0192552 0.0217462 0.0245128 0.0275788 0.0309694 0.0347106 0.0388298 0.0433553 0.0483162 0.0537424 0.0596643 0.0661128 0.073119 0.0807139 0.0889284 0.0977926 0.107336 0.117586 0.128571 0.140315 0.15284 0.166166 0.180311 0.195289 0.211108 0.227775 0.24529 0.26365 0.282846 0.302862 0.323679 0.345268 0.367597 0.390627 0.41431 0.438593 0.463417 0.488715 0.514414 0.540435 0.566694 0.593098 0.619552 0.645956 0.672205 0.69819 0.723802 0.748926 0.773449 0.797257 0.820235 0.842271 0.863255 0.88308 0.901642 0.918845 0.934595 0.948808 0.961406 0.97232 0.981488 0.988858 0.99439 0.998052 0.999823 1 1 1 1 1 1 0.999981 0.999955 0.999955 0.999955 0.999955 0.999955
 Lsel 1 2009 1 2009_1_Lsel 1.43481e-05 1.78413e-05 2.21374e-05 2.7409e-05 3.38633e-05 4.17478e-05 5.13575e-05 6.30438e-05 7.7223e-05 9.43883e-05 0.000115121 0.000140107 0.00017015 0.000206191 0.000249329 0.000300845 0.000362225 0.000435192 0.000521734 0.000624143 0.000745049 0.000887465 0.00105483 0.00125108 0.00148064 0.00174856 0.00206053 0.00242293 0.00284296 0.00332864 0.00388892 0.00453375 0.00527414 0.00612226 0.0070915 0.00819654 0.00945342 0.0108796 0.0124941 0.0143173 0.0163713 0.0186798 0.0212681 0.0241629 0.0273928 0.0309878 0.0349792 0.0393999 0.044284 0.0496666 0.0555838 0.0620724 0.0691695 0.0769125 0.0853385 0.0944842 0.104385 0.115076 0.12659 0.138956 0.152203 0.166354 0.181431 0.197448 0.214419 0.232348 0.251235 0.271073 0.291851 0.313545 0.336129 0.359565 0.38381 0.408809 0.4345 0.460815 0.487673 0.514988 0.542665 0.570601 0.598686 0.626804 0.654833 0.682646 0.710112 0.737096 0.763462 0.789072 0.813789 0.837478 0.860006 0.881242 0.901062 0.91935 0.935994 0.950892 0.963952 0.975092 0.984242 0.991344 0.996353 0.999235 0.999998 1 1 1 1 1 1 1 0.99997 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
 Lsel 1 2010 1 2010_1_Lsel 9.1959e-06 1.13973e-05 1.40975e-05 1.74027e-05 2.14399e-05 2.63608e-05 3.23464e-05 3.96118e-05 4.8412e-05 5.90488e-05 7.18786e-05 8.73207e-05 0.000105868 0.000128098 0.000154685 0.000186416 0.000224206 0.000269117 0.000322377 0.000385404 0.00045983 0.00054753 0.00065065 0.000771643 0.000913301 0.0010788 0.00127174 0.00149617 0.00175669 0.00205844 0.00240719 0.00280939 0.00327222 0.00380366 0.00441255 0.00510866 0.00590274 0.00680658 0.00783309 0.00899636 0.0103117 0.0117956 0.0134661 0.0153423 0.017445 0.019796 0.0224189 0.0253385 0.0285808 0.0321736 0.0361453 0.040526 0.0453466 0.050639 0.0564357 0.06277 0.0696754 0.0771855 0.0853338 0.0941532 0.103676 0.113933 0.124955 0.136768 0.149397 0.162866 0.177194 0.192396 0.208483 0.225463 0.243338 0.262103 0.28175 0.302263 0.323619 0.345791 0.368741 0.392427 0.416797 0.441794 0.467352 0.493397 0.519851 0.546626 0.573628 0.600758 0.627911 0.654976 0.681839 0.708382 0.734484 0.760021 0.784871 0.808909 0.832014 0.854064 0.874941 0.894534 0.912733 0.929436 0.944549 0.957984 0.969664 0.97952 0.987494 0.993538 0.997616 0.999705 1 1 1 1 1 0.999957 0.999955 0.999955 0.999955
@@ -2696,8 +2696,8 @@ Keep 1 2006 1 2006_1_Keep 3.11327e-05 3.8538e-05 4.75993e-05 5.8661e-05 7.21335e
 Dead 1 2006 1 2006_1_Dead 3.11327e-05 3.8538e-05 4.75993e-05 5.8661e-05 7.21335e-05 8.85038e-05 0.000108349 0.00013235 0.000161311 0.000196173 0.000238041 0.000288205 0.000348167 0.000419675 0.000504748 0.000605722 0.000725286 0.000866528 0.00103298 0.00122869 0.00145823 0.00172682 0.00204036 0.00240549 0.00282967 0.00332129 0.00388968 0.00454526 0.00529958 0.00616538 0.00715676 0.00828914 0.00957944 0.0110461 0.012709 0.01459 0.0167122 0.0191007 0.0217823 0.0247853 0.0281398 0.0318776 0.0360319 0.0406374 0.0457301 0.0513471 0.0575263 0.0643063 0.0717263 0.0798252 0.0886418 0.0982143 0.10858 0.119773 0.131827 0.144774 0.15864 0.173449 0.18922 0.205968 0.223702 0.242425 0.262133 0.282816 0.304454 0.327023 0.350486 0.374801 0.399915 0.425768 0.452287 0.479394 0.507001 0.535009 0.563315 0.591805 0.620359 0.64885 0.677147 0.705113 0.732608 0.759489 0.785613 0.810835 0.835015 0.85801 0.879687 0.899914 0.918567 0.93553 0.950697 0.963969 0.975263 0.984503 0.991631 0.996597 0.999371 0.999999 1 1 1 1 1 1 1 1 1 1 0.999958 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
 Ret 1 2007 1 2007_1_Ret 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 Mort 1 2007 1 2007_1_Mort 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-Keep 1 2007 1 2007_1_Keep 1.89027e-05 2.34444e-05 2.90151e-05 3.58322e-05 4.4156e-05 5.42966e-05 6.66224e-05 8.15707e-05 9.96581e-05 0.000121495 0.000147797 0.000179407 0.00021731 0.000262654 0.000316777 0.00038123 0.000457811 0.000548593 0.000655962 0.000782658 0.000931817 0.00110702 0.00131233 0.00155237 0.00183236 0.00215821 0.00253654 0.00297477 0.00348121 0.0040651 0.00473672 0.00550743 0.00638976 0.0073975 0.00854575 0.009851 0.0113312 0.0130057 0.0148957 0.0170235 0.0194135 0.0220913 0.0250845 0.0284219 0.0321341 0.0362531 0.0408119 0.0458453 0.0513886 0.0574783 0.0641513 0.0714451 0.0793969 0.088044 0.0974228 0.107569 0.118516 0.130296 0.142939 0.156472 0.170917 0.186295 0.202619 0.219899 0.23814 0.257339 0.277487 0.29857 0.320563 0.343436 0.36715 0.391657 0.4169 0.442816 0.469332 0.496365 0.523826 0.551617 0.579633 0.607762 0.635885 0.663878 0.691612 0.718955 0.745772 0.771925 0.797276 0.821688 0.845026 0.867158 0.887955 0.907294 0.925061 0.941147 0.955453 0.96789 0.978379 0.986855 0.993263 0.997562 0.999725 1 1 1 1 1 1 1 1 0.999994 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
-Dead 1 2007 1 2007_1_Dead 1.89027e-05 2.34444e-05 2.90151e-05 3.58322e-05 4.4156e-05 5.42966e-05 6.66224e-05 8.15707e-05 9.96581e-05 0.000121495 0.000147797 0.000179407 0.00021731 0.000262654 0.000316777 0.00038123 0.000457811 0.000548593 0.000655962 0.000782658 0.000931817 0.00110702 0.00131233 0.00155237 0.00183236 0.00215821 0.00253654 0.00297477 0.00348121 0.0040651 0.00473672 0.00550743 0.00638976 0.0073975 0.00854575 0.009851 0.0113312 0.0130057 0.0148957 0.0170235 0.0194135 0.0220913 0.0250845 0.0284219 0.0321341 0.0362531 0.0408119 0.0458453 0.0513886 0.0574783 0.0641513 0.0714451 0.0793969 0.088044 0.0974228 0.107569 0.118516 0.130296 0.142939 0.156472 0.170917 0.186295 0.202619 0.219899 0.23814 0.257339 0.277487 0.29857 0.320563 0.343436 0.36715 0.391657 0.4169 0.442816 0.469332 0.496365 0.523826 0.551617 0.579633 0.607762 0.635885 0.663878 0.691612 0.718955 0.745772 0.771925 0.797276 0.821688 0.845026 0.867158 0.887955 0.907294 0.925061 0.941147 0.955453 0.96789 0.978379 0.986855 0.993263 0.997562 0.999725 1 1 1 1 1 1 1 1 0.999994 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
+Keep 1 2007 1 2007_1_Keep 1.89027e-05 2.34444e-05 2.90151e-05 3.58322e-05 4.4156e-05 5.42966e-05 6.66224e-05 8.15707e-05 9.96582e-05 0.000121495 0.000147797 0.000179407 0.00021731 0.000262654 0.000316777 0.00038123 0.000457811 0.000548593 0.000655962 0.000782658 0.000931817 0.00110702 0.00131233 0.00155237 0.00183236 0.00215821 0.00253654 0.00297477 0.00348121 0.0040651 0.00473672 0.00550743 0.00638976 0.0073975 0.00854575 0.009851 0.0113312 0.0130057 0.0148957 0.0170235 0.0194135 0.0220913 0.0250845 0.0284219 0.0321341 0.0362531 0.0408119 0.0458453 0.0513886 0.0574783 0.0641513 0.0714451 0.0793969 0.088044 0.0974228 0.107569 0.118516 0.130296 0.142939 0.156472 0.170917 0.186295 0.202619 0.219899 0.23814 0.257339 0.277487 0.29857 0.320563 0.343436 0.36715 0.391657 0.4169 0.442816 0.469332 0.496365 0.523826 0.551617 0.579633 0.607762 0.635885 0.663878 0.691612 0.718955 0.745772 0.771925 0.797276 0.821688 0.845026 0.867158 0.887955 0.907294 0.925061 0.941147 0.955453 0.96789 0.978379 0.986855 0.993263 0.997562 0.999725 1 1 1 1 1 1 1 1 0.999994 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
+Dead 1 2007 1 2007_1_Dead 1.89027e-05 2.34444e-05 2.90151e-05 3.58322e-05 4.4156e-05 5.42966e-05 6.66224e-05 8.15707e-05 9.96582e-05 0.000121495 0.000147797 0.000179407 0.00021731 0.000262654 0.000316777 0.00038123 0.000457811 0.000548593 0.000655962 0.000782658 0.000931817 0.00110702 0.00131233 0.00155237 0.00183236 0.00215821 0.00253654 0.00297477 0.00348121 0.0040651 0.00473672 0.00550743 0.00638976 0.0073975 0.00854575 0.009851 0.0113312 0.0130057 0.0148957 0.0170235 0.0194135 0.0220913 0.0250845 0.0284219 0.0321341 0.0362531 0.0408119 0.0458453 0.0513886 0.0574783 0.0641513 0.0714451 0.0793969 0.088044 0.0974228 0.107569 0.118516 0.130296 0.142939 0.156472 0.170917 0.186295 0.202619 0.219899 0.23814 0.257339 0.277487 0.29857 0.320563 0.343436 0.36715 0.391657 0.4169 0.442816 0.469332 0.496365 0.523826 0.551617 0.579633 0.607762 0.635885 0.663878 0.691612 0.718955 0.745772 0.771925 0.797276 0.821688 0.845026 0.867158 0.887955 0.907294 0.925061 0.941147 0.955453 0.96789 0.978379 0.986855 0.993263 0.997562 0.999725 1 1 1 1 1 1 1 1 0.999994 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955 0.999955
 Ret 1 2008 1 2008_1_Ret 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 Mort 1 2008 1 2008_1_Mort 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 Keep 1 2008 1 2008_1_Keep 3.11517e-05 3.79637e-05 4.61775e-05 5.60617e-05 6.79324e-05 8.21602e-05 9.91791e-05 0.000119496 0.000143701 0.00017248 0.00020663 0.000247071 0.000294865 0.000351236 0.000417587 0.00049553 0.000586903 0.000693802 0.000818614 0.000964042 0.00113315 0.00132939 0.00155664 0.00181928 0.00212219 0.00247083 0.00287128 0.00333028 0.00385532 0.00445464 0.00513735 0.00591343 0.0067938 0.0077904 0.00891621 0.0101853 0.0116129 0.0132155 0.0150106 0.0170172 0.0192552 0.0217462 0.0245128 0.0275788 0.0309694 0.0347106 0.0388298 0.0433553 0.0483162 0.0537424 0.0596643 0.0661128 0.073119 0.0807139 0.0889284 0.0977926 0.107336 0.117586 0.128571 0.140315 0.15284 0.166166 0.180311 0.195289 0.211108 0.227775 0.24529 0.26365 0.282846 0.302862 0.323679 0.345268 0.367597 0.390627 0.41431 0.438593 0.463417 0.488715 0.514414 0.540435 0.566694 0.593098 0.619552 0.645956 0.672205 0.69819 0.723802 0.748926 0.773449 0.797257 0.820235 0.842271 0.863255 0.88308 0.901642 0.918845 0.934595 0.948808 0.961406 0.97232 0.981488 0.988858 0.99439 0.998052 0.999823 1 1 1 1 1 1 0.999981 0.999955 0.999955 0.999955 0.999955 0.999955
@@ -3284,7 +3284,7 @@ Area Bio_Pattern Sex BirthSeas Settlement Platoon Morph Yr Seas Time Beg/Mid Era
 Area Bio_Pattern Sex BirthSeas Settlement Platoon Morph Yr Seas Time Beg/Mid Era  0.5 1.5 2.5 3.5 4.5 5.5 6.5 7.5 8.5 9.5 10.5 11.5 12.5 13.5 14.5 15.5 16.5 17.5 18.5 19.5 20.5 21.5 22.5 23.5 24.5 25.5 26.5 27.5 28.5 29.5 30.5 31.5 32.5 33.5 34.5 35.5 36.5 37.5 38.5 39.5 40.5 41.5 42.5 43.5 44.5 45.5 46.5 47.5 48.5 49.5 50.5 51.5 52.5 53.5 54.5 55.5 56.5 57.5 58.5 59.5 60.5 61.5 62.5 63.5 64.5 65.5 66.5 67.5 68.5 69.5 70.5 71.5 72.5 73.5 74.5 75.5 76.5 77.5 78.5 79.5 80.5 81.5 82.5 83.5 84.5 85.5 86.5 87.5 88.5 89.5 90.5 91.5 92.5 93.5 94.5 95.5 96.5 97.5 98.5 99.5 100.5 101.5 102.5 103.5 104.5 105.5 106.5 107.5 108.5 109.5 110.5 111.5 112.5 113.5 114.5 115.5 116.5
 1 1 1 1 1 1 1 1991 1 1991 B  TIME  31048.3 2671.31 2693.09 2697.01 2684.92 2659.23 2622.77 2578.6 2529.84 2479.46 2430.1 2383.91 2342.44 2306.53 2276.36 2251.43 2230.65 2212.51 2195.22 2176.91 2155.84 2130.52 2099.94 2063.61 2021.67 1974.84 1924.4 1872.02 1819.65 1769.34 1722.98 1682.19 1648.1 1621.27 1601.63 1588.5 1580.65 1576.44 1574.01 1571.47 1567.1 1559.53 1547.9 1531.86 1511.66 1488.03 1462.05 1435 1408.19 1382.74 1359.46 1338.75 1320.59 1304.59 1290.05 1276.15 1262.06 1247.12 1230.87 1213.16 1194.11 1174.06 1153.45 1132.75 1112.34 1092.46 1073.17 1054.4 1035.95 1017.6 999.148 980.438 961.418 942.1 922.552 902.865 883.118 863.359 843.605 823.842 804.032 784.136 764.113 743.92 723.508 702.819 681.768 660.243 638.11 615.233 591.502 566.888 541.494 515.612 489.75 464.627 441.098 420.021 402.065 387.51 376.078 366.862 358.398 348.873 336.457 319.673 297.704 270.587 239.206 205.122 170.271 136.612 105.817 79.0623 56.9452 39.5196 67.9464
 1 1 1 1 1 1 1 1991 1 1991.5 M  TIME  7978.24 1300.64 1426.5 1549 1665.41 1773.08 1869.5 1952.48 2020.24 2071.57 2105.85 2123.16 2124.28 2110.67 2084.38 2047.98 2004.38 1956.68 1908 1861.24 1818.95 1783.13 1755.15 1735.62 1724.44 1720.76 1723.15 1729.69 1738.16 1746.26 1751.83 1753 1748.42 1737.33 1719.62 1695.83 1667.08 1634.9 1601.06 1567.42 1535.63 1507.03 1482.48 1462.28 1446.2 1433.5 1423.09 1413.66 1403.94 1392.78 1379.39 1363.33 1344.63 1323.68 1301.15 1277.88 1254.67 1232.22 1210.97 1191.07 1172.41 1154.67 1137.41 1120.15 1102.53 1084.3 1065.39 1045.89 1025.96 1005.83 985.715 965.751 946 926.447 907.026 887.648 868.228 848.717 829.092 809.358 789.537 769.652 749.717 729.733 709.676 689.515 669.2 648.66 627.813 606.561 584.8 562.432 539.406 515.747 491.606 467.289 443.262 420.118 398.483 378.887 361.609 346.541 333.117 320.346 306.956 291.641 273.338 251.474 226.119 197.99 168.316 138.604 110.36 84.8466 62.9208 44.9725 83.0469
-1 1 1 1 1 1 1 1992 1 1992 B  TIME  30906.2 2659.52 2681.36 2685.46 2673.65 2648.35 2612.36 2568.74 2520.6 2470.89 2422.22 2376.74 2335.97 2300.76 2271.26 2246.95 2226.76 2209.16 2192.36 2174.48 2153.78 2128.79 2098.49 2062.38 2020.62 1973.93 1923.58 1871.26 1818.92 1768.61 1722.23 1681.38 1647.22 1620.3 1600.56 1587.32 1579.34 1575 1572.42 1569.72 1565.17 1557.42 1545.57 1529.27 1508.79 1484.83 1458.48 1431.02 1403.75 1377.8 1353.97 1332.69 1313.93 1297.3 1282.13 1267.58 1252.83 1237.21 1220.26 1201.83 1182.03 1161.18 1139.74 1118.17 1096.86 1076.07 1055.86 1036.18 1016.84 997.643 978.372 958.892 939.147 919.153 898.98 878.719 858.455 838.243 818.104 798.033 777.995 757.958 737.88 717.721 697.432 676.955 656.205 635.073 613.423 591.124 568.063 544.207 519.651 494.668 469.739 445.549 422.911 402.644 385.384 371.396 360.412 351.56 343.434 334.296 322.393 306.306 285.252 259.267 229.198 196.54 163.146 130.895 101.389 75.754 54.5624 37.8659 65.1031
+1 1 1 1 1 1 1 1992 1 1992 B  TIME  30906.2 2659.52 2681.36 2685.46 2673.65 2648.35 2612.36 2568.74 2520.6 2470.89 2422.22 2376.74 2335.97 2300.76 2271.26 2246.95 2226.76 2209.16 2192.36 2174.48 2153.78 2128.79 2098.49 2062.38 2020.62 1973.93 1923.58 1871.26 1818.92 1768.61 1722.23 1681.38 1647.22 1620.3 1600.56 1587.32 1579.34 1575 1572.42 1569.72 1565.17 1557.42 1545.57 1529.27 1508.79 1484.83 1458.48 1431.02 1403.75 1377.8 1353.97 1332.69 1313.93 1297.3 1282.13 1267.58 1252.83 1237.21 1220.26 1201.83 1182.03 1161.18 1139.74 1118.17 1096.86 1076.07 1055.86 1036.18 1016.84 997.643 978.372 958.892 939.148 919.153 898.98 878.719 858.455 838.243 818.104 798.033 777.995 757.958 737.88 717.721 697.432 676.955 656.205 635.073 613.423 591.124 568.063 544.207 519.651 494.668 469.739 445.549 422.911 402.644 385.384 371.396 360.412 351.56 343.434 334.296 322.393 306.306 285.252 259.267 229.198 196.54 163.146 130.895 101.389 75.754 54.5624 37.8659 65.1031
 1 1 1 1 1 1 1 1992 1 1992.5 M  TIME  7940.35 1294.47 1419.73 1541.65 1657.52 1764.68 1860.65 1943.25 2010.7 2061.8 2095.95 2113.21 2114.36 2100.86 2074.77 2038.61 1995.31 1947.94 1899.61 1853.21 1811.27 1775.79 1748.1 1728.84 1717.88 1714.38 1716.9 1723.51 1732.01 1740.09 1745.56 1746.59 1741.81 1730.43 1712.33 1688.07 1658.72 1625.82 1591.13 1556.51 1523.61 1493.78 1467.9 1446.3 1428.75 1414.54 1402.61 1391.66 1380.42 1367.75 1352.82 1335.2 1314.87 1292.21 1267.87 1242.65 1217.37 1192.73 1169.2 1146.97 1125.97 1105.9 1086.37 1066.94 1047.23 1027.01 1006.21 984.881 963.208 941.406 919.685 898.202 877.038 856.2 835.646 815.306 795.109 775.015 755.001 735.072 715.246 695.543 675.975 656.538 637.211 617.96 598.732 579.458 560.055 540.426 520.467 500.08 479.209 457.864 436.167 414.38 392.905 372.257 352.982 335.543 320.179 306.791 294.872 283.542 271.674 258.107 241.902 222.547 200.107 175.212 148.951 122.656 97.6615 75.0839 55.6809 39.7977 73.491
 1 1 1 1 1 1 1 1993 1 1993 B  TIME  18612.8 1639.44 1666.39 1685.56 1698.33 1706.4 1711.6 1715.84 1720.92 1728.44 1739.61 1755.21 1775.49 1800.14 1828.33 1858.7 1889.56 1918.91 1944.71 1964.97 1977.96 1982.37 1977.42 1962.9 1939.32 1907.77 1869.89 1827.71 1783.54 1739.72 1698.43 1661.52 1630.35 1605.66 1587.53 1575.4 1568.14 1564.18 1561.74 1558.94 1554.1 1545.85 1533.32 1516.16 1494.6 1469.34 1441.46 1412.25 1383.01 1354.87 1328.68 1304.88 1283.5 1264.17 1246.24 1228.89 1211.32 1192.83 1172.95 1151.49 1128.56 1104.45 1079.6 1054.5 1029.56 1005.08 981.186 957.866 934.999 912.414 889.939 867.449 844.901 822.31 799.751 777.323 755.124 733.228 711.681 690.496 669.661 649.157 628.951 609.006 589.279 569.709 550.219 530.705 511.042 491.103 470.78 450.025 428.896 407.593 386.492 366.13 347.152 330.211 315.81 304.152 295.003 287.64 280.905 273.369 263.592 250.41 233.181 211.928 187.342 160.644 133.347 106.985 82.8681 61.9156 44.5949 30.9485 53.2097
 1 1 1 1 1 1 1 1993 1 1993.5 M  TIME  4743.29 773.883 849.124 922.555 992.638 1057.88 1116.92 1168.59 1212.03 1246.71 1272.55 1289.84 1299.37 1302.33 1300.26 1295 1288.56 1282.99 1280.26 1282.1 1289.88 1304.5 1326.3 1355.01 1389.75 1429.12 1471.23 1513.88 1554.72 1591.46 1622.02 1644.71 1658.44 1662.69 1657.67 1644.24 1623.78 1598.11 1569.28 1539.35 1510.21 1483.36 1459.83 1440.07 1423.93 1410.77 1399.58 1389.11 1378.09 1365.41 1350.24 1332.15 1311.13 1287.56 1262.09 1235.55 1208.77 1182.46 1157.1 1132.91 1109.81 1087.53 1065.65 1043.73 1021.4 998.4 974.651 950.219 925.287 900.097 874.892 849.87 825.154 800.798 776.8 753.124 729.73 706.602 683.74 661.173 638.941 617.091 595.658 574.666 554.116 533.992 514.26 494.863 475.728 456.767 437.881 418.972 399.975 380.875 361.747 342.78 324.274 306.626 290.256 275.518 262.586 251.357 241.402 231.985 222.172 211.007 197.711 181.861 163.504 143.151 121.688 100.202 79.781 61.3358 45.4849 32.5099 60.0324
@@ -3408,7 +3408,7 @@ Area Bio_Pattern Sex BirthSeas Settlement Platoon Morph Yr Seas Time Beg/Mid Era
 1 1 1 1 1 1 1 2004 1 2004 B  TIME  0.109562 0.08442 0.307466 0.764701 1.53891 2.70377 4.32068 6.43817 9.09383 12.3182 16.1401 20.5917 25.7133 31.5564 38.1833 45.6652 54.0779 63.4959 73.9869 85.6096 98.4141 112.45 127.78 144.499 162.762 182.812 205.005 229.83 257.918 290.025 327.009 369.769 419.168 475.95 540.635 613.435 694.185 782.305 876.816 976.405 1079.55 1184.66 1290.3 1395.33 1499.11 1601.58 1703.27 1805.26 1908.98 2015.97 2127.64 2244.93 2368.11 2496.63 2629.15 2763.62 2897.59 3028.48 3153.95 3272.21 3382.17 3483.5 3576.53 3661.98 3740.67 3813.21 3879.76 3939.96 3992.96 4037.72 4073.2 4098.77 4114.53 4121.37 4121.07 4116.12 4109.44 4104 4102.39 4106.43 4116.75 4132.7 4152.11 4171.4 4185.83 4189.84 4177.57 4143.37 4082.38 3991.09 3867.64 3712.12 3526.76 3315.78 3085.24 2842.69 2596.61 2355.68 2127.95 1919.95 1735.8 1576.72 1440.91 1323.92 1219.58 1121.22 1022.98 920.936 813.653 702.26 589.907 480.87 379.544 289.575 213.297 151.541 266.235
 1 1 1 1 1 1 1 2004 1 2004.5 M  TIME  0.0282365 0.0415799 0.165245 0.447271 0.97649 1.85421 3.18812 5.08467 7.6407 10.9352 15.0221 19.9255 25.6384 32.125 39.3267 47.1731 55.5951 64.5401 73.9868 83.9577 94.528 105.828 118.037 131.378 146.091 162.42 180.589 200.781 223.129 247.716 274.59 303.794 335.404 369.585 406.641 447.068 491.572 541.075 596.678 659.587 731.002 811.973 903.248 1005.13 1117.37 1239.1 1368.86 1504.72 1644.43 1785.69 1926.4 2064.93 2200.29 2332.26 2461.32 2588.49 2715.11 2842.46 2971.43 3102.29 3234.47 3366.61 3496.68 3622.29 3741 3850.6 3949.49 4036.66 4111.73 4174.8 4226.18 4266.22 4295.13 4312.93 4319.58 4315.14 4299.98 4275.04 4241.86 4202.6 4159.81 4116.14 4073.9 4034.67 3998.88 3965.63 3932.61 3896.17 3851.72 3794.19 3718.6 3620.69 3497.51 3347.86 3172.63 2974.82 2759.41 2532.99 2303.04 2077.24 1862.5 1664.2 1485.52 1327.16 1187.5 1063.14 949.847 843.47 740.889 640.524 542.483 448.262 360.168 280.626 211.584 154.122 288.859
 1 1 1 1 1 1 1 2005 1 2005 B  TIME  0.0494169 0.0401084 0.148729 0.378077 0.781095 1.41571 2.34606 3.64472 5.39573 7.69756 10.6655 14.432 19.1452 24.9636 32.0474 40.5472 50.5893 62.2609 75.5953 90.5607 107.054 124.9 143.864 163.665 184.006 204.602 225.217 245.696 265.992 286.188 306.496 327.252 348.885 371.887 396.764 423.994 453.991 487.087 523.53 563.519 607.249 654.988 707.147 764.344 827.46 897.618 976.134 1064.4 1163.73 1275.13 1399.13 1535.58 1683.6 1841.48 2006.87 2176.94 2348.72 2519.37 2686.54 2848.56 3004.61 3154.58 3298.95 3438.44 3573.72 3705.03 3832.02 3953.65 4068.26 4173.85 4268.3 4349.65 4416.4 4467.53 4502.56 4521.45 4524.49 4512.22 4485.34 4444.82 4391.87 4328.14 4255.63 4176.64 4093.61 4008.75 3923.67 3839.04 3754.32 3667.68 3576.12 3475.91 3363.16 3234.58 3088.14 2923.73 2743.36 2551.12 2352.63 2154.18 1961.69 1779.73 1610.83 1455.22 1311.22 1175.91 1046.19 919.671 795.398 674.013 557.539 448.781 350.611 265.31 194.143 137.212 239.152
-1 1 1 1 1 1 1 2005 1 2005.5 M  TIME  0.012506 0.0184488 0.0733867 0.198887 0.434948 0.827778 1.42759 2.28602 3.45351 4.97723 6.9001 9.26122 12.0986 15.4539 19.3795 23.947 29.2564 35.4457 42.6967 51.2391 61.3472 73.3313 87.5205 104.239 123.777 146.354 172.087 200.96 232.802 267.276 303.893 342.03 380.982 420.014 458.432 495.665 531.316 565.222 597.479 628.448 658.723 689.077 720.394 753.59 789.549 829.07 872.857 921.539 975.723 1036.07 1103.39 1178.65 1263.03 1357.85 1464.45 1583.99 1717.23 1864.32 2024.6 2196.55 2377.75 2565.13 2755.19 2944.4 3129.5 3307.79 3477.36 3637.06 3786.34 3925.07 4053.2 4170.5 4276.38 4369.84 4449.55 4514.02 4561.79 4591.69 4602.95 4595.3 4568.98 4524.75 4463.85 4387.94 4299.05 4199.57 4092.01 3978.87 3862.35 3744.04 3624.63 3503.74 3379.95 3251.02 3114.33 2967.48 2808.91 2638.43 2457.45 2268.96 2077.11 1886.48 1701.35 1524.97 1359.13 1204.19 1059.39 923.455 795.228 674.194 560.694 455.827 361.109 278.004 207.515 149.908 277.181
+1 1 1 1 1 1 1 2005 1 2005.5 M  TIME  0.012506 0.0184488 0.0733867 0.198887 0.434948 0.827778 1.42759 2.28602 3.45351 4.97723 6.9001 9.26122 12.0986 15.4539 19.3795 23.947 29.2564 35.4457 42.6967 51.2391 61.3472 73.3313 87.5205 104.239 123.777 146.354 172.087 200.96 232.802 267.276 303.893 342.03 380.982 420.014 458.432 495.665 531.316 565.222 597.479 628.448 658.723 689.077 720.394 753.59 789.549 829.07 872.857 921.539 975.723 1036.07 1103.39 1178.65 1263.03 1357.85 1464.45 1583.99 1717.23 1864.32 2024.6 2196.55 2377.75 2565.13 2755.19 2944.4 3129.5 3307.79 3477.36 3637.06 3786.34 3925.07 4053.2 4170.5 4276.38 4369.84 4449.55 4514.02 4561.79 4591.69 4602.95 4595.3 4568.98 4524.75 4463.85 4387.94 4299.05 4199.57 4092.01 3978.87 3862.35 3744.04 3624.63 3503.74 3379.95 3251.02 3114.33 2967.48 2808.91 2638.43 2457.45 2268.96 2077.11 1886.48 1701.35 1524.97 1359.13 1204.19 1059.39 923.455 795.228 674.194 560.694 455.828 361.109 278.004 207.515 149.908 277.181
 1 1 1 1 1 1 1 2006 1 2006 B  TIME  0.114123 0.0868848 0.315073 0.779397 1.55803 2.71493 4.29519 6.32313 8.80311 11.7229 15.0591 18.7833 22.8688 27.2959 32.0561 37.1541 42.6073 48.4445 54.7031 61.4273 68.6676 76.4837 84.951 94.169 104.277 115.468 128 142.21 158.512 177.393 199.389 225.052 254.897 289.352 328.688 372.964 421.979 475.243 531.98 591.161 651.569 711.902 770.887 827.394 880.586 929.982 975.529 1017.62 1057.04 1094.94 1132.67 1171.7 1213.56 1259.69 1311.5 1370.32 1437.46 1514.25 1602.03 1702.16 1815.87 1944.13 2087.41 2245.51 2417.33 2600.83 2793.06 2990.37 3188.64 3383.72 3571.73 3749.31 3913.89 4063.56 4197.04 4313.45 4412.14 4492.42 4553.57 4594.81 4615.33 4614.57 4592.22 4548.43 4483.87 4399.7 4297.56 4179.45 4047.58 3904.21 3751.47 3591.26 3425.19 3254.62 3080.83 2905.26 2729.7 2556.37 2387.8 2226.45 2074.17 1931.59 1797.8 1670.32 1545.51 1419.44 1288.86 1152.17 1009.88 864.682 720.927 583.749 458.074 347.766 255.098 180.616 315.558
 1 1 1 1 1 1 1 2006 1 2006.5 M  TIME  0.0295308 0.0434689 0.172717 0.467367 1.01998 1.93583 3.32623 5.30021 7.95512 11.3672 15.5833 20.6138 26.43 32.9648 40.1166 47.7584 55.7503 63.9538 72.2468 80.538 88.779 96.9706 105.166 113.465 122.008 130.961 140.501 150.802 162.023 174.306 187.779 202.566 218.813 236.713 256.531 278.639 303.521 331.773 364.083 401.18 443.762 492.407 547.475 609.01 676.669 749.677 826.834 906.571 987.064 1066.39 1142.72 1214.48 1280.56 1340.4 1394.1 1442.39 1486.56 1528.38 1569.93 1613.46 1661.3 1715.72 1778.91 1852.92 1939.56 2040.36 2156.43 2288.29 2435.67 2597.42 2771.37 2954.42 3142.62 3331.48 3516.32 3692.58 3856.12 4003.49 4131.91 4239.36 4324.37 4385.95 4423.47 4436.56 4425.12 4389.38 4329.97 4247.92 4144.78 4022.52 3883.48 3730.19 3565.31 3391.39 3210.89 3026.12 2839.26 2652.5 2468.05 2288.09 2114.59 1949.05 1792.18 1643.65 1502.1 1365.44 1231.37 1098.01 964.579 831.665 701.28 576.466 460.674 357.062 267.918 194.315 361.332
 1 1 1 1 1 1 1 2007 1 2007 B  TIME  0.0568888 0.0458493 0.169616 0.429959 0.885337 1.5985 2.63745 4.07763 6.00501 8.51932 11.7366 15.79 20.8283 27.0104 34.4966 43.436 53.9511 66.1206 79.9629 95.4218 112.357 130.542 149.671 169.368 189.219 208.798 227.7 245.578 262.179 277.364 291.128 303.598 315.028 325.772 336.256 346.943 358.301 370.776 384.784 400.709 418.926 439.832 463.88 491.608 523.674 560.832 603.902 653.696 710.912 776.007 849.068 929.699 1016.95 1109.31 1204.77 1300.97 1395.39 1485.64 1569.64 1645.95 1713.86 1773.55 1826.03 1873.1 1917.22 1961.27 2008.37 2061.68 2124.19 2198.57 2286.94 2390.71 2510.44 2645.63 2794.66 2954.79 3122.26 3292.45 3460.26 3620.46 3767.95 3898.19 4007.32 4092.27 4150.74 4181.16 4182.55 4154.46 4096.86 4010.23 3895.58 3754.66 3590.14 3405.8 3206.66 2998.95 2789.88 2587.06 2397.63 2227.26 2079.1 1953.04 1845.5 1749.92 1657.91 1560.93 1452.03 1327.25 1186.43 1033.09 873.561 715.602 566.882 433.683 320.094 227.765 400.995
@@ -3444,7 +3444,7 @@ Area Bio_Pattern Sex BirthSeas Settlement Platoon Morph Yr Seas Time Beg/Mid Era
 1 1 1 1 1 1 1 2022 1 2022 B  TIME  0.0897687 0.0689744 0.250958 0.623376 1.25256 2.19651 3.50202 5.20396 7.32661 9.88671 12.8976 16.3738 20.3346 24.8068 29.8251 35.4306 41.6663 48.573 56.1827 64.5152 73.575 83.3539 93.8369 105.012 116.887 129.508 142.974 157.454 173.196 190.526 209.833 231.549 256.102 283.874 315.141 350.023 388.439 430.077 474.387 520.606 567.806 614.973 661.099 705.273 746.803 785.264 820.553 852.889 882.778 910.926 938.144 965.225 992.842 1021.47 1051.34 1082.45 1114.63 1147.6 1181.04 1214.7 1248.42 1282.08 1315.6 1348.82 1381.38 1412.65 1441.66 1467.15 1487.66 1501.68 1507.81 1505.06 1492.91 1471.5 1441.6 1404.58 1362.25 1316.67 1269.95 1224 1180.37 1140.16 1103.88 1071.51 1042.53 1016.02 990.815 965.614 939.143 910.282 878.15 842.188 802.201 758.376 711.279 661.825 611.212 560.814 512.032 466.119 423.992 386.093 352.316 322.045 294.29 267.921 241.913 215.581 188.702 161.542 134.757 109.214 85.7921 65.2027 47.8774 33.9298 59.3783
 1 1 1 1 1 1 1 2022 1 2022.5 M  TIME  0.0231573 0.0340974 0.135502 0.366741 0.800605 1.52005 2.61315 4.16679 6.25964 8.95529 12.2962 16.2995 20.9553 26.2287 32.0641 38.394 45.1488 52.2697 59.7202 67.4965 75.6353 84.2154 93.3557 103.206 113.933 125.703 138.664 152.924 168.545 185.528 203.826 223.353 244.012 265.724 288.467 312.317 337.464 364.23 393.06 424.49 459.09 497.392 539.8 586.503 637.402 692.059 749.69 809.193 869.234 928.363 985.156 1038.35 1087.01 1130.57 1168.94 1202.42 1231.68 1257.62 1281.23 1303.43 1325.01 1346.51 1368.25 1390.31 1412.61 1434.95 1457.06 1478.6 1499.14 1518.12 1534.79 1548.17 1557.11 1560.32 1556.54 1544.72 1524.13 1494.6 1456.56 1411 1359.49 1303.93 1246.36 1188.76 1132.8 1079.74 1030.26 984.494 942.074 902.23 863.944 826.103 787.671 747.81 705.998 662.084 616.304 569.258 521.822 475.036 429.944 387.442 348.132 312.241 279.613 249.777 222.095 195.929 170.806 146.521 123.167 101.078 80.721 62.5641 46.9612 34.0794 63.473
 1 1 1 1 1 1 1 2023 1 2023 B  FORE  0.0559465 0.0823616 0.32727 0.885655 1.93307 3.66931 6.30598 10.0509 15.0907 21.5732 29.5924 39.1762 50.2819 62.7983 76.555 91.3404 106.926 123.094 139.665 156.527 173.651 191.101 209.035 227.685 247.334 268.272 290.758 314.974 340.983 368.706 397.91 428.216 459.129 490.089 520.527 549.949 577.984 604.453 629.397 653.09 676.009 698.795 722.172 746.876 773.573 802.799 834.931 870.188 908.666 950.413 995.502 1044.09 1096.51 1153.21 1214.75 1281.67 1354.33 1432.77 1516.56 1604.65 1695.42 1786.7 1875.96 1960.57 2038.05 2106.32 2163.98 2210.37 2245.56 2270.33 2285.92 2293.87 2295.71 2292.87 2286.42 2277.04 2264.93 2249.85 2231.12 2207.72 2178.38 2141.76 2096.61 2042.02 1977.51 1903.29 1820.22 1729.83 1634.11 1535.37 1435.87 1337.62 1242.19 1150.56 1063.19 980.128 901.184 826.135 754.872 687.476 624.18 565.263 510.878 460.928 414.992 372.37 332.222 293.762 256.457 220.153 185.104 151.894 121.271 93.9601 70.5008 51.1431 95.1855
-1 1 1 1 1 1 1 2023 1 2023.5 M  FORE  0.0447529 0.065883 0.261791 0.708455 1.5463 2.93515 5.04427 8.0399 12.0713 17.2567 23.6712 31.3372 40.2204 50.2317 61.2346 73.0599 85.5244 98.4534 111.704 125.185 138.872 152.818 167.148 182.047 197.74 214.46 232.413 251.744 272.503 294.627 317.928 342.103 366.754 391.431 415.677 439.092 461.377 482.382 502.137 520.852 538.905 556.799 575.111 594.421 615.256 638.037 663.058 690.479 720.366 752.734 787.619 825.118 865.458 908.971 956.069 1007.16 1062.51 1122.17 1185.79 1252.58 1321.26 1390.16 1457.32 1520.68 1578.3 1628.54 1670.32 1703.07 1726.86 1742.28 1750.31 1752.16 1749.07 1742.16 1732.34 1720.2 1705.96 1689.51 1670.43 1648.01 1621.39 1589.63 1551.86 1507.45 1456.08 1397.93 1333.64 1264.33 1191.47 1116.73 1041.77 968.05 896.711 828.473 763.671 702.33 644.294 589.378 537.467 488.579 442.84 400.407 361.355 325.586 292.78 262.423 233.906 206.659 180.292 154.684 130.001 106.639 85.1164 65.9336 49.4635 35.8774 66.7608
+1 1 1 1 1 1 1 2023 1 2023.5 M  FORE  0.0447529 0.065883 0.261791 0.708455 1.5463 2.93515 5.04427 8.0399 12.0713 17.2567 23.6712 31.3372 40.2204 50.2317 61.2346 73.0599 85.5244 98.4534 111.704 125.185 138.872 152.818 167.148 182.047 197.74 214.46 232.413 251.744 272.503 294.627 317.928 342.103 366.754 391.431 415.677 439.092 461.377 482.382 502.137 520.852 538.905 556.799 575.111 594.421 615.256 638.037 663.058 690.479 720.366 752.734 787.619 825.118 865.458 908.971 956.069 1007.16 1062.51 1122.17 1185.79 1252.58 1321.26 1390.16 1457.32 1520.68 1578.3 1628.54 1670.32 1703.07 1726.86 1742.28 1750.31 1752.16 1749.07 1742.16 1732.34 1720.2 1705.96 1689.51 1670.43 1648.01 1621.39 1589.63 1551.86 1507.45 1456.08 1397.93 1333.64 1264.33 1191.47 1116.73 1041.77 968.05 896.711 828.473 763.671 702.33 644.294 589.378 537.467 488.579 442.84 400.407 361.355 325.586 292.78 262.423 233.906 206.659 180.292 154.684 130.001 106.64 85.1164 65.9336 49.4635 35.8774 66.7608
 1 1 1 1 1 1 1 2024 1 2024 B  FORE  0.0559599 0.0824287 0.327635 0.886998 1.93705 3.67957 6.32982 10.1021 15.1939 21.7707 29.9536 39.8113 51.3602 64.5717 79.3876 95.7437 113.599 132.967 153.944 176.733 201.651 229.128 259.682 293.876 332.262 375.305 423.31 476.347 534.191 596.287 661.744 729.37 797.741 865.3 930.485 991.888 1048.36 1099.15 1143.94 1182.92 1216.72 1246.31 1272.9 1297.75 1322 1346.54 1371.88 1398.12 1424.94 1451.72 1477.64 1501.85 1523.66 1542.69 1558.9 1572.69 1584.85 1596.45 1608.76 1623.07 1640.62 1662.52 1689.68 1722.82 1762.45 1808.89 1862.2 1922.14 1988.06 2058.81 2132.68 2207.41 2280.27 2348.28 2408.4 2457.89 2494.55 2516.95 2524.49 2517.41 2496.66 2463.63 2419.93 2367.12 2306.48 2238.9 2164.87 2084.47 1997.63 1904.2 1804.23 1698.09 1586.61 1471.1 1353.3 1235.29 1119.32 1007.61 902.21 804.775 716.455 637.77 568.551 507.976 454.688 407.005 363.2 321.779 281.725 242.616 204.624 168.38 134.752 104.61 78.6154 57.1008 106.47
 1 1 1 1 1 1 1 2024 1 2024.5 M  FORE  0.0447611 0.0659327 0.262067 0.709486 1.54939 2.94317 5.06299 8.08023 12.1528 17.4131 23.9577 31.8415 41.0773 51.642 63.4884 76.5646 90.8371 106.315 123.076 141.278 161.176 183.111 207.496 234.779 265.401 299.731 338.014 380.303 426.419 475.917 528.082 581.96 636.41 690.183 742.023 790.798 835.579 875.749 911.052 941.621 967.942 990.789 1011.12 1029.92 1048.13 1066.44 1085.27 1104.7 1124.5 1144.15 1163 1180.35 1195.65 1208.53 1218.94 1227.15 1233.74 1239.51 1245.43 1252.48 1261.61 1273.64 1289.24 1308.94 1333.08 1361.85 1395.28 1433.14 1474.96 1519.91 1566.77 1613.94 1659.49 1701.31 1737.27 1765.44 1784.25 1792.72 1790.46 1777.71 1755.19 1724 1685.39 1640.61 1590.7 1536.45 1478.34 1416.58 1351.2 1282.21 1209.68 1133.86 1055.31 974.86 893.628 812.928 734.176 658.774 587.989 522.843 464.021 411.803 366.028 326.119 291.158 260.028 231.583 204.834 179.096 154.07 129.835 106.769 85.4037 66.2748 49.7918 36.1573 67.397
 1 1 1 1 1 1 1 2025 1 2025 B  FORE  0.0559599 0.0824286 0.327634 0.886998 1.93705 3.67957 6.32981 10.1021 15.1939 21.7706 29.9535 39.8112 51.36 64.5715 79.3875 95.7439 113.6 132.97 153.951 176.748 201.682 229.19 259.8 294.092 332.647 375.972 424.438 478.211 537.206 601.058 669.142 740.612 814.491 889.778 965.579 1041.26 1116.55 1191.58 1266.98 1343.76 1423.21 1506.74 1595.6 1690.67 1792.19 1899.65 2011.62 2125.82 2239.29 2348.56 2450.06 2540.42 2616.89 2677.56 2721.56 2749.1 2761.36 2760.25 2748.14 2727.48 2700.54 2669.17 2634.74 2598.07 2559.62 2519.64 2478.35 2436.15 2393.7 2351.96 2312.17 2275.7 2243.95 2218.14 2199.19 2187.52 2183.02 2184.92 2191.79 2201.6 2211.81 2219.59 2221.99 2216.26 2200.09 2171.8 2130.49 2076.01 2008.92 1930.31 1841.61 1744.36 1640.14 1530.49 1416.9 1300.94 1184.29 1068.85 956.68 849.871 750.367 659.702 578.767 507.675 445.757 391.712 343.892 300.625 260.538 222.761 187 153.454 122.642 95.1712 71.5375 51.9898 97.1298
@@ -3939,7 +3939,7 @@ Age: 0 1 2 3 4 5 6 7 8 9 10
 81.5 2.22045e-16 4.44089e-16 9.26313e-11 7.37795e-07 0.000381467 0.01462 0.0596573 0.0425325 0.0089793 0.000908845 9.90112e-07 
 80.5 3.33067e-16 1.22125e-15 1.81614e-10 1.29143e-06 0.000574351 0.0184001 0.0616698 0.0358922 0.00621058 0.000521385 3.81983e-07 
 79.5 7.77156e-16 2.44249e-15 3.51985e-10 2.22798e-06 0.000849589 0.0226758 0.0622179 0.0294665 0.0041666 0.000289352 1.41791e-07 
-78.5 1.66533e-15 5.44009e-15 6.74345e-10 3.78837e-06 0.00123468 0.0273638 0.0612615 0.0235345 0.0027114 0.000155344 5.064e-08 
+78.5 1.66533e-15 5.44009e-15 6.74345e-10 3.78837e-06 0.00123468 0.0273638 0.0612615 0.0235345 0.00271139 0.000155344 5.064e-08 
 77.5 3.77476e-15 1.16573e-14 1.2771e-09 6.34886e-06 0.00176282 0.0323339 0.05887 0.0182865 0.00171145 8.06801e-05 1.74014e-08 
 76.5 8.10463e-15 2.4758e-14 2.39084e-09 1.04868e-05 0.00247271 0.0374119 0.0552119 0.0138231 0.00104785 4.05359e-05 5.7533e-09 
 75.5 1.72085e-14 5.20695e-14 4.42445e-09 1.70722e-05 0.00340761 0.042387 0.0505361 0.0101655 0.000622297 1.97023e-05 1.83018e-09 
@@ -4032,7 +4032,7 @@ Age: 0 1 2 3 4 5 6 7 8 9 10
 110.5 0 0 0 1.5099e-14 6.15683e-11 4.15312e-08 5.48819e-06 0.00018279 0.002036 0.00994261 0.0597625 
 109.5 0 0 0 3.94129e-14 1.48961e-10 9.15771e-08 1.08785e-05 0.000323772 0.00322528 0.0141709 0.068017 
 108.5 0 0 0 1.00697e-13 3.53498e-10 1.97404e-07 2.10112e-05 0.000557083 0.00494902 0.0195146 0.0744183 
-107.5 0 0 0 2.53353e-13 8.22814e-10 4.15986e-07 3.95429e-05 0.000931099 0.00735583 0.0259647 0.0782737 
+107.5 0 0 0 2.53353e-13 8.22814e-10 4.15986e-07 3.95429e-05 0.000931099 0.00735584 0.0259647 0.0782737 
 106.5 0 0 0 6.27165e-13 1.87853e-09 8.56956e-07 7.25144e-05 0.0015117 0.0105902 0.0333787 0.0791459 
 105.5 0 0 1.11022e-16 1.52811e-12 4.20662e-09 1.72581e-06 0.000129574 0.00238411 0.0147686 0.041459 0.0769332 
 104.5 0 0 2.22045e-16 3.66396e-12 9.23952e-09 3.39768e-06 0.000225604 0.00365242 0.0199496 0.0497546 0.0718912 
@@ -4061,7 +4061,7 @@ Age: 0 1 2 3 4 5 6 7 8 9 10
 81.5 2.22045e-16 3.86247e-13 1.16053e-08 2.35664e-05 0.00321014 0.0379549 0.0605963 0.0220396 0.00304862 0.000249039 2.84041e-07 
 80.5 3.33067e-16 7.89036e-13 2.16078e-08 3.84187e-05 0.00443189 0.0433558 0.0566016 0.0168202 0.00191675 0.000130924 1.03048e-07 
 79.5 7.77156e-16 1.59539e-12 3.97124e-08 6.16325e-05 0.00600132 0.0484143 0.051516 0.0124695 0.00116732 6.65032e-05 3.59405e-08 
-78.5 1.66533e-15 3.19367e-12 7.20445e-08 9.7296e-05 0.00797071 0.0528502 0.0456863 0.0089796 0.000688623 3.26391e-05 1.20508e-08 
+78.5 1.66533e-15 3.19367e-12 7.20445e-08 9.7296e-05 0.00797071 0.0528502 0.0456863 0.0089796 0.000688623 3.2639e-05 1.20508e-08 
 77.5 3.77476e-15 6.32749e-12 1.29014e-07 0.000151146 0.0103834 0.0563984 0.0394785 0.00628138 0.000393492 1.54776e-05 3.88452e-09 
 76.5 8.10463e-15 1.24096e-11 2.2805e-07 0.000231055 0.0132671 0.0588346 0.0332404 0.00426818 0.0002178 7.09162e-06 1.20378e-09 
 75.5 1.72085e-14 2.40913e-11 3.97908e-07 0.000347578 0.0166266 0.0599996 0.0272711 0.00281722 0.000116774 3.1395e-06 3.58625e-10 
@@ -6296,7 +6296,7 @@ Fleet Yr Kind Sex Bin Selex
 1 2007 L 1 5.5 5.42966e-05
 1 2007 L 1 6.5 6.66224e-05
 1 2007 L 1 7.5 8.15707e-05
-1 2007 L 1 8.5 9.96581e-05
+1 2007 L 1 8.5 9.96582e-05
 1 2007 L 1 9.5 0.000121495
 1 2007 L 1 10.5 0.000147797
 1 2007 L 1 11.5 0.000179407
@@ -9339,7 +9339,7 @@ SPRloop Iter Bycatch Fmult F_report SPR YPR YPR*Recr SSB Recruits SSB/Bzero Tot_
 0 37 0 0.386155 0.386155 0.530762 0.511116 33821.2 125871 66171.2 0.530762 33821.2 33821.2 33821.2 5.05782 125871
 0 38 0 0.257436 0.257436 0.626328 0.418833 27714.7 148535 66171.2 0.626328 27714.7 27714.7 27714.7 5.30346 148535
 0 39 0 0.128718 0.128718 0.768292 0.269219 17814.5 182202 66171.2 0.768292 17814.5 17814.5 17814.5 5.62452 182202
-0 40 0 8.88178e-16 8.88178e-16 1 2.55222e-15 1.68883e-10 237152 66171.2 1 1.68883e-10 1.68883e-10 1.68883e-10 6.05984 237152
+0 40 0 3.77476e-15 3.77476e-15 1 1.08469e-14 7.17754e-10 237152 66171.2 1 7.17754e-10 7.17754e-10 7.17754e-10 6.05984 237152
 1 1 0 5.02001 5.02001 0.0915209 0.770705 50998.5 21704.4 66171.2 0.0915209 50998.5 50998.5 50998.5 3.35815 21704.4
 1 2 0 3.8299 3.8299 0.11592 0.771737 51066.7 27490.7 66171.2 0.11592 51066.7 51066.7 51066.7 3.51105 27490.7
 1 3 0 2.92193 2.92193 0.145127 0.767732 50801.7 34417.2 66171.2 0.145127 50801.7 50801.7 50801.7 3.67225 34417.2
