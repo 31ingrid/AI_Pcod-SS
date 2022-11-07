@@ -3,7 +3,7 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
-#_data_and_control_files: AIPCOD2022_S.dat // control_modified.ss
+#_data_and_control_files: AIPCOD2022_S.dat // AIPCOD2022_S.ctl
 0  # 0 means do not read wtatage.ss; 1 means read and use wtatage.ss and also read and use growth parameters
 1  #_N_Growth_Patterns (Growth Patterns, Morphs, Bio Patterns, GP are terms used interchangeably in SS)
 1 #_N_platoons_Within_GrowthPattern 
@@ -71,13 +71,13 @@
 #_growth_parms
 #_ LO HI INIT PRIOR PR_SD PR_type PHASE env_var&link dev_link dev_minyr dev_maxyr dev_PH Block Block_Fxn
 # Sex: 1  BioPattern: 1  NatMort
- 0.1 1.5 0.676665 -0.81 0.41 3 12 0 0 0 0 0 0 0 # NatM_uniform_Fem_GP_1
+ 0.1 1.5 0.35736 -0.81 0.41 3 12 0 0 0 0 0 0 0 # NatM_uniform_Fem_GP_1
 # Sex: 1  BioPattern: 1  Growth
- -10 50 13.9133 -0.102 99 0 1 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
- 70 145 145 123.8 0.015 0 1 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
- 0 1 0.152775 0.1645 0.03 0 1 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
- 0 10 8.26655 0 0 0 10 0 0 0 0 0 0 0 # SD_young_Fem_GP_1
- 0 20 3.81407 0 0 0 10 0 0 0 0 0 0 0 # SD_old_Fem_GP_1
+ -10 50 11.03 -0.102 99 0 1 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
+ 70 145 113.477 123.8 0.015 0 1 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
+ 0 1 0.243683 0.1645 0.03 0 1 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
+ 7 10 9.76289 0 0 0 10 0 0 0 0 0 0 0 # SD_young_Fem_GP_1
+ 0 20 4.77096 0 0 0 10 0 0 0 0 0 0 0 # SD_old_Fem_GP_1
 # Sex: 1  BioPattern: 1  WtLen
  -99 99 5.611e-06 0 0 0 -3 0 0 0 0 0 0 0 # Wtlen_1_Fem_GP_1
  -99 99 3.1756 0 0 0 -3 0 0 0 0 0 0 0 # Wtlen_2_Fem_GP_1
@@ -114,7 +114,7 @@
 0  # 0/1 to use steepness in initial equ recruitment calculation
 0  #  future feature:  0/1 to make realized sigmaR a function of SR curvature
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn #  parm_name
-             1            20          12.1             0             0             0         -1          0          0          0          0          0          0          0 # SR_LN(R0)
+             1            20       10.4307             0             0             0          1          0          0          0          0          0          0          0 # SR_LN(R0)
              0             1             1             1             0             0         -1          0          0          0          0          0          0          0 # SR_BH_steep
              0            10         0.636         0.636             0             0         -1          0          0          0          0          0          0          0 # SR_sigmaR
             -5             5             0             0             0             0         -3          0          0          0          0          0          0          0 # SR_regime
@@ -146,7 +146,7 @@
 #
 # all recruitment deviations
 #  1991R 1992R 1993R 1994R 1995R 1996R 1997R 1998R 1999R 2000R 2001R 2002R 2003R 2004R 2005R 2006R 2007R 2008R 2009R 2010R 2011R 2012R 2013R 2014R 2015R 2016R 2017F 2018F 2019F 2020F 2021F 2022F 2023F 2024F 2025F 2026F 2027F 2028F 2029F 2030F 2031F 2032F 2033F 2034F 2035F 2036F 2037F
-#  0.152682 -0.154124 0.49321 0.297181 0.0162848 0.443576 0.686088 0.0954961 0.325891 0.497604 0.564596 -0.0804821 0.0375079 -0.81412 -0.136041 -0.788382 0.0238456 0.0490629 -0.497802 -0.544185 -0.251814 -0.230992 0.183454 -0.277713 0.267331 4.99248e-09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+#  0.115377 -0.250758 0.631104 0.27788 0.155018 0.645598 0.711212 0.195922 0.392517 0.401379 0.300323 -0.475184 -0.142978 -0.946203 -0.0347387 -0.759084 -0.017655 -0.117681 -0.731111 -0.775762 -0.421616 -0.381493 0.00050466 -0.486379 0.228328 2.2237e-08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 #
 #Fishing Mortality info 
 1e-06 # F ballpark value in units of annual_F
@@ -165,7 +165,7 @@
 # F rates by fleet x season
 # Yr:  1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037
 # seas:  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-# FshComb 0.0780172 0.410599 0.645085 0.413196 0.635674 1.15454 1.14183 1.00888 0.680008 1.46231 0.639138 0.821453 1.44513 1.1197 0.540929 0.681447 1.06086 1.26948 1.20827 2.69458 1.06658 1.23369 1.05265 0.72279 0.453202 0.571521 0.569881 0.727623 0.641069 0.421532 0.361172 0.258158 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875 3.84875
+# FshComb 0.0443649 0.213829 0.211608 0.145775 0.136229 0.26842 0.250204 0.284168 0.240017 0.396541 0.223831 0.262208 0.35452 0.279476 0.188042 0.201562 0.360038 0.445249 0.521857 0.798805 0.319936 0.390643 0.361248 0.30785 0.231046 0.344215 0.271387 0.347473 0.305088 0.197377 0.165576 0.115142 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158 0.451158
 #
 #_Q_setup for fleets with cpue or survey data
 #_1:  fleet number
@@ -180,7 +180,7 @@
 #
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
-           -10            10   -0.00958365             0          0.01             6         10          0          0       1990       2022          1          0          0  #  LnQ_base_Srv(2)
+           -10            10    -0.0163323             0          0.01             6         10          0          0       1990       2022          1          0          0  #  LnQ_base_Srv(2)
 #_no timevary Q parameters
 #
 #_size_selex_patterns
@@ -230,18 +230,18 @@
 #
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
 # 1   FshComb LenSelex
-            10           116       115.996            50             0             0          1          0          1       1991       2022          3          0          0  #  Size_DblN_peak_FshComb(1)
-           -20            10      -5.28217             0             0             0          2          0          0          0          0          0          0          0  #  Size_DblN_top_logit_FshComb(1)
-           -10            10       6.86409             0             0             0          2          0          1       1991       2022          3          0          0  #  Size_DblN_ascend_se_FshComb(1)
-           -10            10     -0.374692            10             0             0          2          0          1       1991       2022          3          0          0  #  Size_DblN_descend_se_FshComb(1)
+            10           116       95.5399            50             0             0          1          0          1       1991       2022          3          0          0  #  Size_DblN_peak_FshComb(1)
+           -20            10      0.240689             0             0             0          2          0          0          0          0          0          0          0  #  Size_DblN_top_logit_FshComb(1)
+           -10            10       6.65672             0             0             0          2          0          1       1991       2022          3          0          0  #  Size_DblN_ascend_se_FshComb(1)
+           -10            10     -0.982445            10             0             0          2          0          1       1991       2022          3          0          0  #  Size_DblN_descend_se_FshComb(1)
          -1000       2.71828          -999            10             0             0         -2          0          0          0          0          0          0          0  #  Size_DblN_start_logit_FshComb(1)
            -10            10            10            10             0             0         -2          0          0       1991       2022          3          0          0  #  Size_DblN_end_logit_FshComb(1)
 # 2   Srv LenSelex
-            10            90       89.9998            50             0             0          1          0          0          0          0          0          1          2  #  Size_DblN_peak_Srv(2)
-           -20            10      0.423991             0             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_top_logit_Srv(2)
-           -10            10       7.24332             0             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_ascend_se_Srv(2)
-             0            10       5.06071            10             0             0          1          0          0          0          0          0          1          2  #  Size_DblN_descend_se_Srv(2)
-           -12       2.71828      -7.86254           -10             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_start_logit_Srv(2)
+            10            90       59.3736            50             0             0          1          0          0          0          0          0          1          2  #  Size_DblN_peak_Srv(2)
+           -20            10      -6.38393             0             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_top_logit_Srv(2)
+           -10            10       6.80362             0             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_ascend_se_Srv(2)
+             0            10       2.64602            10             0             0          1          0          0          0          0          0          1          2  #  Size_DblN_descend_se_Srv(2)
+           -12       2.71828      -5.52598           -10             0             0          2          0          0          0          0          0          1          2  #  Size_DblN_start_logit_Srv(2)
            -10            10            10            10             0             0         -1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_Srv(2)
 # 1   FshComb AgeSelex
 # 2   Srv AgeSelex
@@ -254,11 +254,11 @@
          -0.99          0.99             0             0           0.5             6      -6  # Size_DblN_ascend_se_FshComb(1)_dev_autocorr
         0.0001             2           0.1           0.1           0.5             6      -5  # Size_DblN_descend_se_FshComb(1)_dev_se
          -0.99          0.99             0             0           0.5             6      -6  # Size_DblN_descend_se_FshComb(1)_dev_autocorr
-            10            90       85.6246            50             0             0      1  # Size_DblN_peak_Srv(2)_BLK1repl_1991
-           -20            10      -1.17332             0             0             0      2  # Size_DblN_top_logit_Srv(2)_BLK1repl_1991
-           -10            10       7.22681             0             0             0      2  # Size_DblN_ascend_se_Srv(2)_BLK1repl_1991
-             0            10       4.59668            10             0             0      1  # Size_DblN_descend_se_Srv(2)_BLK1repl_1991
-           -12       2.71828       -11.911           -10             0             0      2  # Size_DblN_start_logit_Srv(2)_BLK1repl_1991
+            10            90       53.9821            50             0             0      1  # Size_DblN_peak_Srv(2)_BLK1repl_1991
+           -20            10     -0.771944             0             0             0      2  # Size_DblN_top_logit_Srv(2)_BLK1repl_1991
+           -10            10       6.61622             0             0             0      2  # Size_DblN_ascend_se_Srv(2)_BLK1repl_1991
+             0            10       4.77261            10             0             0      1  # Size_DblN_descend_se_Srv(2)_BLK1repl_1991
+           -12       2.71828      -11.4356           -10             0             0      2  # Size_DblN_start_logit_Srv(2)_BLK1repl_1991
 # info on dev vectors created for selex parms are reported with other devs after tag parameter section 
 #
 0   #  use 2D_AR1 selectivity(0/1)
@@ -271,9 +271,9 @@
 # deviation vectors for timevary parameters
 #  base   base first block   block  env  env   dev   dev   dev   dev   dev
 #  type  index  parm trend pattern link  var  vectr link _mnyr  mxyr phase  dev_vector
-#      5     1     1     0     0     0     0     1     1  1991  2022     3 -2.08938 -1.85566 -0.332761 -0.688377 0.763331 0.749108 0.787197 0.301871 -0.28966 0.565385 -0.606896 -0.261704 0.662116 0.687311 -0.280649 0.66571 0.689905 0.883365 0.143716 0.710951 0.346548 0.125169 0.378527 0.397843 0.636704 -0.227788 -1.09976e-10 -1.09082e-08 1.72971e-09 8.32062e-09 3.0434e-09 1.59627e-09
-#      5     3     3     0     0     0     0     2     1  1991  2022     3 -1.3246 -0.981193 0.0728477 -0.354735 0.461458 0.642728 0.331873 0.521863 -0.147939 0.523189 0.0520498 -0.574162 0.0222956 0.334666 -0.675859 0.667683 0.661642 0.944419 0.273137 0.344336 -0.302327 -0.323529 -0.465227 -0.487521 0.682864 -0.89988 2.51336e-09 6.94902e-09 -1.15629e-08 -7.57913e-09 -8.22881e-09 5.07688e-09
-#      5     4     5     0     0     0     0     3     1  1991  2022     3 3.19148e-07 1.21162e-07 -9.24244e-08 1.61062e-08 1.27164e-09 -3.96305e-09 -7.34051e-09 1.80768e-08 -2.9038e-08 2.84139e-09 -2.44814e-07 6.32333e-08 -7.94555e-09 -5.76923e-09 1.73622e-08 -4.53987e-09 2.22086e-08 1.0537e-08 -1.49714e-08 -1.3126e-08 -3.58044e-09 -7.0362e-09 -1.57028e-09 -8.6754e-09 1.8172e-09 1.21387e-07      0 -2.80518e-08      0      0      0      0
+#      5     1     1     0     0     0     0     1     1  1991  2022     3 -1.39707 -1.59939 -0.835619 -0.996548 0.269093 0.137266 0.519613 -0.411145 -0.44901 0.644856 -1.92801 -0.312876 0.864303 0.715035 -0.382924 -0.340469 0.107379 0.485439 0.253331 0.845974 0.559743 -0.228008 0.537194 0.863308 1.24437 0.834528 -6.85082e-09 -2.03512e-09 4.24266e-09 6.49873e-10 -1.77252e-09 -5.26352e-09
+#      5     3     3     0     0     0     0     2     1  1991  2022     3 -0.751868 -0.820307 -0.173159 -0.501593 0.491138 0.432275 0.342667 0.050921 -0.466429 0.966059 -1.4477 -0.79926 0.433542 1.00889 -0.614928 0.189781 0.332793 0.751815 0.328644 0.669521 -0.0551019 -0.695461 -0.442713 -0.367823 1.35958 -0.221213 -2.95869e-09 -7.97421e-10 2.29991e-09 1.00963e-09 5.81295e-10 -3.85625e-09
+#      5     4     5     0     0     0     0     3     1  1991  2022     3 5.89499e-07 1.1545e-06 2.79989e-07 1.19477e-06 1.78401e-07 2.80792e-07 2.03224e-07 -5.46316e-07 -4.03609e-07 6.58526e-07 -1.46558e-06 3.72175e-07 5.10495e-07 2.42764e-07 -9.4588e-08 -1.40307e-07 3.70502e-07 -1.12006e-06 -1.42676e-07 2.64004e-08 2.92688e-07 -1.59087e-07 2.9235e-08 -9.79687e-08 7.40801e-08 -3.0444e-07      0      0      0      0      0      0
 #      5     7     7     1     2     0     0     0     0     0     0     0
 #      5     8     8     1     2     0     0     0     0     0     0     0
 #      5     9     9     1     2     0     0     0     0     0     0     0

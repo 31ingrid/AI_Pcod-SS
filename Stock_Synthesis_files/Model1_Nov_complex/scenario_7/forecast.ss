@@ -1,7 +1,7 @@
 #C forecast file written by R function SS_writeforecast
 #C rerun model to get more complete formatting in forecast.ss_new
 #C should work with SS version: 3.3
-#C file write time: 2022-11-02 05:22:07
+#C file write time: 2022-11-06 06:51:33
 #
 1 #_benchmarks
 1 #_MSY
@@ -18,7 +18,7 @@
 0 #_Fcast_selex
 2 #_ControlRuleMethod
 0.4 #_BforconstantF
-0.02 #_BfornoF
+0.175 #_BfornoF
 1 #_Flimitfraction
 3 #_N_forecast_loops
 3 #_First_forecast_loop_with_stochastic_recruitment
@@ -41,15 +41,15 @@
 -9999 -1
 2 #_InputBasis
  #_#Year Seas Fleet  dead(B)                 comment
-    2022    1     1  3175.97 #sum_for_2022: 10547.12
-    2022    1     2  1588.48                        
-    2022    1     3  5782.67                        
-    2023    1     1 12850.60 #sum_for_2023: 25591.04
-    2023    1     2  4899.68                        
-    2023    1     3  7840.76                        
-    2024    1     1  9554.45 #sum_for_2024: 19308.32
-    2024    1     2  3783.46                        
-    2024    1     3  5970.41                        
+    2022    1     1  3353.98 #sum_for_2022: 11138.28
+    2022    1     2  1677.51                        
+    2022    1     3  6106.79                        
+    2023    1     1 14804.60 #sum_for_2023: 29479.41
+    2023    1     2  5669.88                        
+    2023    1     3  9004.93                        
+    2024    1     1  9445.99 #sum_for_2024: 19113.05
+    2024    1     2  3744.92                        
+    2024    1     3  5922.14                        
 -9999 0 0 0
 #
 999 # verify end of input 

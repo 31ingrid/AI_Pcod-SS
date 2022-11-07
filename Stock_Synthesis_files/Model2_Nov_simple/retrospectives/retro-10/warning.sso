@@ -1,7 +1,7 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Thu Nov  3 14:46:33 2022
+Sat Nov  5 07:13:55 2022
 
 This file contains warnings, suggestions and notes generated as files are read and processed
 
@@ -11,26 +11,4 @@ This file contains warnings, suggestions and notes generated as files are read a
 4 Block:3 1 ends in: 2022 after retroyr+1:  2013
 5 Block:4 1 starts after retroyr+1; should not estimate 
 6 Block:4 1 ends in: 2016 after retroyr+1:  2013
-7  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 878 1 2003 10 116 109.265 118.147
-8  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 878 1 2004 10 116 109.265 119.025
-9  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 878 1 2008 10 116 109.265 117.593
-10  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 878 1 2010 10 116 109.265 117.757
-11 Final gradient: 5.03081e-05 is larger than final_conv: 1e-05
-12  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2003 10 116 109.265 118.147
-13  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2004 10 116 109.265 119.025
-14  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2008 10 116 109.265 117.593
-15  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2010 10 116 109.265 117.757
-16  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2003 10 116 109.265 118.147
-17  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2004 10 116 109.265 119.025
-18  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2008 10 116 109.265 117.593
-19  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2010 10 116 109.265 117.757
-20  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2003 10 116 109.265 118.147
-21  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2004 10 116 109.265 119.025
-22  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2008 10 116 109.265 117.593
-23  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2010 10 116 109.265 117.757
-24  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2003 10 116 109.265 118.147
-25  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2004 10 116 109.265 119.025
-26  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2008 10 116 109.265 117.593
-27  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1536 1 2010 10 116 109.265 117.757
-28  Number_of_active_parameters_on_or_near_bounds: 4
-N warnings: 28
+N warnings: 6

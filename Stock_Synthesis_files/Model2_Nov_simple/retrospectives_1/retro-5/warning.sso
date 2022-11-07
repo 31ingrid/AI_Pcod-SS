@@ -1,0 +1,97 @@
+#V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
+#Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
+#Foreign copyrights may apply. See copyright.txt for more information.
+Thu Nov  3 14:32:14 2022
+
+This file contains warnings, suggestions and notes generated as files are read and processed
+
+1 Block:2 4 ends in: 2022 after retroyr+1:  2018
+2 Block:3 1 ends in: 2022 after retroyr+1:  2018
+3  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 1995 10 116 115.997 125.376
+4  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 1996 10 116 115.997 125.222
+5  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 1997 10 116 115.997 125.62
+6  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 1998 10 116 115.997 119.638
+7  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2000 10 116 115.997 122.847
+8  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2003 10 116 115.997 124.057
+9  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2004 10 116 115.997 124.388
+10  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2006 10 116 115.997 124.061
+11  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2007 10 116 115.997 124.351
+12  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2008 10 116 115.997 126.73
+13  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2009 10 116 115.997 117.515
+14  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2010 10 116 115.997 124.227
+15  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2011 10 116 115.997 119.917
+16  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2012 10 116 115.997 117.365
+17  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2013 10 116 115.997 120.934
+18  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2014 10 116 115.997 121.74
+19  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 999 1 2015 10 116 115.997 125.303
+20 Final gradient: 0.000224824 is larger than final_conv: 1e-05
+21  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1995 10 116 115.997 125.376
+22  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1996 10 116 115.997 125.222
+23  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1997 10 116 115.997 125.62
+24  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1998 10 116 115.997 119.638
+25  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2000 10 116 115.997 122.847
+26  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2003 10 116 115.997 124.057
+27  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2004 10 116 115.997 124.388
+28  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2006 10 116 115.997 124.061
+29  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2007 10 116 115.997 124.351
+30  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2008 10 116 115.997 126.73
+31  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2009 10 116 115.997 117.515
+32  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2010 10 116 115.997 124.227
+33  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2011 10 116 115.997 119.917
+34  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2012 10 116 115.997 117.365
+35  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2013 10 116 115.997 120.934
+36  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2014 10 116 115.997 121.74
+37  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2015 10 116 115.997 125.303
+38  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1995 10 116 115.997 125.376
+39  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1996 10 116 115.997 125.222
+40  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1997 10 116 115.997 125.62
+41  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1998 10 116 115.997 119.638
+42  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2000 10 116 115.997 122.847
+43  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2003 10 116 115.997 124.057
+44  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2004 10 116 115.997 124.388
+45  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2006 10 116 115.997 124.061
+46  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2007 10 116 115.997 124.351
+47  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2008 10 116 115.997 126.73
+48  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2009 10 116 115.997 117.515
+49  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2010 10 116 115.997 124.227
+50  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2011 10 116 115.997 119.917
+51  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2012 10 116 115.997 117.365
+52  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2013 10 116 115.997 120.934
+53  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2014 10 116 115.997 121.74
+54  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2015 10 116 115.997 125.303
+55  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1995 10 116 115.997 125.376
+56  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1996 10 116 115.997 125.222
+57  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1997 10 116 115.997 125.62
+58  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1998 10 116 115.997 119.638
+59  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2000 10 116 115.997 122.847
+60  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2003 10 116 115.997 124.057
+61  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2004 10 116 115.997 124.388
+62  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2006 10 116 115.997 124.061
+63  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2007 10 116 115.997 124.351
+64  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2008 10 116 115.997 126.73
+65  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2009 10 116 115.997 117.515
+66  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2010 10 116 115.997 124.227
+67  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2011 10 116 115.997 119.917
+68  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2012 10 116 115.997 117.365
+69  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2013 10 116 115.997 120.934
+70  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2014 10 116 115.997 121.74
+71  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2015 10 116 115.997 125.303
+72  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1995 10 116 115.997 125.376
+73  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1996 10 116 115.997 125.222
+74  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1997 10 116 115.997 125.62
+75  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 1998 10 116 115.997 119.638
+76  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2000 10 116 115.997 122.847
+77  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2003 10 116 115.997 124.057
+78  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2004 10 116 115.997 124.388
+79  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2006 10 116 115.997 124.061
+80  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2007 10 116 115.997 124.351
+81  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2008 10 116 115.997 126.73
+82  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2009 10 116 115.997 117.515
+83  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2010 10 116 115.997 124.227
+84  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2011 10 116 115.997 119.917
+85  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2012 10 116 115.997 117.365
+86  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2013 10 116 115.997 120.934
+87  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2014 10 116 115.997 121.74
+88  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1657 1 2015 10 116 115.997 125.303
+89  Number_of_active_parameters_on_or_near_bounds: 4
+N warnings: 89

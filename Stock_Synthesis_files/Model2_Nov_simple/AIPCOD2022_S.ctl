@@ -45,7 +45,7 @@
 #_DevLinks:  1: P(y)*=exp(dev(y)*dev_se;  2: P(y)+=dev(y)*dev_se;  3: random walk;  4: zero-reverting random walk with rho;  5: like 4 with logit transform to stay in base min-max
 #_DevLinks(more):  21-25 keep last dev for rest of years
 #
-#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASAL's beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
+#_Prior_codes:  0=none; 6=normal; 1=symmetric beta; 2=CASALs beta; 3=lognormal; 4=lognormal with biascorr; 5=gamma
 #
 # setup for M, growth, wt-len, maturity, fecundity, (hermaphro), recr_distr, cohort_grow, (movement), (age error), (catch_mult), sex ratio 
 #_NATMORT
@@ -76,7 +76,7 @@
  -10 50 11.9065 -0.102 99 0 1 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
  70 145 113.934 123.8 0.015 0 1 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
  0 1 0.239122 0.1645 0.03 0 1 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
- 0 10 9.40035 0 0 0 10 0 0 0 0 0 0 0 # SD_young_Fem_GP_1
+ 7 10 9.40035 0 0 0 10 0 0 0 0 0 0 0 # SD_young_Fem_GP_1
  0 20 4.82162 0 0 0 10 0 0 0 0 0 0 0 # SD_old_Fem_GP_1
 # Sex: 1  BioPattern: 1  WtLen
  -99 99 5.611e-06 0 0 0 -3 0 0 0 0 0 0 0 # Wtlen_1_Fem_GP_1

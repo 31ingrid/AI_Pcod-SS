@@ -114,9 +114,9 @@
 0  # 0/1 to use steepness in initial equ recruitment calculation
 0  #  future feature:  0/1 to make realized sigmaR a function of SR curvature
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn #  parm_name
-             1            20          11.1             0             0             0         -1          0          0          0          0          0          0          0 # SR_LN(R0)
+             1            20          10.6             0             0             0          1          0          0          0          0          0          0          0 # SR_LN(R0)
              0             1             1             1             0             0         -1          0          0          0          0          0          0          0 # SR_BH_steep
- 0 10 0.4979 0.44 0 0 -1 0 0 0 0 0 0 0 # SR_sigmaR
+ 0 10 0.636 0.636 0 0 -1 0 0 0 0 0 0 0 # SR_sigmaR
             -5             5             0             0             0             0         -3          0          0          0          0          0          0          0 # SR_regime
            -99            99             0             0             0             0         -1          0          0          0          0          0          0          0 # SR_autocorr
 #_no timevary SR parameters
@@ -184,7 +184,7 @@
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
            -10            10    -0.0236686             0          0.01             6         10          0          0       1991       2022          1          0          0  #  LnQ_base_Srv(4)
-           -10            10       1.82002             0            99             0         10          0          0       1996       2022          1          0          0  #  LnQ_base_LLSrv(5)
+           -10            10    0             0           99             0         10          0          0       1996       2022          1          0          0  #  LnQ_base_LLSrv(5)
 #_no timevary Q parameters
 #
 #_size_selex_patterns
