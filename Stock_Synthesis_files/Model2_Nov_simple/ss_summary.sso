@@ -3,7 +3,7 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 AIPCOD2022_S.dat #_DataFile 
 AIPCOD2022_S.ctl #_Control 
-Run_Date: Fri Nov  4 19:02:39 2022
+Run_Date: Tue Nov  8 17:03:34 2022
 Final_phase: 13  N_iterations: 1684
 #_LIKELIHOOD 
 Label logL*Lambda
@@ -471,19 +471,19 @@ SSB_unfished 219576 9759.59
 Totbio_unfished 261521 11148
 SmryBio_unfished 261521 11148
 Recr_unfished 32286.5 3507.78
-SSB_Btgt 87830.4 3903.84
-SPR_Btgt 0.4 1.41587e-17
-annF_Btgt 0.418816 0.0349323
-Dead_Catch_Btgt 29218.7 1722.35
+SSB_Btgt 76851.6 3415.86
+SPR_Btgt 0.35 4.30787e-18
+annF_Btgt 0.516829 0.0449668
+Dead_Catch_Btgt 30843.1 1831.73
 SSB_SPR 87830.4 3903.84
 annF_SPR 0.418816 0.0349323
 Dead_Catch_SPR 29218.7 1722.35
 SSB_MSY 87830.4 3903.84
-SPR_MSY 0.4 4.98891e-18
+SPR_MSY 0.4 5.73467e-18
 annF_MSY 0.418816 0.0349323
 Dead_Catch_MSY 29218.7 1722.35
 Ret_Catch_MSY 29218.7 1722.35
-B_MSY/SSB_unfished 0.4 7.45138e-18
+B_MSY/SSB_unfished 0.4 8.12168e-18
 ForeCatch_2023 3862.29 2732.16
 ForeCatch_2024 8577.12 3314.02
 ForeCatch_2025 12387.6 4197.24

@@ -2,7 +2,7 @@
 #V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Fri Nov  4 19:02:39 2022
+Tue Nov  8 17:03:34 2022
 
 AIPCOD2022_S.dat  datfilename
 AIPCOD2022_S.ctl  ctlfilename
@@ -316,7 +316,7 @@ read Do_Benchmark(0/1), then MSY basis(1=F_SPR,2=F_Btarget,3=calcMSY,4=mult*F_en
 1 echoed MSY basis
 next read SPR target and Biomass target as fractions
 0.4 echoed SPR_target 
-0.4 echoed B_target 
+0.35 echoed B_target 
 next read 10 Benchmark years for:  beg-end bio; beg-end selex; beg-end relF; beg-end recr_dist; beg-end SRparm
 codes: -999 means start year; >0 is an actual year; <=0 is relative to endyr
  1991 2019 1991 2019 1991 2021 1991 2019 1991 2019 echoed Benchmark years
