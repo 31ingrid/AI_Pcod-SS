@@ -3,8 +3,8 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 AIPCOD2022_S.dat #_DataFile 
 AIPCOD2022_S.ctl #_Control 
-Run_Date: Tue Nov  8 17:03:34 2022
-Final_phase: 13  N_iterations: 1684
+Run_Date: Fri Nov 11 04:58:39 2022
+Final_phase: 13  N_iterations: 1681
 #_LIKELIHOOD 
 Label logL*Lambda
 TOTAL_LogL 1574.42
@@ -18,7 +18,7 @@ InitEQ_regime 0
 Sum_recdevs -6.88429
 Forecast_Recruitment 2.03625
 Parm_priors 1.36278
-Parm_softbounds 0.00449001
+Parm_softbounds 0.00449003
 Parm_devs 20.8011
 F_Ballpark 0
 Crash_Pen 0
@@ -103,15 +103,15 @@ ForeRecr_2037 0 0.636 Act 0.5
 LnQ_base_Srv(2) -0.0154397 0.00991957 Act 0.499228
 #_Selectivity
 Size_DblN_peak_FshComb(1) 92.5741 2.27464 Act 0.779001
-Size_DblN_top_logit_FshComb(1) 0.277751 4.05599 Act 0.675925
+Size_DblN_top_logit_FshComb(1) 0.277751 4.05603 Act 0.675925
 Size_DblN_ascend_se_FshComb(1) 6.57751 0.0758445 Act 0.828875
-Size_DblN_descend_se_FshComb(1) -0.838888 130.371 Act 0.458056
+Size_DblN_descend_se_FshComb(1) -0.838869 130.371 Act 0.458057
 Size_DblN_start_logit_FshComb(1) -999 0 Fix 0.000997289
 Size_DblN_end_logit_FshComb(1) 10 0 Fix 1
 Size_DblN_peak_Srv(2) 57.9175 2.84871 Act 0.598969
-Size_DblN_top_logit_Srv(2) -5.97001 235.576 Act 0.467666
+Size_DblN_top_logit_Srv(2) -5.96995 235.573 Act 0.467668
 Size_DblN_ascend_se_Srv(2) 6.66456 0.186829 Act 0.833228
-Size_DblN_descend_se_Srv(2) 3.04611 51.786 Act 0.304611
+Size_DblN_descend_se_Srv(2) 3.0461 51.7864 Act 0.30461
 Size_DblN_start_logit_Srv(2) -4.89662 0.483523 Act 0.482623
 Size_DblN_end_logit_Srv(2) 10 0 Fix 1
 Size_DblN_peak_FshComb(1)_dev_se 0.1005 0 Fix 0.0502025
@@ -121,10 +121,10 @@ Size_DblN_ascend_se_FshComb(1)_dev_autocorr 0 0 Fix 0.5
 Size_DblN_descend_se_FshComb(1)_dev_se 0.1 0 Fix 0.0499525
 Size_DblN_descend_se_FshComb(1)_dev_autocorr 0 0 Fix 0.5
 Size_DblN_peak_Srv(2)_BLK1repl_1991 54.1564 4.80515 Act 0.551955
-Size_DblN_top_logit_Srv(2)_BLK1repl_1991 -0.708499 73.8837 Act 0.64305
+Size_DblN_top_logit_Srv(2)_BLK1repl_1991 -0.708423 73.8605 Act 0.643053
 Size_DblN_ascend_se_Srv(2)_BLK1repl_1991 6.63274 0.281376 Act 0.831637
-Size_DblN_descend_se_Srv(2)_BLK1repl_1991 4.74458 98.5689 Act 0.474458
-Size_DblN_start_logit_Srv(2)_BLK1repl_1991 -11.4476 14.1089 Act 0.0375309
+Size_DblN_descend_se_Srv(2)_BLK1repl_1991 4.74443 98.557 Act 0.474443
+Size_DblN_start_logit_Srv(2)_BLK1repl_1991 -11.4476 14.1088 Act 0.0375302
 #_Parm_Dev
 Size_DblN_peak_FshComb(1)_DEVmult_1991 -1.20679 0.448172 ACT 0.43966
 Size_DblN_peak_FshComb(1)_DEVmult_1992 -1.39001 0.41993 ACT 0.4305
@@ -190,38 +190,38 @@ Size_DblN_ascend_se_FshComb(1)_DEVmult_2019 -0.735521 0.811735 ACT 0.463224
 Size_DblN_ascend_se_FshComb(1)_DEVmult_2020 -2.05569 0.738642 ACT 0.397215
 Size_DblN_ascend_se_FshComb(1)_DEVmult_2021 -0.822514 0.813975 ACT 0.458874
 Size_DblN_ascend_se_FshComb(1)_DEVmult_2022 0.303301 0.77982 ACT 0.515165
-Size_DblN_descend_se_FshComb(1)_DEVmult_1991 8.02118e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1992 8.58135e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1993 3.74644e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1994 9.07816e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1995 4.00971e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1996 5.59099e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1997 3.69039e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1998 -9.28424e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_1999 -7.41317e-08 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2000 2.27652e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2001 -1.4958e-06 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2002 1.49261e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2003 2.87605e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2004 1.12833e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2005 -5.05738e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2006 -5.17116e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2007 4.48051e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2008 -1.21342e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2009 -6.94463e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2010 5.88565e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2011 2.19053e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2012 -9.12325e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2013 8.11172e-08 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2014 1.81103e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2015 2.31877e-08 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2016 -4.72929e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2017 2.20122e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2018 -2.96921e-08 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2019 1.46667e-08 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2020 4.24103e-07 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2021 5.66387e-08 1 ACT 0.5
-Size_DblN_descend_se_FshComb(1)_DEVmult_2022 -9.7967e-08 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1991 8.0115e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1992 9.36416e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1993 3.18487e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1994 8.70736e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1995 2.43557e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1996 5.10586e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1997 3.07114e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1998 -9.6089e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_1999 -3.02736e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2000 2.87979e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2001 -1.47741e-06 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2002 1.82129e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2003 2.46674e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2004 1.56567e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2005 -3.12012e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2006 -3.5693e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2007 4.29187e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2008 -2.68992e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2009 -6.93244e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2010 4.86761e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2011 2.01887e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2012 -8.11616e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2013 -4.58726e-11 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2014 2.04328e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2015 2.76757e-08 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2016 -3.50154e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2017 2.73705e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2018 5.85015e-08 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2019 1.20215e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2020 3.80768e-07 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2021 1.56344e-08 1 ACT 0.5
+Size_DblN_descend_se_FshComb(1)_DEVmult_2022 -2.20319e-07 1 ACT 0.5
 #_Derived_Quantities
 #_Spawn_Bio
 SSB_Virgin 219576 9180.65
@@ -472,18 +472,18 @@ Totbio_unfished 261521 11148
 SmryBio_unfished 261521 11148
 Recr_unfished 32286.5 3507.78
 SSB_Btgt 76851.6 3415.86
-SPR_Btgt 0.35 4.30787e-18
+SPR_Btgt 0.35 8.94234e-18
 annF_Btgt 0.516829 0.0449668
 Dead_Catch_Btgt 30843.1 1831.73
 SSB_SPR 87830.4 3903.84
 annF_SPR 0.418816 0.0349323
 Dead_Catch_SPR 29218.7 1722.35
 SSB_MSY 87830.4 3903.84
-SPR_MSY 0.4 5.73467e-18
+SPR_MSY 0.4 2.29006e-17
 annF_MSY 0.418816 0.0349323
 Dead_Catch_MSY 29218.7 1722.35
 Ret_Catch_MSY 29218.7 1722.35
-B_MSY/SSB_unfished 0.4 8.12168e-18
+B_MSY/SSB_unfished 0.4 2.08051e-17
 ForeCatch_2023 3862.29 2732.16
 ForeCatch_2024 8577.12 3314.02
 ForeCatch_2025 12387.6 4197.24

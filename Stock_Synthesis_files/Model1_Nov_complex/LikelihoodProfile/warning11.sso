@@ -1,0 +1,21 @@
+#V3.30.17.00;_2021_06_11;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
+#Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
+#Foreign copyrights may apply. See copyright.txt for more information.
+Mon Nov 14 16:38:17 2022
+
+This file contains warnings, suggestions and notes generated as files are read and processed
+
+1  reset parm_dev start year to styr for parm: 76 1978
+2  reset parm_dev start year to styr for parm: 78 1978
+3  reset parm_dev start year to styr for parm: 79 1978
+4  reset parm_dev start year to styr for parm: 82 1978
+5  reset parm_dev start year to styr for parm: 84 1978
+6  reset parm_dev start year to styr for parm: 85 1978
+1  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 1308 1 2015 10 116 104.458 117.23
+2 Final gradient: 1.07281e-05 is larger than final_conv: 1e-05
+3  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 2406 1 2015 10 116 104.458 117.23
+4  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 2406 1 2015 10 116 104.458 117.23
+5  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 2406 1 2015 10 116 104.458 117.23
+6  adjusted selparm out of base parm bounds (Phase, Iter, Parm#, yr, min, max, base, value) 13 2406 1 2015 10 116 104.458 117.23
+7  Number_of_active_parameters_on_or_near_bounds: 2
+N warnings: 7
